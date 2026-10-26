@@ -1,0 +1,7553 @@
+{
+  "Alexandra": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 35,
+      "mag": 35,
+      "spd": 55,
+      "dex": 45,
+      "def": 30,
+      "res": 40,
+      "lck": 50,
+      "cha": 50,
+      "total": 370
+    },
+    "boons": [
+      "sword",
+      "spear",
+      "flying"
+    ],
+    "banes": [
+      "axe",
+      "blackMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Silver Maiden",
+        "description": "Grants Hit/Avo+5 to unit for each adjacent ally."
+      },
+      "equippable": {
+        "name": "Soar",
+        "description": "If unit is on inaccessible terrain, grants AS+3.\nIf unit is on inaccessible terrain, grants AS+5."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 7",
+        "Support Lv 2",
+        "7 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 7",
+        "Support Lv 3",
+        "8 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 8",
+        "Support Lv 1",
+        "6 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 7",
+        "Support Lv 3",
+        "10 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ahm Lu Cloth",
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Ceremonial Spear",
+        "Decorative Arrows",
+        "Dual Fish Knives",
+        "Eastern Black Silk",
+        "Eastern Earrings",
+        "Flower Painting",
+        "Garum",
+        "Kitten Figurine",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Red Hair Clip",
+        "Shield Portrait",
+        "Strategy Manuscript",
+        "Tales of Adventure"
+      ],
+      "like": [
+        "Alecto Garum",
+        "Aromatic Shosh",
+        "Crafting Knives",
+        "Crimson Bull Figure",
+        "Crimson Ghosh",
+        "Dagda Beard Grass",
+        "Divination Bagua",
+        "Exquisite Ring",
+        "Gaudy Bangle",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Horse-Grooming Kit",
+        "Jade Panther Figure",
+        "Joint-Relief Gloves",
+        "Mane Ornament",
+        "Morfis Tea",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pastry Cookbook",
+        "Protection Figurine",
+        "Sharp Dagger",
+        "Sharp Fishhook",
+        "Skin Balm",
+        "Smooth Garum",
+        "Southern Ghosh",
+        "Special “Medicine”",
+        "Spirit Board Game",
+        "Strong Seasonings",
+        "Sturdy Rucksack",
+        "The Works of Dante",
+        "Training Bracelet",
+        "Village Recipes",
+        "Volcano Ghosh",
+        "Wing Fletching"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Mars",
+        "Jurah",
+        "Aurora"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Credna"
+      ]
+    },
+    "meals": {
+      "love": [
+        "Pumpkin Soup",
+        "Mazadins"
+      ],
+      "like": [
+        "Goat Roast",
+        "Garlic Seared Scallops",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Anatolia": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 50,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 40,
+      "cha": 50,
+      "total": 385
+    },
+    "boons": [
+      "gauntlet",
+      "blackMagic",
+      "infantry"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Celestial Flow\nMeridian Rotation",
+        "description": "Grants Avo+3.\nGratns Avo+5. Allows use of the Shining Dragon Strike Blaze Art"
+      },
+      "equippable": {
+        "name": "Continuum",
+        "description": "When unit avoids an attack, restores 5 HP to unit.\nWhen unit avoids an attack, restores 10 HP to unit."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part III First Section",
+        "Anatolia's paralogue (on another path)"
+      ],
+      "dietrich": [
+        "Part III First Section",
+        "Anatolia's paralogue (10/5–10/17, during Chapter 11)"
+      ],
+      "theodora": [
+        "Part III First Section",
+        "Anatolia's paralogue (on another path)"
+      ],
+      "leda": [
+        "Part III First Section",
+        "Anatolia's paralogue (10/5–10/17, during Chapter 10)"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Magic-Trick Set",
+        "History of a Master",
+        "Morfis Almanac",
+        "Tales of Adventure"
+      ],
+      "like": [
+        "Ahm Lu Cloth",
+        "Candy Crystals",
+        "Eastern Black Silk",
+        "Eastern Tea Leaves",
+        "Protection Figurine",
+        "Tome from Away"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [
+        "Goat Roast",
+        "Garlic Seared Scallops",
+        "Pumpkin Soup",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Mazadins",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Aswan": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 10,
+      "spd": 40,
+      "dex": 50,
+      "def": 30,
+      "res": 15,
+      "lck": 30,
+      "cha": 20,
+      "total": 270
+    },
+    "boons": [
+      "bow",
+      "authority",
+      "infantry"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Princess of Arrows",
+        "description": "When equipped with a bow, grants Hit+20."
+      },
+      "equippable": null
+    },
+    "bloodmark": {
+      "name": "The Earth",
+      "description": "3% chance to grant Atk+7 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "dietrich": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "theodora": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "leda": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ]
+    },
+    "gifts": {
+      "love": [],
+      "like": [
+        "Full Sewing Kit",
+        "Pack of Pastels",
+        "The Works of Dante"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Benditz": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 35,
+      "mag": 20,
+      "spd": 35,
+      "dex": 50,
+      "def": 35,
+      "res": 25,
+      "lck": 30,
+      "cha": 35,
+      "total": 315
+    },
+    "boons": [
+      "bow",
+      "authority",
+      "riding"
+    ],
+    "banes": [
+      "infantry"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Wheeled Warrior",
+        "description": "[Cavalry] If unit is a charioteer, grants Hit+20."
+      },
+      "equippable": {
+        "name": "Chariot Stagger",
+        "description": "If unit is charioteer, grants +1 uses to staggering blows.\nIf unit is charioteer, grants +2 uses to staggering blows."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 6",
+        "Support Lv 3",
+        "9 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "7 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 6",
+        "Support Lv 1",
+        "8 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Eastern Black Silk",
+        "Eastern Earrings",
+        "Eastern Tea Leaves",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Ebony Board Game",
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Decorative Arrows",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Red Hair Clip"
+      ],
+      "like": [
+        "Coffee Pastries",
+        "Common Coffee",
+        "Eastern Love Story",
+        "Gaudy Bangle",
+        "Orgus Coffee",
+        "Select Coffee",
+        "Southern Coffee",
+        "Wing Fletching",
+        "Ahm Lu Cloth",
+        "Aromatic Shosh",
+        "Ceremonial Spear",
+        "Crimson Ghosh",
+        "Exquisite Ring",
+        "Flower Painting",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Joint-Relief Gloves",
+        "Morfis Tea",
+        "Pack of Pastels",
+        "Pegasus Panorama",
+        "Sharp Fishhook",
+        "Shield Portrait",
+        "Southern Ghosh",
+        "Special “Medicine”",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "Horse-Grooming Kit"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Garlic Seared Scallops"
+      ],
+      "like": [
+        "Goat Roast",
+        "Pumpkin Soup",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Mazadins",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Bertrand": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 55,
+      "mag": 15,
+      "spd": 45,
+      "dex": 50,
+      "def": 45,
+      "res": 20,
+      "lck": 30,
+      "cha": 50,
+      "total": 360
+    },
+    "boons": [
+      "sword",
+      "axe",
+      "gauntlet",
+      "authority"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Requiem Style",
+        "description": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5."
+      },
+      "equippable": {
+        "name": "Go No Sen\nSen No Sen",
+        "description": "In enemy's phase, unit attacks first during combat. Trigger % = 25.\nIf unit attacks first, unit's follow-up occurs before foe's counter during combat. Trigger % = 25."
+      }
+    },
+    "bloodmark": {
+      "name": "The Victor\nDuality",
+      "description": "10% chance to grant Atk+5 when attacking.\n25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part III First Section",
+        "Bertrand's paralogue (9/17–9/25, during Chapter 10)"
+      ],
+      "dietrich": [
+        "Part III First Section",
+        "Bertrand's paralogue (9/17, during Chapter 9)"
+      ],
+      "theodora": [
+        "Part III First Section",
+        "Bertrand's paralogue (9/17–9/25, during Chapter 11)"
+      ],
+      "leda": [
+        "Part III First Section",
+        "Bertrand's paralogue (on another path)"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Alecto Garum",
+        "Dual Fish Knives",
+        "Ebony Game Board",
+        "Legendary Garum",
+        "Rancid Garum",
+        "Strategy Manuscript"
+      ],
+      "like": [
+        "Garum",
+        "Ahm Lu Cloth",
+        "Concentrated Garum",
+        "Morfis Almanac",
+        "Smooth Garum",
+        "Sturdy Rucksack",
+        "Tales of Adventure",
+        "Tome from Away",
+        "Training Bracelet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Bonaventure": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 45,
+      "spd": 40,
+      "dex": 50,
+      "def": 30,
+      "res": 40,
+      "lck": 35,
+      "cha": 40,
+      "total": 350
+    },
+    "boons": [
+      "sword",
+      "blackMagic",
+      "whiteMagic",
+      "authority",
+      "riding"
+    ],
+    "banes": [
+      "armor",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Sage Advice",
+        "description": "Grants Def+3 to adjacent allies."
+      },
+      "equippable": {
+        "name": "Additional Intel",
+        "description": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30.\nGrants Hit+20 to adjacent allies during their combats. Trigger % = 30."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [
+        "Part I Chapter 1"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Crimson Ghosh",
+        "Strategy Manuscript",
+        "Volcano Ghosh",
+        "Trader's Handbook",
+        "Garum"
+      ],
+      "like": [
+        "Ceremonial Spear",
+        "Eastern Black Silk",
+        "Jade Ghosh",
+        "Pastry Cookbook",
+        "Rare Spices",
+        "Secret Ghosh",
+        "Strong Seasonings",
+        "Sun Ghosh",
+        "Tales of the Arena",
+        "The Works of Dante",
+        "Thick Foreign Tome",
+        "Village Recipes",
+        "Mature Ghosh",
+        "Young Ghosh",
+        "Home-Recipe Book"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Mars",
+        "Jurah",
+        "Credna",
+        "Aurora"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Garlic Seared Scallops",
+        "Fish-Sauce Soup"
+      ],
+      "like": [
+        "Pumpkin Soup",
+        "Mazadins",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [
+        "Salt-Crusted Ham"
+      ],
+      "dislike": [
+        "Goat Roast",
+        "Mazadins"
+      ]
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Mascarina the Thief",
+        "(others?)"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Buccar": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 25,
+      "dex": 40,
+      "def": 45,
+      "res": 20,
+      "lck": 30,
+      "cha": 35,
+      "total": 315
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "riding",
+      "armor"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Guardian’s Duty",
+        "description": "Reduces damage to 90% when attacked."
+      },
+      "equippable": {
+        "name": "Retaliatory Blow",
+        "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 5.\nIf foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 10."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 9; forced start 9/9 if accepted)"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 10; forced start 9/9 if accepted)"
+      ],
+      "leda": [
+        "Part I Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Mature Ghosh",
+        "Volcano Ghosh",
+        "Crimson Ghosh",
+        "Dual Fish Knives",
+        "Garum",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Shield Portrait",
+        "Special “Medicine”",
+        "Legendary Garum"
+      ],
+      "like": [
+        "Rare Spices",
+        "Village Recipes",
+        "Arrowhead Gem",
+        "Light Shosh",
+        "Mature Shosh",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Rustic Ghosh",
+        "Young Ghosh",
+        "Young Shosh",
+        "Flower Painting",
+        "Pack of Pastels",
+        "Eastern Tea Leaves",
+        "Energizing Ghosh",
+        "Home-Recipe Book"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [
+        "Garlic Seared Scallops",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [
+        "Pumpkin",
+        "Mazadins"
+      ],
+      "dislike": [
+        "Goat Roast",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup"
+      ]
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Cai": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 40,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 40,
+      "total": 370
+    },
+    "boons": [
+      "sword",
+      "spear",
+      "whiteMagic",
+      "riding"
+    ],
+    "banes": [
+      "bow",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Brio",
+        "description": "Grants Mov+1."
+      },
+      "equippable": {
+        "name": "Flamekeeper",
+        "description": "Unit and allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames."
+      }
+    },
+    "bloodmark": {
+      "name": "The Apostle\nDuality",
+      "description": "20% chance to grant Hit+20 when attacking.\n25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 1"
+      ],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Rancid Garum"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Flower Painting",
+        "Pack of Pastels",
+        "Red Hair Clip",
+        "Sharp Fishhook",
+        "Shield Portrait"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Goat Roast",
+        "Garlic Seared Scallops",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Sand Boar and Beans"
+      ],
+      "like": [
+        "Pumpkin Soup",
+        "Mazadins"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Catania": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 35,
+      "spd": 55,
+      "dex": 50,
+      "def": 30,
+      "res": 35,
+      "lck": 40,
+      "cha": 45,
+      "total": 360
+    },
+    "boons": [
+      "sword",
+      "spear",
+      "flying"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Punishing Squall",
+        "description": "If AS ≥ foe's AS+3, grants Hit+20 during combat."
+      },
+      "equippable": {
+        "name": "Wind My Friend",
+        "description": "If AS ≥ foe's AS+5, grants Atk+3 during combat.\nIf AS ≥ foe's AS+5, grants Atk+3, and if AS ≥ foe's AS+8, grants Avo+20 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "10 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "8 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "2 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ahm Lu Cloth",
+        "Eastern Black Silk",
+        "Eastern Earrings",
+        "Eastern Tea Leaves",
+        "Tales of Adventure",
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Decorative Arrows",
+        "Flower Painting",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Red Hair Clip"
+      ],
+      "like": [
+        "Gaudy Bangle",
+        "Common Coffee",
+        "Select Coffee",
+        "Coffee Pastries",
+        "Dagda Beard Grass",
+        "Horse-Grooming Kit",
+        "Kitten Figurine",
+        "Magic-Trick Set",
+        "Orgus Coffee",
+        "Pack of Pastels",
+        "Southern Coffee",
+        "Ceremonial Spear",
+        "Crafting Knives",
+        "Crimson Bull Figure",
+        "Crimson Ghosh",
+        "Divination Bagua",
+        "Dual Fish Knives",
+        "Exquisite Ring",
+        "Jade Panther Figure",
+        "Joint-Relief Gloves",
+        "Mane Ornament",
+        "Sharp Dagger",
+        "Shield Portrait",
+        "Skin Balm",
+        "Special “Medicine”",
+        "Spirit Board Game",
+        "The Works of Dante"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [
+        "Sand Boar and Beans"
+      ],
+      "neutral": [
+        "Goat Roast",
+        "Garlic Seared Scallops",
+        "Pumpkin Soup",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Mazadins"
+      ],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Centurio": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 40,
+      "dex": 50,
+      "def": 50,
+      "res": 30,
+      "lck": 30,
+      "cha": 30,
+      "total": 345
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "armor"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Sturdy Corundum",
+        "description": "For the first combat in enemy's phase, unit takes half damage."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part III Second Section",
+        "Clear Rescue Centurio Subquest then talk in Dagsion"
+      ],
+      "dietrich": [
+        "Part III Second Section",
+        "Clear Rescue Centurio Subquest then talk in Dagsion"
+      ],
+      "theodora": [
+        "Part III Second Section",
+        "Clear Rescue Centurio Subquest then talk in Dagsion"
+      ],
+      "leda": [
+        "Part III Second Section",
+        "Clear Rescue Centurio Subquest then talk in Dagsion"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Shield Portrait",
+        "Mature Ghosh",
+        "Ceremonial Spear",
+        "Eastern Board Game",
+        "History of a Master",
+        "School Scandal",
+        "Strategy Manuscript"
+      ],
+      "like": [
+        "Village Recipes",
+        "Antique Medal",
+        "Board-Game Tactics",
+        "Spirit Board Game",
+        "Tales of the Arena",
+        "Trader's Handbook",
+        "Training Pillar",
+        "Training Weights"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Goat Roast",
+        "Pumpkin Soup",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Mazadins",
+        "Sand Boar and Beans"
+      ],
+      "like": [],
+      "neutral": [
+        "Garlic Seared Scallops"
+      ],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Creek": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 50,
+      "mag": 15,
+      "spd": 60,
+      "dex": 50,
+      "def": 35,
+      "res": 20,
+      "lck": 30,
+      "cha": 35,
+      "total": 340
+    },
+    "boons": [
+      "sword",
+      "riding"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Steady Hands",
+        "description": "If foe attacks first, grants AS+3, Avo+10 to unit during combat."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part II Chapter 2",
+        "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
+      ],
+      "theodora": [],
+      "leda": [
+        "Part II Chapter 2",
+        "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "History of a Master"
+      ],
+      "like": [
+        "Sharp Dagger",
+        "The Works of Dante"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Dadao": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 55,
+      "mag": 20,
+      "spd": 30,
+      "dex": 35,
+      "def": 45,
+      "res": 20,
+      "lck": 25,
+      "cha": 30,
+      "total": 310
+    },
+    "boons": [
+      "axe",
+      "armor"
+    ],
+    "banes": [
+      "spear",
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "One Chance",
+        "description": "If unit and foe cannot make a follow-up, grants Atk+5 to unit during combat."
+      },
+      "equippable": {
+        "name": "Full Strength",
+        "description": "Multiplies damage by 1.3 when attacking. Trigger % = Str ÷ 2.\nMultiplies damage by 1.5 when attacking. Trigger % = Str ÷ 2."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 2 Kothar Gar to Dadao."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 2 Kothar Gar to Dadao."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "5 Renown",
+        "Give 2 Kothar Gar to Dadao."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "5 Renown",
+        "Give 2 Kothar Gar to Dadao."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Jamel Milk",
+        "Poems of the Greats",
+        "Portrait of Yu Phas",
+        "Rugged Blade",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Weak Cervi",
+        "Kitten Figurine"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Board-Game Tactics",
+        "Coffee Pastries",
+        "Crimson Ghosh",
+        "Eastern Black Silk",
+        "Flower Painting",
+        "Fragrant Pastries",
+        "Ginji Cervi",
+        "Honey Milk",
+        "Honey Pastries",
+        "Huge Fish Eyeball",
+        "Mature Dried Cervi",
+        "Mellow Pastries",
+        "Pastry Cookbook",
+        "Potted Vegetables",
+        "Pure-White Cervi",
+        "Saraminian Sweets",
+        "Simple Pastries",
+        "Strong Cervi",
+        "Yarc Milk",
+        "Secret Ghosh",
+        "Blue-Rose Bouquet",
+        "Rare Spices"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Goat Roast",
+        "Garlic Seared Scallops",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Sand Boar and Beans"
+      ],
+      "like": [
+        "Pumpkin Soup",
+        "Mazadins"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Dante": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 30,
+      "mag": 45,
+      "spd": 40,
+      "dex": 40,
+      "def": 20,
+      "res": 40,
+      "lck": 45,
+      "cha": 30,
+      "total": 320
+    },
+    "boons": [
+      "blackMagic",
+      "whiteMagic",
+      "authority"
+    ],
+    "banes": [
+      "gauntlet"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Stage Direction",
+        "description": "Grants Ddg+10 to allies within 2 spaces during their combats. Trigger % = ally's Cha ÷ 2."
+      },
+      "equippable": {
+        "name": "Dramatic Effect",
+        "description": "When Stage Direction triggers, grants Hit+10 to target allies.\nWhen Stage Direction triggers, grants Hit/Crit+10 to target allies."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 8000 Gold to Dante."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "8 Renown",
+        "Give 8000 Gold to Dante."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 8000 Gold to Dante."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 8000 Gold to Dante."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ahm Lu Cloth",
+        "Decorative Arrows",
+        "Flower Painting",
+        "Poems of the Greats",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Tales of Adventure",
+        "Trader's Handbook",
+        "History of a Master",
+        "Morfis Almanac",
+        "School Scandal",
+        "Tome from Away"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Ceremonial Spear",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Crafting Knives",
+        "Crimson Bull Figure",
+        "Crimson Ghosh",
+        "Divination Bagua",
+        "Dual Fish Knives",
+        "Eastern Black Silk",
+        "Exquisite Ring",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Horse-Grooming Kit",
+        "Jade Panther Figure",
+        "Joint-Relief Gloves",
+        "Magic-Trick Set",
+        "Morfis Tea",
+        "Pack of Pastels",
+        "Pegasus Panorama",
+        "Red Hair Clip",
+        "Select Coffee",
+        "Sharp Dagger",
+        "Sharp Fishhook",
+        "Shield Portrait",
+        "Skin Balm",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "The Works of Dante",
+        "Volcano Ghosh",
+        "Jamel Milk",
+        "Kitten Figurine",
+        "Everyday Scenes",
+        "Tales of the Arena"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Kalla",
+        "Jurah",
+        "Credna"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Mars",
+        "Aurora"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [
+        "Goat Roast",
+        "Pumpkin Soup",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Garlic Seared Scallops",
+        "Fish-Sauce Soup"
+      ]
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Diego": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 20,
+      "spd": 45,
+      "dex": 60,
+      "def": 35,
+      "res": 20,
+      "lck": 35,
+      "cha": 30,
+      "total": 330
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "authority"
+    ],
+    "banes": [
+      "blackMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Caretaker",
+        "description": "Adjacent allies cannot suffer a follow-up during combat. Trigger % = 5."
+      },
+      "equippable": {
+        "name": "No Mercy",
+        "description": "Grants Hit/Crit+5 when making a follow-up.\nGrants Hit/Crit+10 when making a follow-up."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "10 Renown",
+        "Clear Orchel's paralogue (10/18–10/20, during Chapter 11)"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "8 Renown",
+        "Clear Orchel's paralogue (10/18–10/24, during Chapter 12)"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Decorative Arrows",
+        "Portrait of Yu Phas",
+        "Wing Fletching"
+      ],
+      "like": [
+        "Crimson Ghosh",
+        "Joint-Relief Gloves",
+        "Protection Figurine",
+        "Training Pillar",
+        "Training Weights",
+        "Herbal Recipe Guide",
+        "Rare Spices",
+        "Sharp Dagger"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [
+        "Goat Roast",
+        "Pumpkin Soup",
+        "Sand Boar and Beans"
+      ],
+      "neutral": [
+        "Salt-Crusted Ham",
+        "Mazadins"
+      ],
+      "dislike": [
+        "Pumpkin Soup",
+        "Fish-Sauce Soup"
+      ]
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Dietrich": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 30,
+      "lck": 50,
+      "cha": 60,
+      "total": 415
+    },
+    "boons": [
+      "sword",
+      "infantry"
+    ],
+    "banes": [
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Murderous Intent",
+        "description": "If unit attacks first, grants Crit+5 during combat."
+      },
+      "equippable": {
+        "name": "Bestial Impulse",
+        "description": "After combat, grants Crit+2 until a unit makes a critical."
+      }
+    },
+    "bloodmark": {
+      "name": "The Endless",
+      "description": "10% chance to restore some HP to unit when attacking."
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part I Chapter 1"
+      ],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Simple Pastries"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Board-Game Tactics",
+        "Crimson Ghosh",
+        "Ginji Cervi",
+        "Honey Milk",
+        "Honey Pastries",
+        "Joint-Relief Gloves",
+        "Kitten Figurine",
+        "Pastry Cookbook",
+        "Protection Figurine",
+        "Pure-White Cervi",
+        "Spirit Board Game",
+        "Training Pillar",
+        "Training Weights",
+        "Huge Fish Eyeball",
+        "Blue-Rose Bouquet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Pumpkin Soup"
+      ],
+      "like": [
+        "Goat Roast",
+        "Mazadins"
+      ],
+      "neutral": [
+        "Garlic Seared Scallops",
+        "Salt-Crusted Ham",
+        "Fish-Sauce Soup",
+        "Sand Boar and Beans"
+      ],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Eshmel": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 45,
+      "mag": 45,
+      "spd": 45,
+      "dex": 45,
+      "def": 35,
+      "res": 35,
+      "lck": 40,
+      "cha": 50,
+      "total": 390
+    },
+    "boons": [
+      "spear",
+      "authority"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Light of Salvation",
+        "description": "Neutralizes Underworld Boon on foes within 2 spaces."
+      },
+      "equippable": {
+        "name": "Scorching Sun",
+        "description": "Reduces damage done by undead foes to 0. Trigger % = 5.\nReduces damage done by undead foes to 0. Trigger % = 10."
+      }
+    },
+    "bloodmark": {
+      "name": "The Auger",
+      "description": "5% chance to grant Hit+100 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "dietrich": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "theodora": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "leda": [
+        "Prologue: Descent Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Esmeralda": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 55,
+      "str": 55,
+      "mag": 20,
+      "spd": 35,
+      "dex": 35,
+      "def": 45,
+      "res": 25,
+      "lck": 35,
+      "cha": 30,
+      "total": 335
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "armor"
+    ],
+    "banes": [
+      "sword",
+      "blackMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Brawn",
+        "description": "Reduces Wt of unit's equipment to 80%."
+      },
+      "equippable": {
+        "name": "Throwing Arm",
+        "description": "If throwing a spear, grants Hit+10, Atk+2 during combat.\nIf throwing a spear, grants Hit+20, Atk+4 during combat."
+      }
+    },
+    "bloodmark": {
+      "name": "Valor",
+      "description": "3% chance to add 50% of base damage to damage dealt when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "7 Renown",
+        "Complete Esmeralda's request"
+      ],
+      "dietrich": [
+        "Part I Chapter 2"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Complete Esmeralda's request"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Complete Esmeralda's request"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Flexible Fishing Rod",
+        "Saraminian Sweets",
+        "Garum",
+        "Tales of Adventure",
+        "Sharp Fishhook",
+        "Eastern Earrings",
+        "Weak Cervi",
+        "Full Sewing Kit"
+      ],
+      "like": [
+        "Home-Recipe Book",
+        "Kitten Figurine",
+        "Pastry Cookbook",
+        "Village Recipes",
+        "Gaudy Bangle",
+        "Simple Pastries",
+        "Mellow Pastries",
+        "Coffee Pastries",
+        "Alecto Garum",
+        "Huge Fish Eyeball",
+        "Herbal Recipe Guide",
+        "Strong Seasonings",
+        "Dagda Beard Grass",
+        "Training Bracelet",
+        "Fragrant Pastries",
+        "Horse-Grooming Kit",
+        "Smooth Garum",
+        "Eastern Tea Leaves",
+        "Ahm Lu Cloth",
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Ceremonial Spear",
+        "Dual Fish Knives",
+        "Eastern Black Silk",
+        "Exquisite Ring",
+        "Flower Painting",
+        "Portrait of Yu Phas",
+        "Red Hair Clip",
+        "Skin Balm",
+        "Tome from Away",
+        "Volcano Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Pumpkin Soup"
+      ],
+      "like": [
+        "Goat Roast",
+        "Fish-Sauce Soup",
+        "Mazadins"
+      ],
+      "neutral": [
+        "Garlic Seared Scallops",
+        "Salt-Crusted Ham",
+        "Sand Boar and Beans"
+      ],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Fabio": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 25,
+      "mag": 50,
+      "spd": 35,
+      "dex": 40,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 30,
+      "total": 330
+    },
+    "boons": [
+      "blackMagic",
+      "authority"
+    ],
+    "banes": [
+      "bow"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Dark Calling",
+        "description": "Inflicts Ddg-5 on adjacent foes."
+      },
+      "equippable": {
+        "name": "Dark Secrets",
+        "description": "Extends range of Dark Calling to 2 spaces.\nExtends range of Dark Calling to 3 spaces."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part I Chapter 1"
+      ],
+      "theodora": [],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Clear Dietrich's paralogue (10/16–11/1, during Chapter 11) and complete Fabio's request."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Tales of Adventure",
+        "Volcano Ghosh",
+        "Simple Pastries"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Brined Fish Guts",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Dagda Beard Grass",
+        "Eastern Black Silk",
+        "Eastern Tea Leaves",
+        "Huge Fish Eyeball",
+        "Jade Ghosh",
+        "Light Shosh",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Orgus Coffee",
+        "Pack of Pastels",
+        "Potted Vegetables",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Select Coffee",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Sun Ghosh",
+        "Young Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Salt-Crusted Ham",
+        "Sand Boar and Beans"
+      ],
+      "like": [
+        "Garlic Seared Scallops",
+        "Pumpkin Soup",
+        "Fish-Sauce Soup"
+      ],
+      "neutral": [
+        "Goat Roast"
+      ],
+      "dislike": [
+        "Mazadins"
+      ]
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Fianna": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 35,
+      "mag": 55,
+      "spd": 30,
+      "dex": 40,
+      "def": 20,
+      "res": 45,
+      "lck": 25,
+      "cha": 40,
+      "total": 320
+    },
+    "boons": [
+      "blackMagic",
+      "whiteMagic",
+      "riding"
+    ],
+    "banes": [
+      "sword",
+      "gauntlet"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Graceful Light",
+        "description": "When healing an ally with magic, reduces magic cost to 0. Trigger % = Lck."
+      },
+      "equippable": {
+        "name": "Gift of Faith",
+        "description": "When healing an ally with magic, restores +20 HP. Trigger % = Lck.\nWhen healing an ally with magic, restores +30 HP. Trigger % = Lck."
+      }
+    },
+    "bloodmark": {
+      "name": "Revival",
+      "description": "20% chance to restore a little HP to unit when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 3000 Gold to Fianna."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 3000 Gold to Fianna."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 3000 Gold to Fianna."
+      ],
+      "leda": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 3000 Gold to Fianna."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Eastern Black Silk",
+        "Flower Painting",
+        "Portrait of Yu Phas",
+        "Rare Spices",
+        "Volcano Ghosh"
+      ],
+      "like": [
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Joint-Relief Gloves",
+        "Morfis Tea",
+        "Pegasus Panorama",
+        "Select Coffee",
+        "Shield Portrait",
+        "Skin Balm"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Gaitz": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 40,
+      "dex": 45,
+      "def": 45,
+      "res": 25,
+      "lck": 40,
+      "cha": 45,
+      "total": 360
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "riding"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Brave Assist",
+        "description": "Grants Def+3 to adjacent allies."
+      },
+      "equippable": {
+        "name": "Flashing Fang",
+        "description": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20.\nGrants Atk+7, Hit+100 when attacking. Trigger % = 20."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Clear Bertrand's paralogue (9/17, during Chapter 9) and reach Chapter 12."
+      ],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Ahm Lu Cloth",
+        "Ceremonial Spear",
+        "Decorative Arrows",
+        "Eastern Black Silk",
+        "Eastern Board Games",
+        "Ebony Board Game",
+        "Flower Painting",
+        "Morfis Almanac",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Rugged Blade",
+        "School Scandal",
+        "Shield Portrait",
+        "Tales of Adventure",
+        "History of a Master"
+      ],
+      "like": [
+        "Common Coffee",
+        "Orgus Coffee",
+        "Horse-Grooming Kit",
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Joint-Relief Gloves",
+        "Training Pillar",
+        "Training Weights",
+        "Aromatic Shosh",
+        "Blue-Rose Bouquet",
+        "Board-Game Tactics",
+        "Coffee Pastries",
+        "Crafting Knives",
+        "Crimson Bull Figure",
+        "Dagda Beard Grass",
+        "Divination Bagua",
+        "Dual Fish Knives",
+        "Exquisite Ring",
+        "Fodlan Tea",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Imitation Medal",
+        "Jade Ghosh",
+        "Jade Panther Figure",
+        "Mane Ornament",
+        "Morfis Tea",
+        "Pack of Pastels",
+        "Protection Figurine",
+        "Rare Southern Seeds",
+        "Red Hair Clip",
+        "Select Coffee",
+        "Sharp Dagger",
+        "Sharp Fishhook",
+        "Skin Balm",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Special “Medicine”",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "The Knight’s Suitors",
+        "The Works of Dante",
+        "Thick Foreign Tome",
+        "Volcano Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Goliath": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 55,
+      "str": 60,
+      "mag": 5,
+      "spd": 15,
+      "dex": 30,
+      "def": 50,
+      "res": 20,
+      "lck": 35,
+      "cha": 20,
+      "total": 290
+    },
+    "boons": [
+      "axe",
+      "armor"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Heavyweight Class",
+        "description": "Unit cannot change to cavalry or flying. Grants Bld+5."
+      },
+      "equippable": {
+        "name": "Pin Down",
+        "description": "Inflicts Mov-3 on adjacent foes.\nInflicts Mov-5 on adjacent foes."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 3 Giants' Meat to Goliath."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 3 Giants' Meat to Goliath."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 3 Giants' Meat to Goliath."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 3 Giants' Meat to Goliath."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Crimson Ghosh",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Rancid Garum",
+        "Special “Medicine”",
+        "Strategy Manuscript",
+        "Volcano Ghosh",
+        "Simple Pastries"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Eastern Tea Leaves",
+        "Fodlan Tea",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Jade Ghosh",
+        "Light Shosh",
+        "Morfis Tea",
+        "Orgus Coffee",
+        "Protection Figurine",
+        "Rare Southern Seeds",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Southern Ghosh",
+        "Sturdy Rucksack",
+        "Sun Ghosh",
+        "Training Bracelet",
+        "Wing Fletching",
+        "Young Ghosh",
+        "Blue-Rose Bouquet",
+        "Kitten Figurine"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Guzran": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 20,
+      "spd": 50,
+      "dex": 45,
+      "def": 35,
+      "res": 20,
+      "lck": 45,
+      "cha": 30,
+      "total": 335
+    },
+    "boons": [
+      "sword",
+      "gauntlet",
+      "infantry"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Hot-Headed",
+        "description": "Grants one of Hit+10, Avo+10, or Crit+10 during combat."
+      },
+      "equippable": {
+        "name": "Top Form",
+        "description": "Changes the effect of Hot-Headed to grant +15.\nChanges the effect of Hot-Headed to grant +20."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 1",
+        "2 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "3 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Crimson Ghosh",
+        "Mature Ghosh",
+        "Shield Portrait",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Volcano Ghosh"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Common Coffee",
+        "Eastern Tea Leaves",
+        "Huge Fish Eyeball",
+        "Jade Ghosh",
+        "Light Shosh",
+        "Mature Shosh",
+        "Orgus Coffee",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Select Coffee",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Strong Seasonings",
+        "Sun Ghosh",
+        "Wing Fletching",
+        "Young Ghosh",
+        "Young Shosh",
+        "Blue-Rose Bouquet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Halvin": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 30,
+      "spd": 45,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 40,
+      "cha": 35,
+      "total": 335
+    },
+    "boons": [
+      "bow",
+      "riding"
+    ],
+    "banes": [
+      "axe"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Adaptability",
+        "description": "After combat, grants Hit+2 until the end of the map. (Max +30)"
+      },
+      "equippable": {
+        "name": "Halt Advance",
+        "description": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat.\nAfter combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 10 Dates (material) to Halvin."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 10 Dates (material) to Halvin."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 10 Dates (material) to Halvin."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 10 Dates (material) to Halvin."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Potted Vegetables",
+        "Garum",
+        "Eastern Black Silk",
+        "Eastern Earrings",
+        "Blue-Rose Bouquet",
+        "Flower Painting",
+        "Red Hair Clip",
+        "Saraminian Sweets",
+        "Rare Spices",
+        "Kitten Figurine"
+      ],
+      "like": [
+        "Gaudy Bangle",
+        "Simple Pastries",
+        "Crimson Ghosh",
+        "Eastern Tea Leaves",
+        "Exquisite Ring",
+        "Jade Panther Figure",
+        "Magic-Trick Set",
+        "Skin Balm",
+        "Village Recipes",
+        "Fragrant Pastries",
+        "Mellow Pastries",
+        "Pack of Pastels",
+        "Southern Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Hong Hua": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 30,
+      "mag": 45,
+      "spd": 45,
+      "dex": 45,
+      "def": 30,
+      "res": 45,
+      "lck": 30,
+      "cha": 40,
+      "total": 350
+    },
+    "boons": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "banes": [
+      "axe",
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Zhu Ming",
+        "description": "When equipped with magic, grants Hit+10."
+      },
+      "equippable": {
+        "name": "Amplify Magic",
+        "description": "After combat, grants Atk+4 through unit's next combat. Trigger % = Mag ÷ 2\nAfter combat, grants Atk+7 through unit's next combat. Trigger % = Mag ÷ 2"
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "dietrich": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "theodora": [
+        "Prologue: Descent Chapter 1"
+      ],
+      "leda": [
+        "Prologue: Descent Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Fodlan Tea",
+        "History of a Master",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Ahm Lu Cloth",
+        "Candy Crystals",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Flower Painting",
+        "Magic-Trick Set",
+        "Mature Dried Cervi",
+        "Mellow Pastries",
+        "Morfis Almanac",
+        "Orgus Coffee",
+        "Select Coffee",
+        "Southern Coffee",
+        "Strong Cervi",
+        "Tome from Away",
+        "Weak Cervi"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Inyoni": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 30,
+      "lck": 40,
+      "cha": 30,
+      "total": 325
+    },
+    "boons": [
+      "axe",
+      "bow"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Heavy-Bow User",
+        "description": "When equipped with a bow, grants Str +3."
+      },
+      "equippable": {
+        "name": "Pierce",
+        "description": "Grants Atk+2, Crit+5 when attacking with a bow combat art.\nGrants Atk+4, Crit+10 when attacking with a bow combat art."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 8",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 6000 Gold to Inyoni."
+      ],
+      "dietrich": [
+        "Part I Chapter 8",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 6000 Gold to Inyoni."
+      ],
+      "theodora": [
+        "Part I Chapter 9",
+        "Support Lv 1",
+        "9 Renown",
+        "Give 4000 Gold to Inyoni."
+      ],
+      "leda": [
+        "Part I Chapter 9",
+        "Support Lv 1",
+        "7 Renown",
+        "Give 3000 Gold to Inyoni."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure"
+      ],
+      "like": [
+        "Eastern Black Silk",
+        "Eastern Tea Leaves",
+        "Huge Fish Eyeball",
+        "Sharp Fishhook",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Wing Fletching"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Io": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 25,
+      "spd": 35,
+      "dex": 45,
+      "def": 40,
+      "res": 25,
+      "lck": 35,
+      "cha": 35,
+      "total": 325
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "riding"
+    ],
+    "banes": [
+      "whiteMagic",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "With My Steed",
+        "description": "[Cavalry] If unit attacks first, grants Shld+3, Ddg+30 during combat."
+      },
+      "equippable": {
+        "name": "Mounted Push",
+        "description": "[Cavalry] If unit attacks first, grants Hit+10 during combat.\n[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 4000 Gold to Io."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "3 Renown",
+        "Give 800 Gold to Io."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 4000 Gold to Io."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "6 Renown",
+        "Give 1500 Gold to Io."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ceremonial Spear",
+        "Kitten Figurine",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Shield Portrait",
+        "Dagda Beard Grass"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Board-Game Tactics",
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Flower Painting",
+        "Horse-Grooming Kit",
+        "Joint-Relief Gloves",
+        "Mane Ornament",
+        "Protection Figurine",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "Training Pillar",
+        "Training Weights"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Jasmine": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 40,
+      "mag": 20,
+      "spd": 30,
+      "dex": 45,
+      "def": 45,
+      "res": 25,
+      "lck": 40,
+      "cha": 45,
+      "total": 340
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "armor"
+    ],
+    "banes": [
+      "sword",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Expert Counter",
+        "description": "If foe attacks first, grants Hit+20 to unit during combat."
+      },
+      "equippable": {
+        "name": "Raging Counter",
+        "description": "If foe attacks first, grants Atk+3 to unit during combat.\nIf foe attacks first, grants Atk+3, Crit+10 to unit during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 6",
+        "Support Lv 1",
+        "8 Renown",
+        "Give 2000 Gold to Jasmine."
+      ],
+      "dietrich": [
+        "Part I Chapter 6",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 5000 Gold to Jasmine."
+      ],
+      "theodora": [
+        "Part I Chapter 7",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 5000 Gold to Jasmine."
+      ],
+      "leda": [
+        "Part I Chapter 6",
+        "Support Lv 2",
+        "4 Renown",
+        "Give 500 Gold to Jasmine."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Saraminian Sweets",
+        "Young Ghosh",
+        "Garum",
+        "Rare Spices"
+      ],
+      "like": [
+        "Kitten Figurine",
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Dual Fish Knives",
+        "Honey Pastries",
+        "Jamel Milk",
+        "Joint-Relief Gloves",
+        "Magic-Trick Set",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pastry Cookbook",
+        "Protection Figurine",
+        "Pure-White Cervi",
+        "Sturdy Rucksack",
+        "Training Pillar",
+        "Training Weights"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Jester": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 15,
+      "spd": 60,
+      "dex": 45,
+      "def": 35,
+      "res": 25,
+      "lck": 40,
+      "cha": 40,
+      "total": 335
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "infantry"
+    ],
+    "banes": [
+      "axe"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Blink of an Eye",
+        "description": "After using Swap, grants Def+3 until unit's next phase."
+      },
+      "equippable": {
+        "name": "Flickering Edge",
+        "description": "When unit evades an attack, grants Atk+3 during combat.\nWhen unit evades an attack, grants Atk+5 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Complete Jester's Three Combat Quests."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Complete Jester's Three Combat Quests."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Complete Jester's Three Combat Quests."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Complete Jester's Three Combat Quests."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Dual Fish Knives",
+        "Legendary Garum",
+        "Portrait of Yu Phas",
+        "Garum"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Board-Game Tactics",
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Huge Fish Eyeball",
+        "Jade Ghosh",
+        "Joint-Relief Gloves",
+        "Orgus Coffee",
+        "Outdoor Cooking Set",
+        "Pastry Cookbook",
+        "Rare Spices",
+        "Secret Ghosh",
+        "Select Coffee",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Spirit Board Game",
+        "Strong Seasonings",
+        "Volcano Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Kiroc": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 55,
+      "str": 40,
+      "mag": 15,
+      "spd": 55,
+      "dex": 50,
+      "def": 30,
+      "res": 15,
+      "lck": 30,
+      "cha": 25,
+      "total": 315
+    },
+    "boons": [
+      "bow"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Tyranny",
+        "description": "If foe has a status effect, grants Atk+3, Crit+10 to unit during combat."
+      },
+      "equippable": {
+        "name": "Menace",
+        "description": "Halves foe's Ddg during combat. Trigger % = 10.\nHalves foe's Ddg during combat. Trigger % = 20."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 6",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 8 Pure Water to Kiroc."
+      ],
+      "dietrich": [
+        "Part I Chapter 6",
+        "Support Lv 1",
+        "4 Renown",
+        "Give 3 Pure Water to Kiroc."
+      ],
+      "theodora": [
+        "Part I Chapter 7",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 8 Pure Water to Kiroc."
+      ],
+      "leda": [
+        "Part I Chapter 5",
+        "Support Lv 1",
+        "4 Renown",
+        "Give 3 Pure Water to Kiroc."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Mature Ghosh",
+        "Volcano Ghosh",
+        "Flexible Fishing Rod",
+        "Rare Spices"
+      ],
+      "like": [
+        "Common Coffee",
+        "Joint-Relief Gloves",
+        "Light Shosh",
+        "Mature Shosh",
+        "Rustic Ghosh",
+        "Select Coffee",
+        "Sharp Fishhook",
+        "Southern Coffee",
+        "Training Pillar",
+        "Training Weights",
+        "Young Ghosh",
+        "Young Shosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Klapka": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 40,
+      "mag": 10,
+      "spd": 25,
+      "dex": 45,
+      "def": 50,
+      "res": 15,
+      "lck": 25,
+      "cha": 35,
+      "total": 285
+    },
+    "boons": [
+      "spear",
+      "whiteMagic",
+      "infantry"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Spirit of Silver",
+        "description": "After combat, grants Def+1 to unit until the end of the map. (Max +10) Trigger % = Def."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part III Fifth Section",
+        "Go to Dagsion if he survived",
+        "Theodora's Path must be cleared."
+      ],
+      "dietrich": [
+        "Part III Fifth Section",
+        "Go to Dagsion if he survived",
+        "Theodora's Path must be cleared."
+      ],
+      "theodora": [
+        "Part III Fifth Section",
+        "Go to Dagsion if he survived",
+        "Theodora's Path must be cleared."
+      ],
+      "leda": [
+        "Part III Fifth Section",
+        "Go to Dagsion if he survived",
+        "Theodora's Path must be cleared."
+      ]
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Leda": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 35,
+      "spd": 65,
+      "dex": 50,
+      "def": 30,
+      "res": 35,
+      "lck": 25,
+      "cha": 55,
+      "total": 370
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "whiteMagic",
+      "infantry"
+    ],
+    "banes": [
+      "spear"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Blindside",
+        "description": "If unit attacks first, cannot be countered during combat. Trigger % = 5."
+      },
+      "equippable": {
+        "name": "Improviso",
+        "description": "After using Blaze Arts during Overblaze, unit can attack."
+      }
+    },
+    "bloodmark": {
+      "name": "The Earth\nDuality",
+      "description": "3% chance to grant Atk+7 when attacking.\n25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [],
+      "leda": [
+        "Part I Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Eastern Black Silk",
+        "Flower Painting",
+        "Portrait of Yu Phas",
+        "Tales of Adventure",
+        "Volcano Ghosh",
+        "Eastern Earrings",
+        "Jade Ghosh"
+      ],
+      "like": [
+        "Ahm Lu Cloth",
+        "Aromatic Shosh",
+        "Dagda Beard Grass",
+        "Gaudy Bangle",
+        "Horse-Grooming Kit",
+        "Huge Fish Eyeball",
+        "Kitten Figurine",
+        "Light Shosh",
+        "Magic-Trick Set",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Pack of Pastels",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Southern Ghosh",
+        "Sun Ghosh",
+        "Training Bracelet",
+        "Young Ghosh",
+        "Brined Fish Guts",
+        "Eastern Tea Leaves"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Lilian": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 30,
+      "spd": 40,
+      "dex": 55,
+      "def": 30,
+      "res": 35,
+      "lck": 50,
+      "cha": 25,
+      "total": 335
+    },
+    "boons": [
+      "bow",
+      "infantry"
+    ],
+    "banes": [
+      "gauntlet"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Safety First",
+        "description": "If foe cannot counter, grants Hit+10 to unit during combat."
+      },
+      "equippable": {
+        "name": "Upper Hand",
+        "description": "If unit's hit % = 100, grants Atk +3 when attacking.\nIf unit's hit % = 100, grants Atk +5 when attacking."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "8 Renown",
+        "Give 5000 Gold to Lilian."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "8 Renown",
+        "Give 5000 Gold to Lilian."
+      ],
+      "theodora": [
+        "Part I Chapter 4"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "7 Renown",
+        "Give 5000 Gold to Lilian."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Eastern Tea Leaves",
+        "Eastern Earrings",
+        "Poems of the Greats"
+      ],
+      "like": [
+        "Wing Fletching",
+        "Home-Recipe Book",
+        "Pastry Cookbook",
+        "Village Recipes",
+        "Trader's Handbook",
+        "Gaudy Bangle",
+        "Herbal Recipe Guide",
+        "Strong Seasonings",
+        "Training Bracelet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Jurah"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Loretta": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 35,
+      "spd": 55,
+      "dex": 40,
+      "def": 30,
+      "res": 40,
+      "lck": 30,
+      "cha": 30,
+      "total": 330
+    },
+    "boons": [
+      "sword",
+      "spear",
+      "flying"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Steadfast",
+        "description": "If unit's HP ≥ 50%, grants Avo+10 during combat."
+      },
+      "equippable": {
+        "name": "Peak Form",
+        "description": "If unit's HP = 100%, grants Atk+3 during combat.\nIf unit's HP = 100%, grants Atk+3, Avo+10 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 3 Iron Swords to Loretta."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 3 Iron Swords to Loretta."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 3 Iron Swords to Loretta."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 3 Iron Swords to Loretta."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ceremonial Spear",
+        "Honey Pastries",
+        "Pastry Cookbook",
+        "Portrait of Yu Phas",
+        "Rugged Blade",
+        "Saraminian Sweets",
+        "Shield Portrait"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Blue-Rose Bouquet",
+        "Crimson Ghosh",
+        "Decorative Arrows",
+        "Eastern Black Silk",
+        "Ebony Board Game",
+        "Flower Painting",
+        "Honey Milk",
+        "Joint-Relief Gloves",
+        "Mellow Pastries",
+        "Pegasus Panorama",
+        "Pure-White Cervi",
+        "Training Pillar",
+        "Training Weights",
+        "Ginji Cervi",
+        "Simple Pastries"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Jurah"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Ludia": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 20,
+      "spd": 55,
+      "dex": 45,
+      "def": 30,
+      "res": 20,
+      "lck": 30,
+      "cha": 30,
+      "total": 305
+    },
+    "boons": [
+      "sword",
+      "spear",
+      "infantry"
+    ],
+    "banes": [
+      "axe",
+      "blackMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Falcon",
+        "description": "If unit attacks first, grants AS+3 during combat."
+      },
+      "equippable": {
+        "name": "Perception",
+        "description": "If unit can make a follow-up, grants Avo+10 during combat.\nIf unit can make a follow-up, grants Avo+20 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Gather information at Callianeira Port and report back to Ludia"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Gather information at Callianeira Port and report back to Ludia"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Gather information at Callianeira Port and report back to Ludia"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Gather information at Callianeira Port and report back to Ludia"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Eastern Love Story",
+        "Eastern Black Silk",
+        "Eastern Earrings",
+        "Eastern Tea Leaves",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Flower Painting",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Red Hair Clip",
+        "Poems of the Greats"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Everyday Scenes",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Gaudy Bangle",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Magic-Trick Set",
+        "Orgus Coffee",
+        "Pastry Cookbook",
+        "Select Coffee",
+        "Sharp Fishhook",
+        "Skin Balm",
+        "Southern Coffee",
+        "Sturdy Rucksack",
+        "Trader's Handbook",
+        "Training Bracelet",
+        "Village Recipes",
+        "Young Ghosh",
+        "Pack of Pastels"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Lysander": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 25,
+      "spd": 50,
+      "dex": 35,
+      "def": 40,
+      "res": 25,
+      "lck": 30,
+      "cha": 30,
+      "total": 320
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "riding",
+      "flying"
+    ],
+    "banes": [
+      "sword",
+      "gauntlet",
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Racing Attack",
+        "description": "If unit attacks first, grants Avo+15 during combat."
+      },
+      "equippable": {
+        "name": "Accelerate",
+        "description": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)\nAfter defeating a foe, grants Spd+2 until the end of the map. (Max +10)"
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 5 Iron Spears to Lysander."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 5 Iron Spears to Lysander."
+      ],
+      "theodora": [
+        "Part I Chapter 4"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Give 5 Iron Spears to Lysander."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Ceremonial Spear",
+        "Flower Painting",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Shield Portrait"
+      ],
+      "like": [
+        "Wing Fletching",
+        "Dagda Beard Grass",
+        "Horse-Grooming Kit",
+        "Eastern Tea Leaves",
+        "Mane Ornament",
+        "Training Weights"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Mars"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Jurah"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Majide": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 65,
+      "str": 50,
+      "mag": 15,
+      "spd": 20,
+      "dex": 30,
+      "def": 40,
+      "res": 10,
+      "lck": 25,
+      "cha": 5,
+      "total": 260
+    },
+    "boons": [
+      "axe",
+      "gauntlet"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Hellbent Axe",
+        "description": "When equipped with an axe, grants Str+3."
+      },
+      "equippable": {
+        "name": "Fear Nothing",
+        "description": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat.\nIf unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "5 Renown",
+        "Admit that you need Majide 3 times."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Admit that you need Majide 3 times."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown",
+        "Admit that you need Majide 3 times."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Admit that you need Majide 3 times."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Dual Fish Knives",
+        "Mature Ghosh"
+      ],
+      "like": [
+        "Joint-Relief Gloves",
+        "Light Shosh",
+        "Mature Shosh",
+        "Rustic Ghosh",
+        "Training Pillar",
+        "Training Weights",
+        "Volcano Ghosh",
+        "Young Ghosh",
+        "Young Shosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Mikaela": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 45,
+      "mag": 30,
+      "spd": 40,
+      "dex": 35,
+      "def": 40,
+      "res": 25,
+      "lck": 30,
+      "cha": 40,
+      "total": 335
+    },
+    "boons": [
+      "axe",
+      "bow",
+      "infantry"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic",
+      "riding",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Veteran’s Mettle",
+        "description": "Grants Hit+10 during combat against an adjacent foe."
+      },
+      "equippable": {
+        "name": "Redblade’s Will",
+        "description": "Grants Atk+3 during combat against an adjacent foe.\nGrants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % =30)."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 3000 Gold to Mikaela."
+      ],
+      "dietrich": [
+        "Part I Chapter 4"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 3000 Gold to Mikaela."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 3000 Gold to Mikaela."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Young Ghosh",
+        "Garum",
+        "Tales of Adventure",
+        "Volcano Ghosh",
+        "Simple Pastries"
+      ],
+      "like": [
+        "Rustic Ghosh",
+        "Wing Fletching",
+        "Southern Ghosh",
+        "Home-Recipe Book",
+        "Rare Spices",
+        "Pastry Cookbook",
+        "Mature Shosh",
+        "Village Recipes",
+        "Alecto Garum",
+        "Sun Ghosh",
+        "Secret Ghosh",
+        "Aromatic Shosh",
+        "Common Coffee",
+        "Select Coffee",
+        "Southern Coffee",
+        "Huge Fish Eyeball",
+        "Herbal Recipe Guide",
+        "Mature Ghosh",
+        "Light Shosh",
+        "Jade Ghosh",
+        "Strong Seasonings",
+        "Orgus Coffee"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Mu": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 30,
+      "mag": 5,
+      "spd": 30,
+      "dex": 30,
+      "def": 20,
+      "res": 10,
+      "lck": 10,
+      "cha": 20,
+      "total": 185
+    },
+    "boons": [
+      "sword",
+      "axe",
+      "gauntlet",
+      "whiteMagic"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Signs of Growth",
+        "description": "When unit levels up, gains enhanced basic stat growth."
+      },
+      "equippable": {
+        "name": "Warrior’s Blood",
+        "description": "Grants stat increase based on equipped weapon type.\nGrants a large stat increase based on equipped weapon type."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "dietrich": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "leda": [
+        "Part I Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Weak Cervi",
+        "Candy Crystals",
+        "Saraminian Sweets",
+        "Tales of Adventure",
+        "Garum",
+        "Kitten Figurine",
+        "History of a Master",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Yarc Milk",
+        "Jamel Milk",
+        "Arrowhead Gem",
+        "Honey Pastries",
+        "Outdoor Cooking Set",
+        "Pickled Vegetables",
+        "Pure-White Cervi",
+        "Morfis Almanac",
+        "Orgus Coffee",
+        "Pegasus Panorama",
+        "Rare Southern Seeds",
+        "Shield Portrait",
+        "Tome from Away"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Mu (with growth)": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 50,
+      "mag": 25,
+      "spd": 50,
+      "dex": 50,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 40,
+      "total": 365
+    },
+    "boons": [
+      "sword",
+      "axe",
+      "gauntlet",
+      "whiteMagic"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Signs of Growth",
+        "description": "When unit levels up, gains enhanced basic stat growth."
+      },
+      "equippable": {
+        "name": "Warrior’s Blood",
+        "description": "Grants stat increase based on equipped weapon type.\nGrants a large stat increase based on equipped weapon type."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "dietrich": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Mu 3 Glirmosa"
+      ],
+      "leda": [
+        "Part I Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Weak Cervi",
+        "Candy Crystals",
+        "Saraminian Sweets",
+        "Tales of Adventure",
+        "Garum",
+        "Kitten Figurine",
+        "History of a Master",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Yarc Milk",
+        "Jamel Milk",
+        "Arrowhead Gem",
+        "Honey Pastries",
+        "Outdoor Cooking Set",
+        "Pickled Vegetables",
+        "Pure-White Cervi",
+        "Morfis Almanac",
+        "Orgus Coffee",
+        "Pegasus Panorama",
+        "Rare Southern Seeds",
+        "Shield Portrait",
+        "Tome from Away"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Nathan": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 55,
+      "str": 60,
+      "mag": 15,
+      "spd": 25,
+      "dex": 60,
+      "def": 45,
+      "res": 15,
+      "lck": 25,
+      "cha": 30,
+      "total": 330
+    },
+    "boons": [
+      "spear",
+      "riding",
+      "armor"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Headlong Rush",
+        "description": "If unit attacks first, grants AS+3, Hit+10 during combat."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part II Chapter 3",
+        "Defeat with Creek."
+      ],
+      "theodora": [],
+      "leda": [
+        "Part II Chapter 3",
+        "Defeat with Creek."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "History of a Master"
+      ],
+      "like": [
+        "Secret Ghosh",
+        "Sharp Dagger",
+        "Sun Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Nezha": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 25,
+      "spd": 45,
+      "dex": 50,
+      "def": 35,
+      "res": 25,
+      "lck": 30,
+      "cha": 25,
+      "total": 325
+    },
+    "boons": [
+      "sword",
+      "gauntlet",
+      "infantry"
+    ],
+    "banes": [
+      "spear"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Quick Draw",
+        "description": "If unit attacks first, grants Atk+3 during combat. Trigger % = 50."
+      },
+      "equippable": {
+        "name": "Never Stop",
+        "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 30.\nGrants Atk+5 when attacking after Quick Draw. Trigger % = 50."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 3 Sandworm Meat to Nezha."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 3 Sandworm Meat to Nezha."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "6 Renown",
+        "Give 3 Sandworm Meat to Nezha."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 3 Sandworm Meat to Nezha."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Ceremonial Spear",
+        "Decorative Arrows",
+        "Pickled Bulbs",
+        "Portrait of Yu Phas",
+        "Shield Portrait",
+        "Strategy Manuscript",
+        "Tales of Adventure"
+      ],
+      "like": [
+        "Eastern Tea Leaves",
+        "Flower Painting",
+        "Imitation Medal",
+        "Joint-Relief Gloves",
+        "Pegasus Panorama",
+        "Red Hair Clip",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Wing Fletching",
+        "Rare Spices",
+        "Blue-Rose Bouquet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Ninae": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 35,
+      "spd": 35,
+      "dex": 45,
+      "def": 35,
+      "res": 45,
+      "lck": 50,
+      "cha": 40,
+      "total": 375
+    },
+    "boons": [
+      "spear",
+      "whiteMagic",
+      "riding"
+    ],
+    "banes": [
+      "bow"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Spirits’ Voice",
+        "description": "If foe uses magic, grants Hit/Avo+10 to unit during combat."
+      },
+      "equippable": {
+        "name": "Spirits’ Guidance",
+        "description": "Grants Spirits' Voice to adjacent allies.\nGrants Spirits' Voice to allies within 2 spaces."
+      }
+    },
+    "bloodmark": {
+      "name": "Reflection",
+      "description": "10% chance to grant Hit+30 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 1 Paradise Fish to Ninae."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 1 Paradise Fish to Ninae."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Give 1 Paradise Fish to Ninae."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Give 1 Paradise Fish to Ninae."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Eastern Black Silk",
+        "Tales of Adventure",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Eastern Tea Leaves",
+        "Poems of the Greats",
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Ahm Lu Cloth",
+        "Blue-Rose Bouquet",
+        "Decorative Arrows",
+        "Ebony Board Game",
+        "Exquisite Ring",
+        "Flower Painting",
+        "Morfis Almanac",
+        "Pegasus Panorama",
+        "Red Hair Clip",
+        "School Scandal",
+        "Shield Portrait",
+        "Spirit Board Game",
+        "Thick Foreign Tome",
+        "Tome from Away",
+        "Rare Spices",
+        "Pack of Pastels",
+        "Odd Vegetable Seeds"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Noctula": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 45,
+      "mag": 20,
+      "spd": 45,
+      "dex": 40,
+      "def": 40,
+      "res": 20,
+      "lck": 35,
+      "cha": 30,
+      "total": 325
+    },
+    "boons": [
+      "axe",
+      "gauntlet",
+      "infantry"
+    ],
+    "banes": [
+      "sword",
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Warrior’s Clarity",
+        "description": "After combat, grants Avo+3 until unit's next phase."
+      },
+      "equippable": {
+        "name": "Attuned",
+        "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 10.\nWhen Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 20."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 1",
+        "4 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "6 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 1",
+        "3 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure"
+      ],
+      "like": [
+        "Eastern Tea Leaves",
+        "Protection Figurine",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Wing Fletching",
+        "Blue-Rose Bouquet",
+        "Huge Fish Eyeball"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Smyrnos",
+        "Mars"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Nuzzuo": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 50,
+      "mag": 15,
+      "spd": 55,
+      "dex": 45,
+      "def": 20,
+      "res": 15,
+      "lck": 25,
+      "cha": 35,
+      "total": 310
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "gauntlet"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Har Hali Wisdom",
+        "description": "If unit is effective against foe, grants Atk+3 during combat."
+      },
+      "equippable": {
+        "name": "Precision Strike",
+        "description": "If unit is effective against foe, grants Hit+10 during combat.\nIf unit is effective against foe, grants Hit+20 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 6",
+        "Support Lv 2",
+        "6 Renown",
+        "Give 3 Iron Bows to Nuzzuo."
+      ],
+      "dietrich": [
+        "Part I Chapter 8",
+        "Support Lv 1",
+        "9 Renown",
+        "Give 2 Iron Bows to Nuzzuo."
+      ],
+      "theodora": [
+        "Part I Chapter 9",
+        "Support Lv 1",
+        "6 Renown",
+        "Give 3 Iron Bows to Nuzzuo."
+      ],
+      "leda": [
+        "Part I Chapter 8",
+        "Support Lv 3",
+        "9 Renown",
+        "Give 3 Iron Bows to Nuzzuo."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Dual Fish Knives"
+      ],
+      "like": [
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Joint-Relief Gloves",
+        "Kitten Figurine",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pickled Vegetables",
+        "Protection Figurine",
+        "Select Coffee",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Training Pillar",
+        "Training Weights",
+        "Sharp Fishhook"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Nydine": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 30,
+      "spd": 45,
+      "dex": 40,
+      "def": 30,
+      "res": 25,
+      "lck": 35,
+      "cha": 35,
+      "total": 325
+    },
+    "boons": [
+      "axe",
+      "blackMagic",
+      "riding",
+      "flying"
+    ],
+    "banes": [
+      "gauntlet",
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Barge Through",
+        "description": "[Cavalry] Can move through foe's space. (Cannot move through large-scale foes.)"
+      },
+      "equippable": {
+        "name": "At a Gallop",
+        "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1).\n[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1)."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 1",
+        "6 Renown",
+        "Give 2 Bronze Axes to Nydine."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "5 Renown",
+        "Give 2 Bronze Axes to Nydine."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "5 Renown",
+        "Give 3 Iron Axes to Nydine."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give 3 Iron Axes to Nydine."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Saraminian Sweets"
+      ],
+      "like": [
+        "Wing Fletching",
+        "Kitten Figurine",
+        "Eastern Love Story",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Eastern Tea Leaves",
+        "Training Weights",
+        "Village Recipes"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Olympia": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 50,
+      "spd": 35,
+      "dex": 35,
+      "def": 30,
+      "res": 40,
+      "lck": 40,
+      "cha": 40,
+      "total": 340
+    },
+    "boons": [
+      "axe",
+      "whiteMagic"
+    ],
+    "banes": [
+      "spear"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Competitive Zeal",
+        "description": "When equipped with magic, grants Crit+10."
+      },
+      "equippable": {
+        "name": "Ardent Nosferatu",
+        "description": "When using Nosferatu, grants Atk+3, Crit+5 during combat.\nWhen using Nosferatu, grants Atk+5, Crit+10 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear all 3 of Olympia's requests."
+      ],
+      "dietrich": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Clear all 3 of Olympia's requests."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Clear all 3 of Olympia's requests."
+      ],
+      "leda": [
+        "Part I Chapter 3"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Tales of Adventure",
+        "Orgus Coffee",
+        "Eastern Tea Leaves",
+        "Eastern Earrings",
+        "Arrowhead Gem",
+        "Flower Painting",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Red Hair Clip",
+        "Shield Portrait",
+        "Eastern Black Silk",
+        "Blue-Rose Bouquet",
+        "History of a Master"
+      ],
+      "like": [
+        "Gaudy Bangle",
+        "Skin Balm",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Select Coffee",
+        "Southern Coffee",
+        "Exquisite Ring",
+        "Pack of Pastels"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Mascarina the Thief",
+        "(others?)"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Orchel": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 60,
+      "mag": 45,
+      "spd": 10,
+      "dex": 20,
+      "def": 60,
+      "res": 60,
+      "lck": 20,
+      "cha": 60,
+      "total": 365
+    },
+    "boons": [
+      "axe",
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "banes": [
+      "sword",
+      "riding",
+      "flying"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Solid and Sturdy",
+        "description": "Grants Def+5. Unit is armored. Cannot change class to cavalry or flying."
+      },
+      "equippable": {
+        "name": "Predictive Sense\nHarmonic Soul\nSelf-Repair",
+        "description": "If unit attacks first, grants Hit+20 to magic during combat.\nWhen healing an ally with magic, restores a little (some) HP to unit.\nAt start of unit's phase during Overblaze, restores a lot of HP to unit"
+      }
+    },
+    "bloodmark": {
+      "name": "The Apostle\nDuality",
+      "description": "20% chance to grant Hit+20 when attacking.\n25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part III First Section",
+        "Orchel's paralogue (10/18–10/20, during Chapter 11)"
+      ],
+      "dietrich": [
+        "Part III First Section",
+        "Orchel's paralogue (10/18–10/27, during Chapter 11)"
+      ],
+      "theodora": [
+        "Part III First Section",
+        "Orchel's paralogue (10/18–10/24, during Chapter 12)"
+      ],
+      "leda": [
+        "Part III First Section",
+        "Orchel's paralogue (10/18–10/27, during Chapter 11)"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Blue-Rose Bouquet",
+        "Flower Painting",
+        "Portrait of Yu Phas",
+        "Saraminian Sweets",
+        "Shield Portrait",
+        "Simple Pastries",
+        "Garum",
+        "Dual Fish Knives",
+        "History of a Master",
+        "Pegasus Panorama",
+        "Poems of the Greats",
+        "School Scandal"
+      ],
+      "like": [
+        "Exquisite Ring",
+        "Home-Recipe Book",
+        "Outdoor Cooking Set",
+        "Crimson Bull Figure",
+        "Herbal Recipe Guide",
+        "Horse-Grooming Kit",
+        "Jade Panther Figure",
+        "Kitten Figurine",
+        "Strong Seasonings",
+        "Tales of Adventure",
+        "Tales of the Arena",
+        "The Knight's Suitors",
+        "The Works of Dante",
+        "Trader's Handbook",
+        "Village Recipes"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Peppe": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 30,
+      "mag": 25,
+      "spd": 60,
+      "dex": 45,
+      "def": 30,
+      "res": 30,
+      "lck": 45,
+      "cha": 30,
+      "total": 325
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "infantry"
+    ],
+    "banes": [
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Hunter’s Snare",
+        "description": "In enemy's phase, if foe is damaged, unit attacks first during combat. Trigger % = 30."
+      },
+      "equippable": {
+        "name": "King’s Majesty",
+        "description": "If foe is damaged, grants Atk +2, Crit+5 during combat.\nIf foe is damaged, grants Atk +4, Crit+10 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 1",
+        "9 Renown",
+        "Clear Bertrand's paralogue (9/17–9/25, during Chapter 10)."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Bertrand's paralogue (9/17, during Chapter 9)."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 2",
+        "7 Renown",
+        "Clear Bertrand's paralogue (9/17–9/25, during Chapter 11)."
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Shield Portrait",
+        "Simple Pastries"
+      ],
+      "like": [
+        "Board-Game Tactics",
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Joint-Relief Gloves",
+        "Kitten Figurine",
+        "Magic-Trick Set",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pastry Cookbook",
+        "Protection Figurine",
+        "Sharp Fishhook",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "The Works of Dante",
+        "Training Pillar",
+        "Training Weights"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Peter": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 20,
+      "spd": 45,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 35,
+      "cha": 30,
+      "total": 320
+    },
+    "boons": [
+      "bow",
+      "infantry"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Steady Aim",
+        "description": "Grants Rng+1 when attacking with a bow combat art."
+      },
+      "equippable": {
+        "name": "Correct for Drift",
+        "description": "If unit's hit % ≥ 90, grants Hit+10 during combat.\nIf unit's hit % ≥ 75, grants Hit+20 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 1"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Peter 1 Phantom Ginji"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Give Peter 1 Phantom Ginji"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Give Peter 1 Phantom Ginji"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strong Cervi",
+        "Saraminian Sweets",
+        "Arrowhead Gem",
+        "Candy Crystals",
+        "Decorative Arrows",
+        "History of a Master",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Yarc Milk",
+        "Ginji Cervi",
+        "Wing Fletching",
+        "Kitten Figurine",
+        "Pastry Cookbook",
+        "Weak Cervi",
+        "Simple Pastries",
+        "Mellow Pastries",
+        "Coffee Pastries",
+        "Dagda Beard Grass",
+        "Mature Dried Cervi",
+        "Fragrant Pastries",
+        "Eastern Tea Leaves",
+        "Jamel Milk",
+        "Rare Spices",
+        "Ceremonial Spear"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "The Rending Ring"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Seteth": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 45,
+      "mag": 30,
+      "spd": 40,
+      "dex": 45,
+      "def": 40,
+      "res": 35,
+      "lck": 30,
+      "cha": 50,
+      "total": 360
+    },
+    "boons": [
+      "spear",
+      "axe",
+      "authority",
+      "flying"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Ready for Battle",
+        "description": "For the first combat in enemy's phase, unit attacks first. Trigger % = 50."
+      },
+      "equippable": {
+        "name": "Pass Judgement",
+        "description": "When Diadem of Balance triggers, grants Atk+4.\nWhen Diadem of Balance triggers, grants Atk+7."
+      }
+    },
+    "bloodmark": {
+      "name": "Balance",
+      "description": "3% chance to prevent counterattacks."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "6 Renown",
+        "Complete Seteth's request."
+      ],
+      "dietrich": [],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Complete Seteth's request."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Complete Seteth's request."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Sharp Fishhook",
+        "Poems of the Greats",
+        "Morfis Almanac",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Home-Recipe Book",
+        "Flexible Fishing Rod",
+        "Pastry Cookbook",
+        "Village Recipes",
+        "Sturdy Rucksack",
+        "Trader's Handbook",
+        "Common Coffee",
+        "Select Coffee",
+        "Southern Coffee",
+        "Huge Fish Eyeball",
+        "Herbal Recipe Guide",
+        "Orgus Coffee",
+        "Eastern Tea Leaves",
+        "Ceremonial Spear",
+        "Crimson Ghosh",
+        "Eastern Black Silk",
+        "Flower Painting",
+        "Shield Portrait",
+        "Young Ghosh",
+        "Everyday Scenes"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Sha Lan": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 35,
+      "dex": 50,
+      "def": 30,
+      "res": 45,
+      "lck": 35,
+      "cha": 40,
+      "total": 345
+    },
+    "boons": [
+      "spear",
+      "whiteMagic",
+      "authority"
+    ],
+    "banes": [
+      "sword"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Cooler Heads",
+        "description": "After using Draw Back, unit can use assist magic."
+      },
+      "equippable": {
+        "name": "Watchfulness",
+        "description": "Grants Spd+2 to adjacent allies.\nGrants Spd+4 to adjacent allies."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Clear Anatolia's paralogue (10/5–10/17, during Chapter 11) and answer questions correctly."
+      ],
+      "theodora": [],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Anatolia's paralogue (10/5–10/17, during Chapter 10) and answer questions correctly."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Portrait of Yu Phas",
+        "Special “Medicine”",
+        "Garum",
+        "Kitten Figurine",
+        "Blue-Rose Bouquet",
+        "Rare Spices"
+      ],
+      "like": [
+        "Common Coffee",
+        "Energizing Ghosh",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pastry Cookbook",
+        "Select Coffee"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Simon": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 50,
+      "mag": 20,
+      "spd": 35,
+      "dex": 40,
+      "def": 40,
+      "res": 25,
+      "lck": 50,
+      "cha": 35,
+      "total": 345
+    },
+    "boons": [
+      "sword",
+      "axe",
+      "infantry"
+    ],
+    "banes": [
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Close Call",
+        "description": "If unit's HP ≥ 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck."
+      },
+      "equippable": {
+        "name": "Devil’s Luck",
+        "description": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)\nAfter defeating a foe, grants Lck+2 until the end of the map. (Max +10)"
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown",
+        "Pay 500 Gold and pick tails on coin toss."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Pay 500 Gold and pick tails on coin toss."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "7 Renown",
+        "Pay 500 Gold and pick tails on coin toss."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "6 Renown",
+        "Pay 500 Gold and pick tails on coin toss."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Shield Portrait",
+        "Ceremonial Spear",
+        "History of a Master"
+      ],
+      "like": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Dual Fish Knives",
+        "Ebony Board Game",
+        "Exquisite Ring",
+        "Flower Painting",
+        "Joint-Relief Gloves",
+        "Protection Figurine",
+        "Huge Fish Eyeball",
+        "Sharp Fishhook",
+        "Pickled Vegetables",
+        "Solomon Coffee"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Sirocco": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 40,
+      "mag": 40,
+      "spd": 45,
+      "dex": 50,
+      "def": 35,
+      "res": 35,
+      "lck": 50,
+      "cha": 45,
+      "total": 380
+    },
+    "boons": [
+      "sword",
+      "blackMagic",
+      "whiteMagic",
+      "authority"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Goddess’s Favor",
+        "description": "After combat, restores 5 HP to unit."
+      },
+      "equippable": {
+        "name": "Wind’s Caprice",
+        "description": "Grants one of Avo+1, Avo+5, or Avo+20 during combat.\nGrants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Sirocco a copy of the Monument Verse"
+      ],
+      "dietrich": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Give Sirocco a copy of the Monument Verse"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 1",
+        "5 Renown",
+        "Give Sirocco a copy of the Monument Verse"
+      ],
+      "leda": [
+        "Part I Chapter 1"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Arrowhead Gem",
+        "Crimson Ghosh",
+        "Flower Painting",
+        "Portrait of Yu Phas",
+        "Shield Portrait",
+        "Tales of Adventure",
+        "Volcano Ghosh",
+        "Young Ghosh",
+        "Fragrant Pastries",
+        "History of a Master",
+        "Poems of the Greats"
+      ],
+      "like": [
+        "Crimson Bull Figure",
+        "Eastern Love Story",
+        "Jade Panther Figure",
+        "Joint-Relief Gloves",
+        "Light Shosh",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Pack of Pastels",
+        "Rustic Ghosh",
+        "Skin Balm",
+        "Young Shosh",
+        "Kitten Figurine",
+        "Jade Ghosh",
+        "Tome from Away"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Smyrnos",
+        "Kalla",
+        "Mars",
+        "Jurah",
+        "Aurora"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Credna"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Mascarina the Thief",
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Sofia": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 35,
+      "str": 30,
+      "mag": 45,
+      "spd": 30,
+      "dex": 40,
+      "def": 25,
+      "res": 40,
+      "lck": 30,
+      "cha": 40,
+      "total": 315
+    },
+    "boons": [
+      "bow",
+      "whiteMagic"
+    ],
+    "banes": [
+      "axe"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Healing Knowledge",
+        "description": "When healing an ally with magic, restores +10 HP."
+      },
+      "equippable": {
+        "name": "Distant Healing",
+        "description": "Grants Rng+1 to healing magic.\nGrants Rng+2 to healing magic."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 3",
+        "9 Renown"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 1",
+        "2 Renown"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Honey Milk",
+        "Blue-Rose Bouquet",
+        "Dual Fish Knives",
+        "Volcano Ghosh",
+        "Garum"
+      ],
+      "like": [
+        "Yarc Milk",
+        "Ginji Cervi",
+        "Honey Pastries",
+        "Arrowhead Gem",
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Jamel Milk",
+        "Kitten Figurine",
+        "Magic-Trick Set",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pastry Cookbook",
+        "Pickled Vegetables",
+        "Protection Figurine",
+        "Pure-White Cervi",
+        "Sharp Fishhook"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Smyrnos",
+        "Aurora"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [
+        "Everything"
+      ],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Tahonia": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 65,
+      "str": 50,
+      "mag": 5,
+      "spd": 20,
+      "dex": 40,
+      "def": 45,
+      "res": 35,
+      "lck": 20,
+      "cha": 40,
+      "total": 320
+    },
+    "boons": [
+      "gauntlet"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Python Technique",
+        "description": "When using a gauntlet combat art, unit makes a follow-up regardless of AS during combat. Trigger % = 15."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "dietrich": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "theodora": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ],
+      "leda": [
+        "Part III Fourth Section",
+        "Destroy the Ere Mountains gate and visit Dagsion",
+        "Joins automatically if survived in Part II"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "History of a Master"
+      ],
+      "like": [
+        "Full Sewing Kit",
+        "The Works of Dante"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Talimun": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 45,
+      "spd": 40,
+      "dex": 45,
+      "def": 35,
+      "res": 40,
+      "lck": 60,
+      "cha": 50,
+      "total": 400
+    },
+    "boons": [
+      "sword",
+      "blackMagic",
+      "authority"
+    ],
+    "banes": [
+      "armor"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Swashbuckler’s Luck",
+        "description": "Grants Lck+3.\nGrants Lck+5 to unit and all allies."
+      },
+      "equippable": {
+        "name": "Cannoning Flair\nWinds of Victory",
+        "description": "When using artillery, grants Hit+30 during combat.\nGrants Lck+3.\nGrants Lck+5 to unit and all allies."
+      }
+    },
+    "bloodmark": {
+      "name": "Duality",
+      "description": "25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part III First Section",
+        "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10)"
+      ],
+      "dietrich": [
+        "Part III First Section",
+        "Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9)"
+      ],
+      "theodora": [
+        "Part III First Section",
+        "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11)"
+      ],
+      "leda": [
+        "Part III First Section",
+        "Talimun's paralogue (on another path)"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Volcano Ghosh",
+        "Simple Pastries",
+        "Young Ghosh",
+        "Rare Spices",
+        "Southern Ghosh",
+        "Blue-Rose Bouquet",
+        "Crimson Ghosh",
+        "Flower Painting",
+        "History of a Master",
+        "Portrait of Yu Phas"
+      ],
+      "like": [
+        "Ceremonial Spear",
+        "Exquisite Ring",
+        "Arrowhead Gem",
+        "Crimson Bull Figure",
+        "Jade Panther Figure",
+        "Secret Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Theodora": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 70,
+      "str": 50,
+      "mag": 30,
+      "spd": 40,
+      "dex": 40,
+      "def": 40,
+      "res": 30,
+      "lck": 30,
+      "cha": 50,
+      "total": 380
+    },
+    "boons": [
+      "spear",
+      "whiteMagic",
+      "authority"
+    ],
+    "banes": [
+      "blackMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Royal Resolve",
+        "description": "Unit takes half damage when attacked. Trigger % = 30."
+      },
+      "equippable": {
+        "name": "Unstoppable Force\nDirect Hit",
+        "description": "Multiplies damage by 3 when attacking obstacles.\nDeals +10 damage when attacking with Blaze Arts. Trigger % = 30."
+      }
+    },
+    "bloodmark": {
+      "name": "Duality",
+      "description": "25% chance to grant Atk+3 when attacking."
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [
+        "Part I Chapter 1"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": [
+        "Dagda Beard Grass",
+        "Eastern Black Silk",
+        "Eastern Tea Leaves",
+        "Horse-Grooming Kit"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Mars",
+        "Credna"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Jurah"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Tialla": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 30,
+      "str": 25,
+      "mag": 45,
+      "spd": 35,
+      "dex": 40,
+      "def": 20,
+      "res": 40,
+      "lck": 50,
+      "cha": 45,
+      "total": 330
+    },
+    "boons": [
+      "blackMagic",
+      "whiteMagic",
+      "authority"
+    ],
+    "banes": [
+      "sword"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Tactician’s Wit",
+        "description": "Grants Rng+1 to combat arts usable on allies."
+      },
+      "equippable": {
+        "name": "Tactician’s Insight",
+        "description": "After combat, if unit attacked first, inflicts Avo-5 on foe throughout their next combat.\nAfter combat, if unit attacked first, inflicts Avo-10 on foe throughout their next combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 1"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "9 Renown",
+        "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "10 Renown",
+        "Clear Cai's paralogue (10/16–10/22 during Chapter 12; forced start 10/23 if accepted) then give 3000 gold."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Weak Cervi",
+        "Trader's Handbook",
+        "Garum",
+        "Tales of Adventure",
+        "Mature Dried Cervi",
+        "Blue-Rose Bouquet",
+        "Dual Fish Knives",
+        "Eastern Board Games",
+        "Ebony Board Game",
+        "Flower Painting",
+        "Morfis Almanac",
+        "Morfis Tea",
+        "Portrait of Yu Phas",
+        "Tome from Away",
+        "Eastern Board Game",
+        "Ebony Game Board",
+        "History of a Master",
+        "School Scandal"
+      ],
+      "like": [
+        "Yarc Milk",
+        "Ginji Cervi",
+        "Strategy Manuscript",
+        "Strong Cervi",
+        "Home-Recipe Book",
+        "Jamel Milk",
+        "Pastry Cookbook",
+        "Eastern Love Story",
+        "Village Recipes",
+        "Alecto Garum",
+        "Herbal Recipe Guide",
+        "Strong Seasonings",
+        "Smooth Garum",
+        "Eastern Tea Leaves",
+        "Pickled Bulbs",
+        "Poems of the Greats",
+        "Ahm Lu Cloth",
+        "Arrowhead Gem",
+        "Board-Game Tactics",
+        "Ceremonial Spear",
+        "Concentrated Garum",
+        "Crafting Knives",
+        "Decorative Arrows",
+        "Divination Bagua",
+        "Eastern Black Silk",
+        "Exquisite Ring",
+        "Horse-Grooming Kit",
+        "Joint-Relief Gloves",
+        "Niiza Garum",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pegasus Panorama",
+        "Potted Vegetables",
+        "Protection Figurine",
+        "Pure-White Cervi",
+        "Red Hair Clip",
+        "Sharp Dagger",
+        "Sharp Fishhook",
+        "Shield Portrait",
+        "Skin Balm",
+        "Spirit Board Game",
+        "Sturdy Rucksack",
+        "The Knight’s Suitors",
+        "The Works of Dante",
+        "Thick Foreign Tome",
+        "Everyday Scenes",
+        "Solomon Coffee",
+        "Tales of the Arena",
+        "The Knight's Suitors"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Mascarina the Thief",
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Tobias": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 55,
+      "str": 60,
+      "mag": 15,
+      "spd": 25,
+      "dex": 30,
+      "def": 45,
+      "res": 20,
+      "lck": 40,
+      "cha": 35,
+      "total": 325
+    },
+    "boons": [
+      "axe",
+      "riding",
+      "armor"
+    ],
+    "banes": [
+      "sword"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Power Arts",
+        "description": "Grants Atk+3 when attacking with a combat art."
+      },
+      "equippable": {
+        "name": "All-Out Attack",
+        "description": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30.\nMultiplies damage by 1.5 when attacking with a combat art. Trigger % = 30."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [
+        "Part I Chapter 1"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Volcano Ghosh",
+        "Garum",
+        "Sun Ghosh"
+      ],
+      "like": [
+        "Alecto Garum",
+        "Dagda Beard Grass",
+        "Eastern Black Silk",
+        "Eastern Tea Leaves",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Horse-Grooming Kit",
+        "Huge Fish Eyeball",
+        "Jade Ghosh",
+        "Kitten Figurine",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Pastry Cookbook",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Sharp Fishhook",
+        "Smooth Garum",
+        "Southern Ghosh",
+        "Strong Seasonings",
+        "Sturdy Rucksack",
+        "Training Bracelet",
+        "Village Recipes",
+        "Wing Fletching",
+        "Young Ghosh"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Mars"
+      ],
+      "neutral": [],
+      "dislike": [
+        "Jurah"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "The Rending Ring",
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Troy": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 45,
+      "mag": 45,
+      "spd": 50,
+      "dex": 40,
+      "def": 30,
+      "res": 30,
+      "lck": 30,
+      "cha": 30,
+      "total": 340
+    },
+    "boons": [
+      "gauntlet",
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Yun Shou",
+        "description": "When equipped with gauntlets, grants Hit+10."
+      },
+      "equippable": {
+        "name": "Modified Weapon",
+        "description": "When equipped with Zerberus, attacks are effective vs. flying.\nWhen equipped with Zerberus, attacks are effective+ vs. flying."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Prologue: Descent Chapter 2"
+      ],
+      "dietrich": [
+        "Prologue: Descent Chapter 2"
+      ],
+      "theodora": [
+        "Prologue: Descent Chapter 2"
+      ],
+      "leda": [
+        "Prologue: Descent Chapter 2"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "History of a Master",
+        "Morfis Almanac",
+        "Portrait of Yu Phas",
+        "Rancid Garum"
+      ],
+      "like": [
+        "Ahm Lu Cloth",
+        "Board-Game Tactics",
+        "Candy Crystals",
+        "Flower Painting",
+        "Fodlan Tea",
+        "Magic-Trick Set",
+        "Mature Dried Cervi",
+        "Spirit Board Game",
+        "Strong Cervi",
+        "Tome from Away",
+        "Weak Cervi"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Ultand": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 45,
+      "str": 40,
+      "mag": 40,
+      "spd": 35,
+      "dex": 40,
+      "def": 35,
+      "res": 45,
+      "lck": 55,
+      "cha": 50,
+      "total": 385
+    },
+    "boons": [
+      "spear",
+      "whiteMagic",
+      "flying"
+    ],
+    "banes": [
+      "sword"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Patch Up",
+        "description": "After an adjacent ally's combat, restores a little HP to that ally."
+      },
+      "equippable": {
+        "name": "Pray for Safety",
+        "description": "Grants Ddg+10 to adjacent allies.\nGrants Ddg+20 to adjacent allies."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 6"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "5 Renown",
+        "Give Ultand her Mother's Gift"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "6 Renown",
+        "Give Ultand her Mother's Gift"
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Give Ultand her Mother's Gift"
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Blue-Rose Bouquet",
+        "Dual Fish Knives",
+        "Garum",
+        "Portrait of Yu Phas",
+        "Rancid Garum",
+        "Tales of Adventure",
+        "Village Recipes",
+        "Secret Ghosh",
+        "History of a Master",
+        "Legendary Garum"
+      ],
+      "like": [
+        "Ahm Lu Cloth",
+        "Aromatic Shosh",
+        "Arrowhead Gem",
+        "Ceremonial Spear",
+        "Concentrated Garum",
+        "Crafting Knives",
+        "Crimson Ghosh",
+        "Decorative Arrows",
+        "Divination Bagua",
+        "Eastern Black Silk",
+        "Eastern Board Games",
+        "Eastern Love Story",
+        "Ebony Board Game",
+        "Exquisite Ring",
+        "Flower Painting",
+        "Fodlan Tea",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Horse-Grooming Kit",
+        "Imitation Medal",
+        "Jade Ghosh",
+        "Joint-Relief Gloves",
+        "Morfis Almanac",
+        "Morfis Tea",
+        "Niiza Garum",
+        "Orgus Coffee",
+        "Outdoor Cooking Set",
+        "Pack of Pastels",
+        "Pastry Cookbook",
+        "Pegasus Panorama",
+        "Rare Southern Seeds",
+        "Red Hair Clip",
+        "Rugged Blade",
+        "School Scandal",
+        "Sharp Dagger",
+        "Sharp Fishhook",
+        "Shield Portrait",
+        "Skin Balm",
+        "Southern Ghosh",
+        "Special “Medicine”",
+        "Spirit Board Game",
+        "Strong Seasonings",
+        "Sturdy Rucksack",
+        "The Knight’s Suitors",
+        "The Works of Dante",
+        "Thick Foreign Tome",
+        "Tome from Away",
+        "Training Pillar",
+        "Volcano Ghosh",
+        "Candy Crystals",
+        "Full Sewing Kit"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [
+        "Kalla",
+        "Mars",
+        "Aurora"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Ursula": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 35,
+      "mag": 35,
+      "spd": 50,
+      "dex": 50,
+      "def": 35,
+      "res": 30,
+      "lck": 40,
+      "cha": 45,
+      "total": 360
+    },
+    "boons": [
+      "sword",
+      "bow",
+      "gauntlet"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Management Skills",
+        "description": "Allows storage access to unit and allies within 2 spaces."
+      },
+      "equippable": {
+        "name": "Seize the Chance",
+        "description": "Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2.\nMultiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2."
+      }
+    },
+    "bloodmark": {
+      "name": "Fetters",
+      "description": "5% chance to multiply damage by 1.2 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "10 Renown",
+        "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10) then select Agree 3 times"
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Complete Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9) then select Agree 3 times"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11) then select Agree 3 times"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [
+        "Flower Painting",
+        "Pegasus Panorama",
+        "Portrait of Yu Phas",
+        "Shield Portrait",
+        "History of a Master"
+      ],
+      "like": [
+        "Kitten Figurine",
+        "Mane Ornament",
+        "Eastern Love Story",
+        "Pack of Pastels",
+        "Arrowhead Gem",
+        "Common Coffee",
+        "Crimson Ghosh",
+        "Ahm Lu Cloth",
+        "Blue-Rose Bouquet",
+        "Coffee Pastries",
+        "Eastern Black Silk",
+        "Ebony Board Game",
+        "Orgus Coffee",
+        "Select Coffee",
+        "Southern Coffee"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "The Rending Ring",
+        "Again to You"
+      ],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Yang Jie": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 50,
+      "str": 30,
+      "mag": 40,
+      "spd": 35,
+      "dex": 35,
+      "def": 30,
+      "res": 40,
+      "lck": 40,
+      "cha": 25,
+      "total": 325
+    },
+    "boons": [
+      "axe",
+      "whiteMagic"
+    ],
+    "banes": [
+      "sword",
+      "riding"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Monkly Havoc",
+        "description": "After defeating a foe, recovers HP equal to max HP. Trigger % = Lck ÷ 2."
+      },
+      "equippable": {
+        "name": "Robust Health",
+        "description": "Grants Shld+3 when attacked. Trigger % = unit's remaining HP.\nGrants Shld+5 when attacked. Trigger % = unit's remaining HP."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 3",
+        "Support Lv 2",
+        "3 Renown",
+        "Answer Yang Jie’s 3 questions correctly."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 1",
+        "2 Renown"
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "9 Renown",
+        "Answer Yang Jie’s 3 questions correctly."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "8 Renown",
+        "Answer Yang Jie’s 3 questions correctly."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Eastern Tea Leaves",
+        "Kitten Figurine",
+        "Poems of the Greats",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Volcano Ghosh"
+      ],
+      "like": [
+        "Aromatic Shosh",
+        "Coffee Pastries",
+        "Common Coffee",
+        "Flexible Fishing Rod",
+        "Herbal Recipe Guide",
+        "Home-Recipe Book",
+        "Huge Fish Eyeball",
+        "Jade Ghosh",
+        "Light Shosh",
+        "Mature Ghosh",
+        "Mature Shosh",
+        "Orgus Coffee",
+        "Pastry Cookbook",
+        "Rustic Ghosh",
+        "Secret Ghosh",
+        "Select Coffee",
+        "Sharp Fishhook",
+        "Southern Coffee",
+        "Southern Ghosh",
+        "Sun Ghosh",
+        "The Works of Dante",
+        "Trader's Handbook",
+        "Village Recipes",
+        "Young Ghosh",
+        "Blue-Rose Bouquet"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [
+        "Mascarina the Thief",
+        "(others?)"
+      ],
+      "neutral": [],
+      "dislike": [
+        "The Rending Ring"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Zarcone": {
+    "type": "playable",
+    "growthRates": {
+      "hp": 40,
+      "str": 30,
+      "mag": 20,
+      "spd": 35,
+      "dex": 60,
+      "def": 30,
+      "res": 25,
+      "lck": 30,
+      "cha": 15,
+      "total": 285
+    },
+    "boons": [
+      "sword",
+      "axe"
+    ],
+    "banes": [
+      "blackMagic",
+      "whiteMagic"
+    ],
+    "personalSkills": {
+      "inherent": {
+        "name": "Hatchet Man",
+        "description": "When equipped with an axe, grants Hit+10."
+      },
+      "equippable": {
+        "name": "Vulgar Conduct",
+        "description": "If foe's HP ≤ 50%, grants Hit+20 during combat.\nIf foe's HP ≤ 50%, grants Hit+20, Atk+3 during combat."
+      }
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 5",
+        "Support Lv 3",
+        "8 Renown",
+        "Refuse to pay thrice then pay Zarcone 10 Gold."
+      ],
+      "dietrich": [
+        "Part I Chapter 4",
+        "Support Lv 3",
+        "7 Renown",
+        "Refuse to pay thrice then pay Zarcone 10 Gold."
+      ],
+      "theodora": [
+        "Part I Chapter 5",
+        "Support Lv 1",
+        "4 Renown",
+        "Refuse to pay thrice then pay Zarcone 10 Gold."
+      ],
+      "leda": [
+        "Part I Chapter 4",
+        "Support Lv 2",
+        "5 Renown",
+        "Refuse to pay thrice then pay Zarcone 10 Gold."
+      ]
+    },
+    "gifts": {
+      "love": [
+        "Eastern Tea Leaves",
+        "Secret Ghosh"
+      ],
+      "like": [
+        "Eastern Earrings",
+        "Gaudy Bangle",
+        "Pickled Bulbs",
+        "Potted Vegetables",
+        "Strategy Manuscript",
+        "Tales of Adventure",
+        "Wing Fletching",
+        "Herbal Recipe Guide"
+      ]
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "Smyrnos",
+        "Mars",
+        "Jurah",
+        "Credna",
+        "Aurora"
+      ]
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": [
+        "The Rending Ring",
+        "Again to You"
+      ]
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Anna": {
+    "type": "npc",
+    "growthRates": {
+      "hp": 35,
+      "str": 35,
+      "mag": 35,
+      "spd": 40,
+      "dex": 40,
+      "def": 30,
+      "res": 35,
+      "lck": 50,
+      "cha": 35,
+      "total": 335
+    },
+    "boons": [],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Elephant Rush",
+        "description": "[Cavalry] If unit is an elephant rider, grants +1 use to staggering blows."
+      },
+      "equippable": null
+    },
+    "bloodmark": {
+      "name": "The Fanatic",
+      "description": "3% chance to gain Atk+5 and Hit+5 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
+      ],
+      "dietrich": [
+        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
+      ],
+      "theodora": [
+        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 11)"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Aurora": {
+    "type": "npc",
+    "growthRates": {
+      "hp": 50,
+      "str": 35,
+      "mag": 40,
+      "spd": 20,
+      "dex": 35,
+      "def": 35,
+      "res": 35,
+      "lck": 35,
+      "cha": 20,
+      "total": 305
+    },
+    "boons": [
+      "spear",
+      "blackMagic",
+      "whiteMagic",
+      "authority",
+      "infantry"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Blinking Star",
+        "description": "If foe is undead, grants Shld+5 during combat."
+      },
+      "equippable": {
+        "name": "[Unknown]",
+        "description": null
+      }
+    },
+    "bloodmark": {
+      "name": "The Apostle",
+      "description": "20% chance to grant Hit+20 when attacking."
+    },
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 9 (Guest)",
+        "Part I Chapter 11 (Guest)"
+      ],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Castor": {
+    "type": "npc",
+    "growthRates": {
+      "hp": 55,
+      "str": 50,
+      "mag": 30,
+      "spd": 45,
+      "dex": 55,
+      "def": 45,
+      "res": 30,
+      "lck": 35,
+      "cha": 50,
+      "total": 395
+    },
+    "boons": [
+      "spear",
+      "riding"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Windstorm",
+        "description": "Grants Hit/Avo +15 during combat."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [
+        "Part I Chapter 2 (Guest)",
+        "Part I Chapter 11 (Guest)"
+      ],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Long": {
+    "type": "npc",
+    "growthRates": {
+      "hp": 50,
+      "str": 45,
+      "mag": 50,
+      "spd": 50,
+      "dex": 60,
+      "def": 40,
+      "res": 40,
+      "lck": 30,
+      "cha": 40,
+      "total": 405
+    },
+    "boons": [
+      "gauntlet",
+      "authority",
+      "infantry"
+    ],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Qi Mastery",
+        "description": "Grants Avo+40 when attacked. Trigger % = Dex."
+      },
+      "equippable": null
+    },
+    "bloodmark": null,
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [
+        "Part I Chapter 9 (Guest)"
+      ],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Mars": {
+    "type": "npc",
+    "growthRates": {
+      "hp": null,
+      "str": null,
+      "mag": null,
+      "spd": null,
+      "dex": null,
+      "def": null,
+      "res": null,
+      "lck": null,
+      "cha": null,
+      "total": null
+    },
+    "boons": [],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Warrior's Eyes",
+        "description": "Grants Avo+20 during combat against a foe 2+ spaces away."
+      },
+      "equippable": null
+    },
+    "bloodmark": {
+      "name": "The Victor",
+      "description": "10% chance to grant Atk+5 when attacking."
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Jurah": {
+    "type": "npc",
+    "growthRates": {
+      "hp": null,
+      "str": null,
+      "mag": null,
+      "spd": null,
+      "dex": null,
+      "def": null,
+      "res": null,
+      "lck": null,
+      "cha": null,
+      "total": null
+    },
+    "boons": [],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "[Unknown]",
+        "description": "[Unknown]"
+      },
+      "equippable": {
+        "name": "[Unknown]",
+        "description": null
+      }
+    },
+    "bloodmark": {
+      "name": "Revival",
+      "description": "20% chance to restore a little HP to unit when attacking."
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  },
+  "Smyrnos": {
+    "type": "npc",
+    "growthRates": {
+      "hp": null,
+      "str": null,
+      "mag": null,
+      "spd": null,
+      "dex": null,
+      "def": null,
+      "res": null,
+      "lck": null,
+      "cha": null,
+      "total": null
+    },
+    "boons": [],
+    "banes": [],
+    "personalSkills": {
+      "inherent": {
+        "name": "Arcane Wisdom",
+        "description": "[Unknown]"
+      },
+      "equippable": {
+        "name": "[Unknown]",
+        "description": null
+      }
+    },
+    "bloodmark": {
+      "name": "[Macuil]",
+      "description": null
+    },
+    "recruitment": {
+      "cai": [],
+      "dietrich": [],
+      "theodora": [],
+      "leda": []
+    },
+    "gifts": {
+      "love": [],
+      "like": []
+    },
+    "temples": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "meals": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "plays": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    },
+    "roles": {
+      "love": [],
+      "like": [],
+      "neutral": [],
+      "dislike": []
+    }
+  }
+}
