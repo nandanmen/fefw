@@ -1,6 +1,5 @@
 {
   "Alexandra": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 35,
@@ -30,7 +29,7 @@
         "Soar"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -381,7 +380,6 @@
     }
   },
   "Anatolia": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -411,7 +409,7 @@
         "Continuum"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -718,7 +716,6 @@
     }
   },
   "Aswan": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -743,7 +740,9 @@
       ],
       "equippable": []
     },
-    "bloodmark": "The Earth",
+    "bloodmarks": [
+      "The Earth"
+    ],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -1032,7 +1031,6 @@
     }
   },
   "Benditz": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 35,
@@ -1061,7 +1059,7 @@
         "Chariot Stagger"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -1385,7 +1383,6 @@
     }
   },
   "Bertrand": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 55,
@@ -1417,7 +1414,10 @@
         "Sen No Sen"
       ]
     },
-    "bloodmark": "The Victor\nDuality",
+    "bloodmarks": [
+      "The Victor",
+      "Duality"
+    ],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -1715,7 +1715,6 @@
     }
   },
   "Bonaventure": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -1747,7 +1746,7 @@
         "Additional Intel"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": null,
@@ -2051,7 +2050,6 @@
     }
   },
   "Buccar": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 50,
@@ -2082,7 +2080,7 @@
         "Retaliatory Blow"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -2394,7 +2392,6 @@
     }
   },
   "Cai": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -2425,7 +2422,10 @@
         "Flamekeeper"
       ]
     },
-    "bloodmark": "The Apostle\nDuality",
+    "bloodmarks": [
+      "The Apostle",
+      "Duality"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -2707,7 +2707,6 @@
     }
   },
   "Catania": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -2736,7 +2735,7 @@
         "Wind My Friend"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -3065,7 +3064,6 @@
     }
   },
   "Centurio": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -3090,7 +3088,7 @@
       ],
       "equippable": []
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -3400,7 +3398,6 @@
     }
   },
   "Creek": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 50,
@@ -3424,7 +3421,7 @@
       ],
       "equippable": []
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -3694,7 +3691,6 @@
     }
   },
   "Dadao": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 55,
@@ -3724,7 +3720,7 @@
         "Full Strength"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -4048,7 +4044,6 @@
     }
   },
   "Dante": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 30,
@@ -4077,7 +4072,7 @@
         "Dramatic Effect"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -4429,7 +4424,6 @@
     }
   },
   "Diego": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -4458,7 +4452,7 @@
         "No Mercy"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -4763,7 +4757,6 @@
     }
   },
   "Dietrich": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 45,
@@ -4791,7 +4784,9 @@
         "Bestial Impulse"
       ]
     },
-    "bloodmark": "The Endless",
+    "bloodmarks": [
+      "The Endless"
+    ],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -5075,7 +5070,6 @@
     }
   },
   "Eshmel": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 45,
@@ -5101,7 +5095,9 @@
         "Scorching Sun"
       ]
     },
-    "bloodmark": "The Auger",
+    "bloodmarks": [
+      "The Auger"
+    ],
     "recruitment": {
       "cai": {
         "part": 0,
@@ -5383,7 +5379,6 @@
     }
   },
   "Esmeralda": {
-    "type": "playable",
     "growthRates": {
       "hp": 55,
       "str": 55,
@@ -5413,7 +5408,9 @@
         "Throwing Arm"
       ]
     },
-    "bloodmark": "Valor",
+    "bloodmarks": [
+      "Valor"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -5749,7 +5746,6 @@
     }
   },
   "Fabio": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 25,
@@ -5777,7 +5773,7 @@
         "Dark Secrets"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -6082,7 +6078,6 @@
     }
   },
   "Fianna": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 35,
@@ -6112,7 +6107,9 @@
         "Gift of Faith"
       ]
     },
-    "bloodmark": "Revival (Bloodmark)",
+    "bloodmarks": [
+      "Revival (Bloodmark)"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -6419,7 +6416,6 @@
     }
   },
   "Gaitz": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 50,
@@ -6449,7 +6445,7 @@
         "Flashing Fang"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -6770,7 +6766,6 @@
     }
   },
   "Goliath": {
-    "type": "playable",
     "growthRates": {
       "hp": 55,
       "str": 60,
@@ -6800,7 +6795,7 @@
         "Pin Down"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -7083,7 +7078,6 @@
     }
   },
   "Guzran": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -7113,7 +7107,7 @@
         "Top Form"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -7418,7 +7412,6 @@
     }
   },
   "Halvin": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -7446,7 +7439,7 @@
         "Halt Advance"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -7754,7 +7747,6 @@
     }
   },
   "Hong Hua": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 30,
@@ -7783,7 +7775,7 @@
         "Amplify Magic"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 0,
@@ -8079,7 +8071,6 @@
     }
   },
   "Inyoni": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 50,
@@ -8108,7 +8099,7 @@
         "Pierce"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -8400,7 +8391,6 @@
     }
   },
   "Io": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -8430,7 +8420,7 @@
         "Mounted Push"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -8735,7 +8725,6 @@
     }
   },
   "Jasmine": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 40,
@@ -8765,7 +8754,7 @@
         "Raging Counter"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -9071,7 +9060,6 @@
     }
   },
   "Jester": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -9100,7 +9088,7 @@
         "Flickering Edge"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -9409,7 +9397,6 @@
     }
   },
   "Kiroc": {
-    "type": "playable",
     "growthRates": {
       "hp": 55,
       "str": 40,
@@ -9434,7 +9421,7 @@
         "Menace"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -9741,7 +9728,6 @@
     }
   },
   "Klapka": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 40,
@@ -9766,7 +9752,7 @@
       ],
       "equippable": []
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -9950,7 +9936,6 @@
     }
   },
   "Leda": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -9980,7 +9965,10 @@
         "Improviso"
       ]
     },
-    "bloodmark": "The Earth\nDuality",
+    "bloodmarks": [
+      "The Earth",
+      "Duality"
+    ],
     "recruitment": {
       "cai": null,
       "dietrich": null,
@@ -10272,7 +10260,6 @@
     }
   },
   "Lilian": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -10300,7 +10287,7 @@
         "Upper Hand"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -10600,7 +10587,6 @@
     }
   },
   "Loretta": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -10629,7 +10615,7 @@
         "Peak Form"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -10947,7 +10933,6 @@
     }
   },
   "Ludia": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -10977,7 +10962,7 @@
         "Perception"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -11296,7 +11281,6 @@
     }
   },
   "Lysander": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -11328,7 +11312,7 @@
         "Accelerate"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -11630,7 +11614,6 @@
     }
   },
   "Majide": {
-    "type": "playable",
     "growthRates": {
       "hp": 65,
       "str": 50,
@@ -11660,7 +11643,7 @@
         "Fear Nothing"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -11956,7 +11939,6 @@
     }
   },
   "Mikaela": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 45,
@@ -11988,7 +11970,7 @@
         "Redblade’s Will"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -12296,7 +12278,6 @@
     }
   },
   "Mu": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 30,
@@ -12324,7 +12305,7 @@
         "Warrior’s Blood"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -12634,7 +12615,6 @@
     }
   },
   "Mu (with growth)": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 50,
@@ -12662,7 +12642,7 @@
         "Warrior’s Blood"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -12754,7 +12734,6 @@
     }
   },
   "Nathan": {
-    "type": "playable",
     "growthRates": {
       "hp": 55,
       "str": 60,
@@ -12779,7 +12758,7 @@
       ],
       "equippable": []
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -13053,7 +13032,6 @@
     }
   },
   "Nezha": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -13082,7 +13060,7 @@
         "Never Stop"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -13387,7 +13365,6 @@
     }
   },
   "Ninae": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -13416,7 +13393,9 @@
         "Spirits’ Guidance"
       ]
     },
-    "bloodmark": "Reflection",
+    "bloodmarks": [
+      "Reflection"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -13730,7 +13709,6 @@
     }
   },
   "Noctula": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 45,
@@ -13761,7 +13739,7 @@
         "Attuned"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -14053,7 +14031,6 @@
     }
   },
   "Nuzzuo": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 50,
@@ -14080,7 +14057,7 @@
         "Precision Strike"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -14379,7 +14356,6 @@
     }
   },
   "Nydine": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -14410,7 +14386,7 @@
         "At a Gallop"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -14707,7 +14683,6 @@
     }
   },
   "Olympia": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 35,
@@ -14735,7 +14710,7 @@
         "Ardent Nosferatu"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -15050,7 +15025,6 @@
     }
   },
   "Orchel": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 60,
@@ -15083,7 +15057,10 @@
         "Self-Repair"
       ]
     },
-    "bloodmark": "The Apostle\nDuality",
+    "bloodmarks": [
+      "The Apostle",
+      "Duality"
+    ],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -15372,7 +15349,6 @@
     }
   },
   "Peppe": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 30,
@@ -15401,7 +15377,7 @@
         "King’s Majesty"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -15698,7 +15674,6 @@
     }
   },
   "Peter": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -15726,7 +15701,7 @@
         "Correct for Drift"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -16036,7 +16011,6 @@
     }
   },
   "Seteth": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 45,
@@ -16064,7 +16038,9 @@
         "Pass Judgement"
       ]
     },
-    "bloodmark": "Balance",
+    "bloodmarks": [
+      "Balance"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -16365,7 +16341,6 @@
     }
   },
   "Sha Lan": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 30,
@@ -16394,7 +16369,7 @@
         "Watchfulness"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": {
@@ -16678,7 +16653,6 @@
     }
   },
   "Simon": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 50,
@@ -16707,7 +16681,7 @@
         "Devil’s Luck"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -17007,7 +16981,6 @@
     }
   },
   "Sirocco": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 40,
@@ -17037,7 +17010,7 @@
         "Wind’s Caprice"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -17361,7 +17334,6 @@
     }
   },
   "Sofia": {
-    "type": "playable",
     "growthRates": {
       "hp": 35,
       "str": 30,
@@ -17389,7 +17361,7 @@
         "Distant Healing"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -17694,7 +17666,6 @@
     }
   },
   "Tahonia": {
-    "type": "playable",
     "growthRates": {
       "hp": 65,
       "str": 50,
@@ -17717,7 +17688,7 @@
       ],
       "equippable": []
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -17942,7 +17913,6 @@
     }
   },
   "Talimun": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -17972,7 +17942,9 @@
         "Winds of Victory"
       ]
     },
-    "bloodmark": "Duality",
+    "bloodmarks": [
+      "Duality"
+    ],
     "recruitment": {
       "cai": {
         "part": 3,
@@ -18274,7 +18246,6 @@
     }
   },
   "Theodora": {
-    "type": "playable",
     "growthRates": {
       "hp": 70,
       "str": 50,
@@ -18304,7 +18275,9 @@
         "Direct Hit"
       ]
     },
-    "bloodmark": "Duality",
+    "bloodmarks": [
+      "Duality"
+    ],
     "recruitment": {
       "cai": null,
       "dietrich": null,
@@ -18575,7 +18548,6 @@
     }
   },
   "Tialla": {
-    "type": "playable",
     "growthRates": {
       "hp": 30,
       "str": 25,
@@ -18604,7 +18576,7 @@
         "Tactician’s Insight"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -18968,7 +18940,6 @@
     }
   },
   "Tobias": {
-    "type": "playable",
     "growthRates": {
       "hp": 55,
       "str": 60,
@@ -18997,7 +18968,7 @@
         "All-Out Attack"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": null,
       "dietrich": null,
@@ -19294,7 +19265,6 @@
     }
   },
   "Troy": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 45,
@@ -19321,7 +19291,7 @@
         "Modified Weapon"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 0,
@@ -19602,7 +19572,6 @@
     }
   },
   "Ultand": {
-    "type": "playable",
     "growthRates": {
       "hp": 45,
       "str": 40,
@@ -19631,7 +19600,7 @@
         "Pray for Safety"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -19986,7 +19955,6 @@
     }
   },
   "Ursula": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 35,
@@ -20013,7 +19981,9 @@
         "Seize the Chance"
       ]
     },
-    "bloodmark": "Fetters",
+    "bloodmarks": [
+      "Fetters"
+    ],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -20311,7 +20281,6 @@
     }
   },
   "Yang Jie": {
-    "type": "playable",
     "growthRates": {
       "hp": 50,
       "str": 30,
@@ -20340,7 +20309,7 @@
         "Robust Health"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -20660,7 +20629,6 @@
     }
   },
   "Zarcone": {
-    "type": "playable",
     "growthRates": {
       "hp": 40,
       "str": 30,
@@ -20689,7 +20657,7 @@
         "Vulgar Conduct"
       ]
     },
-    "bloodmark": null,
+    "bloodmarks": [],
     "recruitment": {
       "cai": {
         "part": 1,
@@ -20991,473 +20959,6 @@
           "Airfighter+"
         ]
       }
-    }
-  },
-  "Anna": {
-    "type": "npc",
-    "growthRates": {
-      "hp": 35,
-      "str": 35,
-      "mag": 35,
-      "spd": 40,
-      "dex": 40,
-      "def": 30,
-      "res": 35,
-      "lck": 50,
-      "cha": 35,
-      "total": 335
-    },
-    "boons": [],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Elephant Rush"
-      ],
-      "equippable": []
-    },
-    "bloodmark": "The Fanatic",
-    "recruitment": {
-      "cai": {
-        "part": null,
-        "chapter": null,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
-        ]
-      },
-      "dietrich": {
-        "part": null,
-        "chapter": null,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
-        ]
-      },
-      "theodora": {
-        "part": null,
-        "chapter": null,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 11)"
-        ]
-      },
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Aurora": {
-    "type": "npc",
-    "growthRates": {
-      "hp": 50,
-      "str": 35,
-      "mag": 40,
-      "spd": 20,
-      "dex": 35,
-      "def": 35,
-      "res": 35,
-      "lck": 35,
-      "cha": 20,
-      "total": 305
-    },
-    "boons": [
-      "spear",
-      "blackMagic",
-      "whiteMagic",
-      "authority",
-      "infantry"
-    ],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Blinking Star"
-      ],
-      "equippable": []
-    },
-    "bloodmark": "The Apostle",
-    "recruitment": {
-      "cai": {
-        "part": 1,
-        "chapter": 9,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Guest",
-          "Part I Chapter 11 (Guest)"
-        ]
-      },
-      "dietrich": null,
-      "theodora": null,
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Castor": {
-    "type": "npc",
-    "growthRates": {
-      "hp": 55,
-      "str": 50,
-      "mag": 30,
-      "spd": 45,
-      "dex": 55,
-      "def": 45,
-      "res": 30,
-      "lck": 35,
-      "cha": 50,
-      "total": 395
-    },
-    "boons": [
-      "spear",
-      "riding"
-    ],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Windstorm"
-      ],
-      "equippable": []
-    },
-    "bloodmark": null,
-    "recruitment": {
-      "cai": {
-        "part": 1,
-        "chapter": 2,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Guest",
-          "Part I Chapter 11 (Guest)"
-        ]
-      },
-      "dietrich": null,
-      "theodora": null,
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Long": {
-    "type": "npc",
-    "growthRates": {
-      "hp": 50,
-      "str": 45,
-      "mag": 50,
-      "spd": 50,
-      "dex": 60,
-      "def": 40,
-      "res": 40,
-      "lck": 30,
-      "cha": 40,
-      "total": 405
-    },
-    "boons": [
-      "gauntlet",
-      "authority",
-      "infantry"
-    ],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Qi Mastery"
-      ],
-      "equippable": []
-    },
-    "bloodmark": null,
-    "recruitment": {
-      "cai": null,
-      "dietrich": null,
-      "theodora": {
-        "part": 1,
-        "chapter": 9,
-        "support": null,
-        "renown": null,
-        "notes": [
-          "Guest"
-        ]
-      },
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Mars": {
-    "type": "npc",
-    "growthRates": {
-      "hp": null,
-      "str": null,
-      "mag": null,
-      "spd": null,
-      "dex": null,
-      "def": null,
-      "res": null,
-      "lck": null,
-      "cha": null,
-      "total": null
-    },
-    "boons": [],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Warrior's Eyes"
-      ],
-      "equippable": []
-    },
-    "bloodmark": "The Victor",
-    "recruitment": {
-      "cai": null,
-      "dietrich": null,
-      "theodora": null,
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Jurah": {
-    "type": "npc",
-    "growthRates": {
-      "hp": null,
-      "str": null,
-      "mag": null,
-      "spd": null,
-      "dex": null,
-      "def": null,
-      "res": null,
-      "lck": null,
-      "cha": null,
-      "total": null
-    },
-    "boons": [],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [],
-      "equippable": []
-    },
-    "bloodmark": "Revival (Bloodmark)",
-    "recruitment": {
-      "cai": null,
-      "dietrich": null,
-      "theodora": null,
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    }
-  },
-  "Smyrnos": {
-    "type": "npc",
-    "growthRates": {
-      "hp": null,
-      "str": null,
-      "mag": null,
-      "spd": null,
-      "dex": null,
-      "def": null,
-      "res": null,
-      "lck": null,
-      "cha": null,
-      "total": null
-    },
-    "boons": [],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Arcane Wisdom"
-      ],
-      "equippable": []
-    },
-    "bloodmark": null,
-    "recruitment": {
-      "cai": null,
-      "dietrich": null,
-      "theodora": null,
-      "leda": null
-    },
-    "gifts": {
-      "love": [],
-      "like": []
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
     }
   }
 }

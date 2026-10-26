@@ -80,11 +80,6 @@
       "description": "After combat, grants Atk+7 through unit's next combat. Trigger % = Mag ÷ 2"
     }
   },
-  "Arcane Wisdom": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": null
-  },
   "Ardent Nosferatu": {
     "type": "ability",
     "category": "personalEquippable",
@@ -456,11 +451,6 @@
     "type": "ability",
     "category": "personalInherent",
     "description": "After using Swap, grants Def+3 until unit's next phase."
-  },
-  "Blinking Star": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": "If foe is undead, grants Shld+5 during combat."
   },
   "Blizzard": {
     "type": "spell",
@@ -1419,11 +1409,6 @@
     "weight": "25",
     "crit": "0",
     "uses": "1"
-  },
-  "Elephant Rush": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": "[Cavalry] If unit is an elephant rider, grants +1 use to staggering blows."
   },
   "Elephant Vanguard": {
     "type": "ability",
@@ -3507,11 +3492,6 @@
     "category": "personalInherent",
     "description": "When using a gauntlet combat art, unit makes a follow-up regardless of AS during combat. Trigger % = 15."
   },
-  "Qi Mastery": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": "Grants Avo+40 when attacked. Trigger % = Dex."
-  },
   "Quick Draw": {
     "type": "ability",
     "category": "personalInherent",
@@ -4499,10 +4479,6 @@
     "type": "bloodmark",
     "description": "20% chance to grant Hit+20 when attacking."
   },
-  "The Apostle\nDuality": {
-    "type": "bloodmark",
-    "description": "20% chance to grant Hit+20 when attacking.\n25% chance to grant Atk+3 when attacking."
-  },
   "The Auger": {
     "type": "bloodmark",
     "description": "5% chance to grant Hit+100 when attacking."
@@ -4511,25 +4487,13 @@
     "type": "bloodmark",
     "description": "3% chance to grant Atk+7 when attacking."
   },
-  "The Earth\nDuality": {
-    "type": "bloodmark",
-    "description": "3% chance to grant Atk+7 when attacking.\n25% chance to grant Atk+3 when attacking."
-  },
   "The Endless": {
     "type": "bloodmark",
     "description": "10% chance to restore some HP to unit when attacking."
   },
-  "The Fanatic": {
-    "type": "bloodmark",
-    "description": "3% chance to gain Atk+5 and Hit+5 when attacking."
-  },
   "The Victor": {
     "type": "bloodmark",
     "description": "10% chance to grant Atk+5 when attacking."
-  },
-  "The Victor\nDuality": {
-    "type": "bloodmark",
-    "description": "10% chance to grant Atk+5 when attacking.\n25% chance to grant Atk+3 when attacking."
   },
   "Thoron": {
     "type": "spell",
@@ -4839,11 +4803,6 @@
     "uses": "1",
     "effect": "Moves an ally to a space within 5 spaces"
   },
-  "Warrior's Eyes": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": "Grants Avo+20 during combat against a foe 2+ spaces away."
-  },
   "Warrior’s Blood": {
     "type": "ability",
     "category": "personalEquippable",
@@ -4910,11 +4869,6 @@
     "type": "ability",
     "category": "personalEquippable",
     "description": "Grants Lck+3.\nGrants Lck+5 to unit and all allies."
-  },
-  "Windstorm": {
-    "type": "ability",
-    "category": "personalInherent",
-    "description": "Grants Hit/Avo +15 during combat."
   },
   "Windsweep": {
     "type": "combatArt",

@@ -230,30 +230,31 @@ def build(tabs):
             out.append(add_skill(n, entry))
         return out
 
-    def bloodmark(name, desc):
-        return add_skill(name, {"type": "bloodmark", "description": desc}) if name else None
+    def bloodmarks(names, descs):
+        """Register bloodmarks; returns their names. Several bloodmarks are listed one per line."""
+        names = [n.strip() for n in (names or "").split("\n") if n.strip()]
+        descs = [d.strip() for d in (descs or "").split("\n") if d.strip()]
+        return [add_skill(n, {"type": "bloodmark", "description": descs[i] if i < len(descs) else None})
+                for i, n in enumerate(names)]
 
-    characters, order, section = {}, [], "playable"
+    characters = {}
     for r in tabs["Characters"][2:]:
         name = cell(r, 0)
         if not name:
             continue
+        # NPCs and guest-only characters are listed after this heading; they can't be recruited.
         if name.startswith("NPCs"):
-            section = "npc"; continue
-        if name.startswith("Average"):
             break
         growths = {k: num(r, 1 + n) for n, k in enumerate(STATS)}
         growths["total"] = num(r, 10) if any(v is not None for v in growths.values()) else None
         bb = {k: (cell(r, 11 + n) or "").lower() for n, k in enumerate(SKILL_LINES)}
-        order.append(name)
         characters[name] = {
-            "type": section,
             "growthRates": growths,
             "boons": [k for k, v in bb.items() if v == "boon"],
             "banes": [k for k, v in bb.items() if v == "bane"],
             "personalSkills": {"inherent": personal(cell(r, 23), cell(r, 24), "personalInherent"),
                                "equippable": personal(cell(r, 25), cell(r, 26), "personalEquippable")},
-            "bloodmark": bloodmark(cell(r, 27), cell(r, 28)),
+            "bloodmarks": bloodmarks(cell(r, 27), cell(r, 28)),
             "recruitment": {p: recruitment(r, 29 + n) for n, p in enumerate(PATHS)},
             "gifts": prefs(r, 33, ["love", "like"]),
             "temples": prefs(r, 35, ["love", "like", "neutral", "dislike"]),
