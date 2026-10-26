@@ -310,8 +310,8 @@ SUPPORT_RANKS = ["C", "B", "A"]
 NO_SUPPORT = {"", "-", "."}
 # Misspelled partner names on the support sheet.
 PARTNER_ALIASES = {"Anatatolia": "Anatolia", "Urusla": "Ursula", "Lillian": "Lilian"}
-# Eshmel's own tab only says "most characters: A support in Part 3"; his partners come from their tabs.
-ESHMEL = "Eshmel"
+# Eshmel's supports are left out: his tab only says "most characters: A support in Part 3".
+SKIP_SUPPORTS = {"Eshmel"}
 
 
 def support_req(text):
@@ -336,7 +336,7 @@ def support_req(text):
 def build_supports(tabs, characters):
     found = {}
     for name, rows in tabs.items():
-        if name not in characters or name == ESHMEL:
+        if name not in characters or name in SKIP_SUPPORTS:
             continue
         header = next(i for i, r in enumerate(rows) if "Partner" in r)
         col = rows[header].index("Partner")
@@ -346,10 +346,9 @@ def build_supports(tabs, characters):
             if not partner or all(c in NO_SUPPORT for c in cells):
                 continue  # Notes rows have text in the partner column only.
             partner = PARTNER_ALIASES.get(partner, partner)
+            if partner in SKIP_SUPPORTS:
+                continue
             ranks = {rank: support_req(c) for rank, c in zip(SUPPORT_RANKS, cells) if c not in NO_SUPPORT}
-            if partner == ESHMEL:
-                for req in ranks.values():
-                    req["part"] = req["part"] or 3
             found[(name, partner)] = ranks
     # Supports are mutual, but some tabs list a rank the partner's tab omits; take the union,
     # preferring each character's own tab.
@@ -359,8 +358,7 @@ def build_supports(tabs, characters):
         for rank, req in ranks.items():
             if rank not in mine:
                 mine[rank] = req
-                if b != ESHMEL:
-                    one_sided.append(f"{b}-{a} {rank}")
+                one_sided.append(f"{b}-{a} {rank}")
     for c in characters.values():
         c["supports"] = {}
     for (a, b), ranks in sorted(found.items()):

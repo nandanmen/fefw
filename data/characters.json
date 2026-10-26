@@ -396,13 +396,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Gaitz": {
         "C": {
           "support": 2,
@@ -1532,13 +1525,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Ludia": {
         "C": {
           "support": 2,
@@ -2253,13 +2239,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Halvin": {
         "C": {
           "support": 2,
@@ -2760,13 +2739,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Jasmine": {
         "C": {
           "support": 2,
@@ -3253,13 +3225,6 @@
           "part": 3,
           "notes": []
         },
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
         "A": {
           "support": 4,
           "part": 3,
@@ -3770,13 +3735,6 @@
         "B": {
           "support": 3,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -4830,13 +4788,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -5300,13 +5251,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Gaitz": {
         "C": {
           "support": 2,
@@ -5743,13 +5687,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -6201,13 +6138,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -6629,344 +6559,7 @@
         ]
       }
     },
-    "supports": {
-      "Alexandra": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Benditz": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Bonaventure": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Buccar": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Cai": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Catania": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Dadao": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Dante": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Diego": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Dietrich": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Esmeralda": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Fabio": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Fianna": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Gaitz": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Goliath": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Guzran": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Halvin": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Hong Hua": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Inyoni": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Io": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Jasmine": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Jester": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Leda": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Lilian": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Loretta": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Ludia": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Lysander": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Majide": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Mikaela": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Mu": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Nezha": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Ninae": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Noctula": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Nydine": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Olympia": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Peppe": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Peter": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Sha Lan": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Simon": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Sirocco": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Sofia": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Theodora": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Tialla": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Tobias": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Ultand": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Ursula": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Yang Jie": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Zarcone": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      }
-    }
+    "supports": {}
   },
   "Esmeralda": {
     "growthRates": {
@@ -7399,13 +6992,6 @@
         "A": {
           "support": 4,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -7860,13 +7446,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -8284,13 +7863,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Ludia": {
         "C": {
           "support": 2,
@@ -8756,13 +8328,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Goliath": {
         "C": {
           "support": 2,
@@ -9172,13 +8737,6 @@
         "A": {
           "support": 4,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -9617,13 +9175,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Leda": {
         "C": {
           "support": 2,
@@ -10033,13 +9584,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Fabio": {
         "C": {
           "support": 2,
@@ -10428,13 +9972,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Sha Lan": {
         "C": {
           "support": 2,
@@ -10773,13 +10310,6 @@
         "B": {
           "support": 3,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       }
@@ -11128,13 +10658,6 @@
         "B": {
           "support": 3,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -11495,13 +11018,6 @@
         },
         "B": {
           "support": 3,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
           "part": 3,
           "notes": []
         }
@@ -11887,13 +11403,6 @@
           "part": 1,
           "notes": []
         },
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
         "A": {
           "support": 4,
           "part": 3,
@@ -12921,13 +12430,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -13414,13 +12916,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Gaitz": {
         "C": {
           "support": 2,
@@ -13896,13 +13391,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Goliath": {
         "C": {
           "support": 2,
@@ -14376,13 +13864,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -14824,13 +14305,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Esmeralda": {
         "C": {
           "support": 2,
@@ -15257,13 +14731,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Nezha": {
         "C": {
           "support": 2,
@@ -15635,13 +15102,6 @@
         "A": {
           "support": 4,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -16128,13 +15588,6 @@
         },
         "B": {
           "support": 3,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
           "part": 3,
           "notes": []
         }
@@ -16918,13 +16371,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Fabio": {
         "C": {
           "support": 2,
@@ -17371,13 +16817,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Lysander": {
         "C": {
           "support": 2,
@@ -17769,13 +17208,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Goliath": {
         "C": {
           "support": 2,
@@ -18482,13 +17914,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Lilian": {
         "C": {
           "support": 2,
@@ -18881,13 +18306,6 @@
       "Creek": {
         "C": {
           "support": 2,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
           "part": 3,
           "notes": []
         }
@@ -19696,13 +19114,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Mu": {
         "C": {
           "support": 2,
@@ -20105,13 +19516,6 @@
         },
         "B": {
           "support": 3,
-          "part": 3,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
           "part": 3,
           "notes": []
         }
@@ -20960,13 +20364,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Halvin": {
         "C": {
           "support": 2,
@@ -21374,13 +20771,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Fianna": {
         "C": {
           "support": 2,
@@ -21911,13 +21301,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Leda": {
         "C": {
           "support": 2,
@@ -22348,13 +21731,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Mikaela": {
         "C": {
           "support": 2,
@@ -23435,13 +22811,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Leda": {
         "B": {
           "support": 3,
@@ -24001,13 +23370,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Io": {
         "C": {
           "support": 2,
@@ -24463,13 +23825,6 @@
         "A": {
           "support": 4,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -25325,13 +24680,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Goliath": {
         "C": {
           "support": 2,
@@ -25775,13 +25123,6 @@
         "B": {
           "support": 3,
           "part": 1,
-          "notes": []
-        }
-      },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
           "notes": []
         }
       },
@@ -26234,13 +25575,6 @@
           "notes": []
         }
       },
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Loretta": {
         "C": {
           "support": 2,
@@ -26600,13 +25934,6 @@
       }
     },
     "supports": {
-      "Eshmel": {
-        "A": {
-          "support": 4,
-          "part": 3,
-          "notes": []
-        }
-      },
       "Gaitz": {
         "C": {
           "support": 2,
