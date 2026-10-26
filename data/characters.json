@@ -32,26 +32,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 7",
-        "Support Lv 2",
-        "7 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 7",
-        "Support Lv 3",
-        "8 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 8",
-        "Support Lv 1",
-        "6 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 7",
-        "Support Lv 3",
-        "10 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 7,
+        "support": 2,
+        "renown": 7,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 7,
+        "support": 3,
+        "renown": 8,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 8,
+        "support": 1,
+        "renown": 6,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 7,
+        "support": 3,
+        "renown": 10,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -405,22 +413,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part III First Section",
-        "Anatolia's paralogue (on another path)"
-      ],
-      "dietrich": [
-        "Part III First Section",
-        "Anatolia's paralogue (10/5–10/17, during Chapter 11)"
-      ],
-      "theodora": [
-        "Part III First Section",
-        "Anatolia's paralogue (on another path)"
-      ],
-      "leda": [
-        "Part III First Section",
-        "Anatolia's paralogue (10/5–10/17, during Chapter 10)"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Anatolia's paralogue (on another path)"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Anatolia's paralogue (10/5–10/17, during Chapter 11)"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Anatolia's paralogue (on another path)"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Anatolia's paralogue (10/5–10/17, during Chapter 10)"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -717,26 +745,46 @@
     },
     "bloodmark": "The Earth",
     "recruitment": {
-      "cai": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "dietrich": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "theodora": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "leda": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      }
     },
     "gifts": {
       "love": [],
@@ -1015,26 +1063,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 6",
-        "Support Lv 3",
-        "9 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "7 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 6",
-        "Support Lv 1",
-        "8 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 6,
+        "support": 3,
+        "renown": 9,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 7,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 6,
+        "support": 1,
+        "renown": 8,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -1363,22 +1419,42 @@
     },
     "bloodmark": "The Victor\nDuality",
     "recruitment": {
-      "cai": [
-        "Part III First Section",
-        "Bertrand's paralogue (9/17–9/25, during Chapter 10)"
-      ],
-      "dietrich": [
-        "Part III First Section",
-        "Bertrand's paralogue (9/17, during Chapter 9)"
-      ],
-      "theodora": [
-        "Part III First Section",
-        "Bertrand's paralogue (9/17–9/25, during Chapter 11)"
-      ],
-      "leda": [
-        "Part III First Section",
-        "Bertrand's paralogue (on another path)"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Bertrand's paralogue (9/17–9/25, during Chapter 10)"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Bertrand's paralogue (9/17, during Chapter 9)"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Bertrand's paralogue (9/17–9/25, during Chapter 11)"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Bertrand's paralogue (on another path)"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -1673,12 +1749,16 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [
-        "Part I Chapter 1"
-      ],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -2004,22 +2084,32 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 9; forced start 9/9 if accepted)"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 10; forced start 9/9 if accepted)"
-      ],
-      "leda": [
-        "Part I Chapter 1"
-      ]
+      "cai": null,
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 9; forced start 9/9 if accepted)"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Leda's Paralogue (accept 9/2–9/8 during Chapter 10; forced start 9/9 if accepted)"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -2337,12 +2427,16 @@
     },
     "bloodmark": "The Apostle\nDuality",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 1"
-      ],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -2644,26 +2738,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "10 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "8 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "2 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 10,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 8,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 2,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -2990,22 +3092,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part III Second Section",
-        "Clear Rescue Centurio Subquest then talk in Dagsion"
-      ],
-      "dietrich": [
-        "Part III Second Section",
-        "Clear Rescue Centurio Subquest then talk in Dagsion"
-      ],
-      "theodora": [
-        "Part III Second Section",
-        "Clear Rescue Centurio Subquest then talk in Dagsion"
-      ],
-      "leda": [
-        "Part III Second Section",
-        "Clear Rescue Centurio Subquest then talk in Dagsion"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear Rescue Centurio Subquest then talk in Dagsion"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear Rescue Centurio Subquest then talk in Dagsion"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear Rescue Centurio Subquest then talk in Dagsion"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear Rescue Centurio Subquest then talk in Dagsion"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -3304,16 +3426,26 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part II Chapter 2",
-        "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
-      ],
-      "theodora": [],
-      "leda": [
-        "Part II Chapter 2",
-        "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
-      ]
+      "cai": null,
+      "dietrich": {
+        "part": 2,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
+        ]
+      },
+      "theodora": null,
+      "leda": {
+        "part": 2,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Clear My Late Sister's Accessory Subquest then defeat during the chapter."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -3594,30 +3726,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 2 Kothar Gar to Dadao."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 2 Kothar Gar to Dadao."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "5 Renown",
-        "Give 2 Kothar Gar to Dadao."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "5 Renown",
-        "Give 2 Kothar Gar to Dadao."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 2 Kothar Gar to Dadao."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 2 Kothar Gar to Dadao."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 5,
+        "notes": [
+          "Give 2 Kothar Gar to Dadao."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 5,
+        "notes": [
+          "Give 2 Kothar Gar to Dadao."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -3935,30 +4079,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 8000 Gold to Dante."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "8 Renown",
-        "Give 8000 Gold to Dante."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 8000 Gold to Dante."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 8000 Gold to Dante."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 8000 Gold to Dante."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 8,
+        "notes": [
+          "Give 8000 Gold to Dante."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 8000 Gold to Dante."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 8000 Gold to Dante."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -4304,30 +4460,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "10 Renown",
-        "Clear Orchel's paralogue (10/18–10/20, during Chapter 11)"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "8 Renown",
-        "Clear Orchel's paralogue (10/18–10/24, during Chapter 12)"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Clear Orchel's paralogue (10/18–10/20, during Chapter 11)"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 8,
+        "notes": [
+          "Clear Orchel's paralogue (10/18–10/24, during Chapter 12)"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Orchel's paralogue (10/18–10/27, during Chapter 11)"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -4625,12 +4793,16 @@
     },
     "bloodmark": "The Endless",
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part I Chapter 1"
-      ],
-      "theodora": [],
-      "leda": []
+      "cai": null,
+      "dietrich": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -4931,18 +5103,34 @@
     },
     "bloodmark": "The Auger",
     "recruitment": {
-      "cai": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "dietrich": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "theodora": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "leda": [
-        "Prologue: Descent Chapter 1"
-      ]
+      "cai": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [],
@@ -5227,27 +5415,40 @@
     },
     "bloodmark": "Valor",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "7 Renown",
-        "Complete Esmeralda's request"
-      ],
-      "dietrich": [
-        "Part I Chapter 2"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Complete Esmeralda's request"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Complete Esmeralda's request"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 7,
+        "notes": [
+          "Complete Esmeralda's request"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Complete Esmeralda's request"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Complete Esmeralda's request"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -5578,17 +5779,24 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part I Chapter 1"
-      ],
-      "theodora": [],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Clear Dietrich's paralogue (10/16–11/1, during Chapter 11) and complete Fabio's request."
-      ]
+      "cai": null,
+      "dietrich": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": null,
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Clear Dietrich's paralogue (10/16–11/1, during Chapter 11) and complete Fabio's request."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -5906,30 +6114,42 @@
     },
     "bloodmark": "Revival (Bloodmark)",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 3000 Gold to Fianna."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 3000 Gold to Fianna."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 3000 Gold to Fianna."
-      ],
-      "leda": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 3000 Gold to Fianna."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 3000 Gold to Fianna."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 3000 Gold to Fianna."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 3000 Gold to Fianna."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 3000 Gold to Fianna."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -6231,15 +6451,18 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Clear Bertrand's paralogue (9/17, during Chapter 9) and reach Chapter 12."
-      ],
-      "theodora": [],
-      "leda": []
+      "cai": null,
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Clear Bertrand's paralogue (9/17, during Chapter 9) and reach Chapter 12."
+        ]
+      },
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -6579,30 +6802,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 3 Giants' Meat to Goliath."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 3 Giants' Meat to Goliath."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 3 Giants' Meat to Goliath."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 3 Giants' Meat to Goliath."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 3 Giants' Meat to Goliath."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 3 Giants' Meat to Goliath."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 3 Giants' Meat to Goliath."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 3 Giants' Meat to Goliath."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -6880,26 +7115,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 1",
-        "2 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "3 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 1,
+        "renown": 2,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 3,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -7205,30 +7448,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 10 Dates (material) to Halvin."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 10 Dates (material) to Halvin."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 10 Dates (material) to Halvin."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 10 Dates (material) to Halvin."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 10 Dates (material) to Halvin."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 10 Dates (material) to Halvin."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 10 Dates (material) to Halvin."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 10 Dates (material) to Halvin."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -7530,18 +7785,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "dietrich": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "theodora": [
-        "Prologue: Descent Chapter 1"
-      ],
-      "leda": [
-        "Prologue: Descent Chapter 1"
-      ]
+      "cai": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": {
+        "part": 0,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -7839,30 +8110,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 8",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 6000 Gold to Inyoni."
-      ],
-      "dietrich": [
-        "Part I Chapter 8",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 6000 Gold to Inyoni."
-      ],
-      "theodora": [
-        "Part I Chapter 9",
-        "Support Lv 1",
-        "9 Renown",
-        "Give 4000 Gold to Inyoni."
-      ],
-      "leda": [
-        "Part I Chapter 9",
-        "Support Lv 1",
-        "7 Renown",
-        "Give 3000 Gold to Inyoni."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 8,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 6000 Gold to Inyoni."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 8,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 6000 Gold to Inyoni."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 9,
+        "support": 1,
+        "renown": 9,
+        "notes": [
+          "Give 4000 Gold to Inyoni."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 9,
+        "support": 1,
+        "renown": 7,
+        "notes": [
+          "Give 3000 Gold to Inyoni."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -8149,30 +8432,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 4000 Gold to Io."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "3 Renown",
-        "Give 800 Gold to Io."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 4000 Gold to Io."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "6 Renown",
-        "Give 1500 Gold to Io."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 4000 Gold to Io."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 3,
+        "notes": [
+          "Give 800 Gold to Io."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 4000 Gold to Io."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 6,
+        "notes": [
+          "Give 1500 Gold to Io."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -8472,30 +8767,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 6",
-        "Support Lv 1",
-        "8 Renown",
-        "Give 2000 Gold to Jasmine."
-      ],
-      "dietrich": [
-        "Part I Chapter 6",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 5000 Gold to Jasmine."
-      ],
-      "theodora": [
-        "Part I Chapter 7",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 5000 Gold to Jasmine."
-      ],
-      "leda": [
-        "Part I Chapter 6",
-        "Support Lv 2",
-        "4 Renown",
-        "Give 500 Gold to Jasmine."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 6,
+        "support": 1,
+        "renown": 8,
+        "notes": [
+          "Give 2000 Gold to Jasmine."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 6,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 5000 Gold to Jasmine."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 7,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 5000 Gold to Jasmine."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 6,
+        "support": 2,
+        "renown": 4,
+        "notes": [
+          "Give 500 Gold to Jasmine."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -8795,30 +9102,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Complete Jester's Three Combat Quests."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Complete Jester's Three Combat Quests."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Complete Jester's Three Combat Quests."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Complete Jester's Three Combat Quests."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Complete Jester's Three Combat Quests."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Complete Jester's Three Combat Quests."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Complete Jester's Three Combat Quests."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Complete Jester's Three Combat Quests."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -9117,30 +9436,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 6",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 8 Pure Water to Kiroc."
-      ],
-      "dietrich": [
-        "Part I Chapter 6",
-        "Support Lv 1",
-        "4 Renown",
-        "Give 3 Pure Water to Kiroc."
-      ],
-      "theodora": [
-        "Part I Chapter 7",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 8 Pure Water to Kiroc."
-      ],
-      "leda": [
-        "Part I Chapter 5",
-        "Support Lv 1",
-        "4 Renown",
-        "Give 3 Pure Water to Kiroc."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 6,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 8 Pure Water to Kiroc."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 6,
+        "support": 1,
+        "renown": 4,
+        "notes": [
+          "Give 3 Pure Water to Kiroc."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 7,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 8 Pure Water to Kiroc."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 5,
+        "support": 1,
+        "renown": 4,
+        "notes": [
+          "Give 3 Pure Water to Kiroc."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -9437,26 +9768,46 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part III Fifth Section",
-        "Go to Dagsion if he survived",
-        "Theodora's Path must be cleared."
-      ],
-      "dietrich": [
-        "Part III Fifth Section",
-        "Go to Dagsion if he survived",
-        "Theodora's Path must be cleared."
-      ],
-      "theodora": [
-        "Part III Fifth Section",
-        "Go to Dagsion if he survived",
-        "Theodora's Path must be cleared."
-      ],
-      "leda": [
-        "Part III Fifth Section",
-        "Go to Dagsion if he survived",
-        "Theodora's Path must be cleared."
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 5,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Go to Dagsion if he survived",
+          "Theodora's Path must be cleared."
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 5,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Go to Dagsion if he survived",
+          "Theodora's Path must be cleared."
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 5,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Go to Dagsion if he survived",
+          "Theodora's Path must be cleared."
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 5,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Go to Dagsion if he survived",
+          "Theodora's Path must be cleared."
+        ]
+      }
     },
     "gifts": {
       "love": [],
@@ -9631,12 +9982,16 @@
     },
     "bloodmark": "The Earth\nDuality",
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [],
-      "leda": [
-        "Part I Chapter 1"
-      ]
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -9947,27 +10302,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "8 Renown",
-        "Give 5000 Gold to Lilian."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "8 Renown",
-        "Give 5000 Gold to Lilian."
-      ],
-      "theodora": [
-        "Part I Chapter 4"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "7 Renown",
-        "Give 5000 Gold to Lilian."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 8,
+        "notes": [
+          "Give 5000 Gold to Lilian."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 8,
+        "notes": [
+          "Give 5000 Gold to Lilian."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 7,
+        "notes": [
+          "Give 5000 Gold to Lilian."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -10263,30 +10631,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 3 Iron Swords to Loretta."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 3 Iron Swords to Loretta."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 3 Iron Swords to Loretta."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 3 Iron Swords to Loretta."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 3 Iron Swords to Loretta."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 3 Iron Swords to Loretta."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 3 Iron Swords to Loretta."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 3 Iron Swords to Loretta."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -10599,30 +10979,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Gather information at Callianeira Port and report back to Ludia"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Gather information at Callianeira Port and report back to Ludia"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Gather information at Callianeira Port and report back to Ludia"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Gather information at Callianeira Port and report back to Ludia"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Gather information at Callianeira Port and report back to Ludia"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Gather information at Callianeira Port and report back to Ludia"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Gather information at Callianeira Port and report back to Ludia"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Gather information at Callianeira Port and report back to Ludia"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -10938,27 +11330,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 5 Iron Spears to Lysander."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 5 Iron Spears to Lysander."
-      ],
-      "theodora": [
-        "Part I Chapter 4"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Give 5 Iron Spears to Lysander."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 5 Iron Spears to Lysander."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 5 Iron Spears to Lysander."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give 5 Iron Spears to Lysander."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -11257,30 +11662,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "5 Renown",
-        "Admit that you need Majide 3 times."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Admit that you need Majide 3 times."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown",
-        "Admit that you need Majide 3 times."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Admit that you need Majide 3 times."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 5,
+        "notes": [
+          "Admit that you need Majide 3 times."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Admit that you need Majide 3 times."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Admit that you need Majide 3 times."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Admit that you need Majide 3 times."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -11573,27 +11990,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 3000 Gold to Mikaela."
-      ],
-      "dietrich": [
-        "Part I Chapter 4"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 3000 Gold to Mikaela."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 3000 Gold to Mikaela."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 3000 Gold to Mikaela."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 3000 Gold to Mikaela."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 3000 Gold to Mikaela."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -11896,27 +12326,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "dietrich": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "leda": [
-        "Part I Chapter 1"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -12221,27 +12664,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "dietrich": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Mu 3 Glirmosa"
-      ],
-      "leda": [
-        "Part I Chapter 1"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Mu 3 Glirmosa"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -12325,16 +12781,26 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part II Chapter 3",
-        "Defeat with Creek."
-      ],
-      "theodora": [],
-      "leda": [
-        "Part II Chapter 3",
-        "Defeat with Creek."
-      ]
+      "cai": null,
+      "dietrich": {
+        "part": 2,
+        "chapter": 3,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Defeat with Creek."
+        ]
+      },
+      "theodora": null,
+      "leda": {
+        "part": 2,
+        "chapter": 3,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Defeat with Creek."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -12618,30 +13084,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 3 Sandworm Meat to Nezha."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 3 Sandworm Meat to Nezha."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "6 Renown",
-        "Give 3 Sandworm Meat to Nezha."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 3 Sandworm Meat to Nezha."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 3 Sandworm Meat to Nezha."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 3 Sandworm Meat to Nezha."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 6,
+        "notes": [
+          "Give 3 Sandworm Meat to Nezha."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 3 Sandworm Meat to Nezha."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -12940,30 +13418,42 @@
     },
     "bloodmark": "Reflection",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 1 Paradise Fish to Ninae."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 1 Paradise Fish to Ninae."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Give 1 Paradise Fish to Ninae."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Give 1 Paradise Fish to Ninae."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 1 Paradise Fish to Ninae."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 1 Paradise Fish to Ninae."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give 1 Paradise Fish to Ninae."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give 1 Paradise Fish to Ninae."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -13273,26 +13763,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 1",
-        "4 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "6 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 1",
-        "3 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 1,
+        "renown": 4,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 6,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 1,
+        "renown": 3,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -13584,30 +14082,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 6",
-        "Support Lv 2",
-        "6 Renown",
-        "Give 3 Iron Bows to Nuzzuo."
-      ],
-      "dietrich": [
-        "Part I Chapter 8",
-        "Support Lv 1",
-        "9 Renown",
-        "Give 2 Iron Bows to Nuzzuo."
-      ],
-      "theodora": [
-        "Part I Chapter 9",
-        "Support Lv 1",
-        "6 Renown",
-        "Give 3 Iron Bows to Nuzzuo."
-      ],
-      "leda": [
-        "Part I Chapter 8",
-        "Support Lv 3",
-        "9 Renown",
-        "Give 3 Iron Bows to Nuzzuo."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 6,
+        "support": 2,
+        "renown": 6,
+        "notes": [
+          "Give 3 Iron Bows to Nuzzuo."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 8,
+        "support": 1,
+        "renown": 9,
+        "notes": [
+          "Give 2 Iron Bows to Nuzzuo."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 9,
+        "support": 1,
+        "renown": 6,
+        "notes": [
+          "Give 3 Iron Bows to Nuzzuo."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 8,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give 3 Iron Bows to Nuzzuo."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -13902,30 +14412,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 1",
-        "6 Renown",
-        "Give 2 Bronze Axes to Nydine."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "5 Renown",
-        "Give 2 Bronze Axes to Nydine."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "5 Renown",
-        "Give 3 Iron Axes to Nydine."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give 3 Iron Axes to Nydine."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 1,
+        "renown": 6,
+        "notes": [
+          "Give 2 Bronze Axes to Nydine."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 5,
+        "notes": [
+          "Give 2 Bronze Axes to Nydine."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give 3 Iron Axes to Nydine."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give 3 Iron Axes to Nydine."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -14215,27 +14737,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear all 3 of Olympia's requests."
-      ],
-      "dietrich": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Clear all 3 of Olympia's requests."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Clear all 3 of Olympia's requests."
-      ],
-      "leda": [
-        "Part I Chapter 3"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear all 3 of Olympia's requests."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Clear all 3 of Olympia's requests."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Clear all 3 of Olympia's requests."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 3,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -14550,22 +15085,42 @@
     },
     "bloodmark": "The Apostle\nDuality",
     "recruitment": {
-      "cai": [
-        "Part III First Section",
-        "Orchel's paralogue (10/18–10/20, during Chapter 11)"
-      ],
-      "dietrich": [
-        "Part III First Section",
-        "Orchel's paralogue (10/18–10/27, during Chapter 11)"
-      ],
-      "theodora": [
-        "Part III First Section",
-        "Orchel's paralogue (10/18–10/24, during Chapter 12)"
-      ],
-      "leda": [
-        "Part III First Section",
-        "Orchel's paralogue (10/18–10/27, during Chapter 11)"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Orchel's paralogue (10/18–10/20, during Chapter 11)"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Orchel's paralogue (10/18–10/27, during Chapter 11)"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Orchel's paralogue (10/18–10/24, during Chapter 12)"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Orchel's paralogue (10/18–10/27, during Chapter 11)"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -14848,25 +15403,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 1",
-        "9 Renown",
-        "Clear Bertrand's paralogue (9/17–9/25, during Chapter 10)."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Bertrand's paralogue (9/17, during Chapter 9)."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 2",
-        "7 Renown",
-        "Clear Bertrand's paralogue (9/17–9/25, during Chapter 11)."
-      ],
-      "leda": []
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 1,
+        "renown": 9,
+        "notes": [
+          "Clear Bertrand's paralogue (9/17–9/25, during Chapter 10)."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Bertrand's paralogue (9/17, during Chapter 9)."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 2,
+        "renown": 7,
+        "notes": [
+          "Clear Bertrand's paralogue (9/17–9/25, during Chapter 11)."
+        ]
+      },
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -15164,27 +15728,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 1"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Peter 1 Phantom Ginji"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Give Peter 1 Phantom Ginji"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Give Peter 1 Phantom Ginji"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Peter 1 Phantom Ginji"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Give Peter 1 Phantom Ginji"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Give Peter 1 Phantom Ginji"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -15489,25 +16066,34 @@
     },
     "bloodmark": "Balance",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "6 Renown",
-        "Complete Seteth's request."
-      ],
-      "dietrich": [],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Complete Seteth's request."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Complete Seteth's request."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Complete Seteth's request."
+        ]
+      },
+      "dietrich": null,
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Complete Seteth's request."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Complete Seteth's request."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -15810,20 +16396,26 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Clear Anatolia's paralogue (10/5–10/17, during Chapter 11) and answer questions correctly."
-      ],
-      "theodora": [],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Anatolia's paralogue (10/5–10/17, during Chapter 10) and answer questions correctly."
-      ]
+      "cai": null,
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Clear Anatolia's paralogue (10/5–10/17, during Chapter 11) and answer questions correctly."
+        ]
+      },
+      "theodora": null,
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Anatolia's paralogue (10/5–10/17, during Chapter 10) and answer questions correctly."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -16117,30 +16709,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown",
-        "Pay 500 Gold and pick tails on coin toss."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Pay 500 Gold and pick tails on coin toss."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "7 Renown",
-        "Pay 500 Gold and pick tails on coin toss."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "6 Renown",
-        "Pay 500 Gold and pick tails on coin toss."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Pay 500 Gold and pick tails on coin toss."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Pay 500 Gold and pick tails on coin toss."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Pay 500 Gold and pick tails on coin toss."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Pay 500 Gold and pick tails on coin toss."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -16435,27 +17039,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Sirocco a copy of the Monument Verse"
-      ],
-      "dietrich": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Give Sirocco a copy of the Monument Verse"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 1",
-        "5 Renown",
-        "Give Sirocco a copy of the Monument Verse"
-      ],
-      "leda": [
-        "Part I Chapter 1"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Sirocco a copy of the Monument Verse"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Give Sirocco a copy of the Monument Verse"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 1,
+        "renown": 5,
+        "notes": [
+          "Give Sirocco a copy of the Monument Verse"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -16774,26 +17391,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 3",
-        "9 Renown"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 1",
-        "2 Renown"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 3,
+        "renown": 9,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 1,
+        "renown": 2,
+        "notes": []
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -17094,26 +17719,46 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "dietrich": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "theodora": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ],
-      "leda": [
-        "Part III Fourth Section",
-        "Destroy the Ere Mountains gate and visit Dagsion",
-        "Joins automatically if survived in Part II"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 4,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Destroy the Ere Mountains gate and visit Dagsion",
+          "Joins automatically if survived in Part II"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -17329,22 +17974,42 @@
     },
     "bloodmark": "Duality",
     "recruitment": {
-      "cai": [
-        "Part III First Section",
-        "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10)"
-      ],
-      "dietrich": [
-        "Part III First Section",
-        "Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9)"
-      ],
-      "theodora": [
-        "Part III First Section",
-        "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11)"
-      ],
-      "leda": [
-        "Part III First Section",
-        "Talimun's paralogue (on another path)"
-      ]
+      "cai": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10)"
+        ]
+      },
+      "dietrich": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9)"
+        ]
+      },
+      "theodora": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11)"
+        ]
+      },
+      "leda": {
+        "part": 3,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Talimun's paralogue (on another path)"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -17641,12 +18306,16 @@
     },
     "bloodmark": "Duality",
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [
-        "Part I Chapter 1"
-      ],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -17937,27 +18606,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 1"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "9 Renown",
-        "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "10 Renown",
-        "Clear Cai's paralogue (10/16–10/22 during Chapter 12; forced start 10/23 if accepted) then give 3000 gold."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Clear Cai's paralogue (10/16–10/22 during Chapter 12; forced start 10/23 if accepted) then give 3000 gold."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Clear Cai's paralogue (10/16–10/22 during Chapter 11; forced start 10/23 if accepted) then give 3000 gold."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -18317,12 +18999,16 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [
-        "Part I Chapter 1"
-      ],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": {
+        "part": 1,
+        "chapter": 1,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -18637,18 +19323,34 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Prologue: Descent Chapter 2"
-      ],
-      "dietrich": [
-        "Prologue: Descent Chapter 2"
-      ],
-      "theodora": [
-        "Prologue: Descent Chapter 2"
-      ],
-      "leda": [
-        "Prologue: Descent Chapter 2"
-      ]
+      "cai": {
+        "part": 0,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 0,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "theodora": {
+        "part": 0,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "leda": {
+        "part": 0,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": []
+      }
     },
     "gifts": {
       "love": [
@@ -18931,27 +19633,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 6"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "5 Renown",
-        "Give Ultand her Mother's Gift"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "6 Renown",
-        "Give Ultand her Mother's Gift"
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Give Ultand her Mother's Gift"
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 6,
+        "support": null,
+        "renown": null,
+        "notes": []
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 5,
+        "notes": [
+          "Give Ultand her Mother's Gift"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 6,
+        "notes": [
+          "Give Ultand her Mother's Gift"
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Give Ultand her Mother's Gift"
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -19300,25 +20015,34 @@
     },
     "bloodmark": "Fetters",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "10 Renown",
-        "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10) then select Agree 3 times"
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Complete Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9) then select Agree 3 times"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11) then select Agree 3 times"
-      ],
-      "leda": []
+      "cai": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 10,
+        "notes": [
+          "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 10) then select Agree 3 times"
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Complete Talimun's paralogue (9/17–9/19 or 10/1–10/12, during Chapter 9) then select Agree 3 times"
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Complete Talimun's paralogue (9/17–9/22 or 10/1–10/12, during Chapter 11) then select Agree 3 times"
+        ]
+      },
+      "leda": null
     },
     "gifts": {
       "love": [
@@ -19618,29 +20342,40 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 3",
-        "Support Lv 2",
-        "3 Renown",
-        "Answer Yang Jie’s 3 questions correctly."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 1",
-        "2 Renown"
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "9 Renown",
-        "Answer Yang Jie’s 3 questions correctly."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "8 Renown",
-        "Answer Yang Jie’s 3 questions correctly."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 3,
+        "support": 2,
+        "renown": 3,
+        "notes": [
+          "Answer Yang Jie’s 3 questions correctly."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 1,
+        "renown": 2,
+        "notes": []
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 9,
+        "notes": [
+          "Answer Yang Jie’s 3 questions correctly."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Answer Yang Jie’s 3 questions correctly."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -19956,30 +20691,42 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 5",
-        "Support Lv 3",
-        "8 Renown",
-        "Refuse to pay thrice then pay Zarcone 10 Gold."
-      ],
-      "dietrich": [
-        "Part I Chapter 4",
-        "Support Lv 3",
-        "7 Renown",
-        "Refuse to pay thrice then pay Zarcone 10 Gold."
-      ],
-      "theodora": [
-        "Part I Chapter 5",
-        "Support Lv 1",
-        "4 Renown",
-        "Refuse to pay thrice then pay Zarcone 10 Gold."
-      ],
-      "leda": [
-        "Part I Chapter 4",
-        "Support Lv 2",
-        "5 Renown",
-        "Refuse to pay thrice then pay Zarcone 10 Gold."
-      ]
+      "cai": {
+        "part": 1,
+        "chapter": 5,
+        "support": 3,
+        "renown": 8,
+        "notes": [
+          "Refuse to pay thrice then pay Zarcone 10 Gold."
+        ]
+      },
+      "dietrich": {
+        "part": 1,
+        "chapter": 4,
+        "support": 3,
+        "renown": 7,
+        "notes": [
+          "Refuse to pay thrice then pay Zarcone 10 Gold."
+        ]
+      },
+      "theodora": {
+        "part": 1,
+        "chapter": 5,
+        "support": 1,
+        "renown": 4,
+        "notes": [
+          "Refuse to pay thrice then pay Zarcone 10 Gold."
+        ]
+      },
+      "leda": {
+        "part": 1,
+        "chapter": 4,
+        "support": 2,
+        "renown": 5,
+        "notes": [
+          "Refuse to pay thrice then pay Zarcone 10 Gold."
+        ]
+      }
     },
     "gifts": {
       "love": [
@@ -20270,16 +21017,34 @@
     },
     "bloodmark": "The Fanatic",
     "recruitment": {
-      "cai": [
-        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
-      ],
-      "dietrich": [
-        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
-      ],
-      "theodora": [
-        "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 11)"
-      ],
-      "leda": []
+      "cai": {
+        "part": null,
+        "chapter": null,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
+        ]
+      },
+      "dietrich": {
+        "part": null,
+        "chapter": null,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 10)"
+        ]
+      },
+      "theodora": {
+        "part": null,
+        "chapter": null,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Golden Secret paralogue (Guest) (9/24–10/5, during Chapter 11)"
+        ]
+      },
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20340,13 +21105,19 @@
     },
     "bloodmark": "The Apostle",
     "recruitment": {
-      "cai": [
-        "Part I Chapter 9 (Guest)",
-        "Part I Chapter 11 (Guest)"
-      ],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": {
+        "part": 1,
+        "chapter": 9,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Guest",
+          "Part I Chapter 11 (Guest)"
+        ]
+      },
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20404,13 +21175,19 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [
-        "Part I Chapter 2 (Guest)",
-        "Part I Chapter 11 (Guest)"
-      ],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": {
+        "part": 1,
+        "chapter": 2,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Guest",
+          "Part I Chapter 11 (Guest)"
+        ]
+      },
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20469,12 +21246,18 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [
-        "Part I Chapter 9 (Guest)"
-      ],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": {
+        "part": 1,
+        "chapter": 9,
+        "support": null,
+        "renown": null,
+        "notes": [
+          "Guest"
+        ]
+      },
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20529,10 +21312,10 @@
     },
     "bloodmark": "The Victor",
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20585,10 +21368,10 @@
     },
     "bloodmark": "Revival (Bloodmark)",
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [],
@@ -20643,10 +21426,10 @@
     },
     "bloodmark": null,
     "recruitment": {
-      "cai": [],
-      "dietrich": [],
-      "theodora": [],
-      "leda": []
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
     },
     "gifts": {
       "love": [],

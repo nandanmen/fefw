@@ -55,6 +55,36 @@ def lines(r, i):
     return [l.strip().lstrip("・").strip() for l in v.split("\n") if l.strip()] if v else []
 
 
+PARTS = {"I": 1, "II": 2, "III": 3}
+SECTIONS = {"First": 1, "Second": 2, "Third": 3, "Fourth": 4, "Fifth": 5}
+
+
+def recruitment(r, i):
+    """Splits a recruitment cell into part/chapter/support/renown; anything else goes to notes.
+    The prologue is part 0, and Part III's sections count as chapters."""
+    out = {"part": None, "chapter": None, "support": None, "renown": None, "notes": []}
+    for line in lines(r, i):
+        m = re.fullmatch(r"(?:Part (I+) Chapter (\d+)|Prologue: \w+ Chapter (\d+)|Part (I+) (\w+) Section)"
+                         r"(?: \((.+)\))?", line)
+        if m and out["part"] is None:
+            part, chapter, prologue, s_part, section, note = m.groups()
+            if prologue:
+                out["part"], out["chapter"] = 0, int(prologue)
+            elif section:
+                out["part"], out["chapter"] = PARTS[s_part], SECTIONS[section]
+            else:
+                out["part"], out["chapter"] = PARTS[part], int(chapter)
+            if note:
+                out["notes"].append(note)
+        elif m := re.fullmatch(r"Support Lv (\d+)", line):
+            out["support"] = int(m[1])
+        elif m := re.fullmatch(r"(\d+) Renown", line):
+            out["renown"] = int(m[1])
+        else:
+            out["notes"].append(line)
+    return out if any(out.values()) else None
+
+
 def prefs(r, start, keys):
     return {k: items(r, start + n) for n, k in enumerate(keys)}
 
@@ -224,7 +254,7 @@ def build(tabs):
             "personalSkills": {"inherent": personal(cell(r, 23), cell(r, 24), "personalInherent"),
                                "equippable": personal(cell(r, 25), cell(r, 26), "personalEquippable")},
             "bloodmark": bloodmark(cell(r, 27), cell(r, 28)),
-            "recruitment": {p: lines(r, 29 + n) for n, p in enumerate(PATHS)},
+            "recruitment": {p: recruitment(r, 29 + n) for n, p in enumerate(PATHS)},
             "gifts": prefs(r, 33, ["love", "like"]),
             "temples": prefs(r, 35, ["love", "like", "neutral", "dislike"]),
             "meals": prefs(r, 39, ["love", "like", "neutral", "dislike"]),
