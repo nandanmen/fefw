@@ -248,8 +248,9 @@ def build(tabs):
         growths = {k: num(r, 1 + n) for n, k in enumerate(STATS)}
         growths["total"] = num(r, 10) if any(v is not None for v in growths.values()) else None
         # "Mu (with growth)" is Mu's growth rates once his Signs of Growth skill applies, not another unit.
+        # That skill is inherent and always active, so the boosted rates are his real ones.
         if m := re.fullmatch(r"(.+) \(with growth\)", name):
-            characters[m[1]]["boostedGrowthRates"] = growths
+            characters[m[1]]["growthRates"] = growths
             continue
         bb = {k: (cell(r, 11 + n) or "").lower() for n, k in enumerate(SKILL_LINES)}
         characters[name] = {
