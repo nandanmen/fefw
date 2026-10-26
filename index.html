@@ -401,7 +401,9 @@ function renderRoutes(){
     const lord = k[0].toUpperCase()+k.slice(1);
     return `<button role="tab" type="button" data-route="${k}" aria-selected="${state.route===k}">${lord}</button>`;
   }).join("");
-  const list = partOneRecruits(state.route);
+  // Roster members first; both groups keep the renown/support order.
+  const all = partOneRecruits(state.route);
+  const list = [...all.filter(x=>ROSTER.includes(x.n)), ...all.filter(x=>!ROSTER.includes(x.n))];
   const current = state.tab==="learn" ? state.lsChar : null;
   $("recruits").innerHTML = list.map(({n,r})=>{
     const auto = joinsAutomatically(r);
