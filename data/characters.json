@@ -12612,10 +12612,8 @@
           "Airfighter+"
         ]
       }
-    }
-  },
-  "Mu (with growth)": {
-    "growthRates": {
+    },
+    "boostedGrowthRates": {
       "hp": 50,
       "str": 50,
       "mag": 25,
@@ -12626,111 +12624,6 @@
       "lck": 30,
       "cha": 40,
       "total": 365
-    },
-    "boons": [
-      "sword",
-      "axe",
-      "gauntlet",
-      "whiteMagic"
-    ],
-    "banes": [],
-    "personalSkills": {
-      "inherent": [
-        "Signs of Growth"
-      ],
-      "equippable": [
-        "Warrior’s Blood"
-      ]
-    },
-    "bloodmarks": [],
-    "recruitment": {
-      "cai": {
-        "part": 1,
-        "chapter": 4,
-        "support": 3,
-        "renown": 9,
-        "notes": [
-          "Give Mu 3 Glirmosa"
-        ]
-      },
-      "dietrich": {
-        "part": 1,
-        "chapter": 5,
-        "support": 3,
-        "renown": 7,
-        "notes": [
-          "Give Mu 3 Glirmosa"
-        ]
-      },
-      "theodora": {
-        "part": 1,
-        "chapter": 5,
-        "support": 3,
-        "renown": 9,
-        "notes": [
-          "Give Mu 3 Glirmosa"
-        ]
-      },
-      "leda": {
-        "part": 1,
-        "chapter": 1,
-        "support": null,
-        "renown": null,
-        "notes": []
-      }
-    },
-    "gifts": {
-      "love": [
-        "Weak Cervi",
-        "Candy Crystals",
-        "Saraminian Sweets",
-        "Tales of Adventure",
-        "Garum",
-        "Kitten Figurine",
-        "History of a Master",
-        "Portrait of Yu Phas"
-      ],
-      "like": [
-        "Yarc Milk",
-        "Jamel Milk",
-        "Arrowhead Gem",
-        "Honey Pastries",
-        "Outdoor Cooking Set",
-        "Pickled Vegetables",
-        "Pure-White Cervi",
-        "Morfis Almanac",
-        "Orgus Coffee",
-        "Pegasus Panorama",
-        "Rare Southern Seeds",
-        "Shield Portrait",
-        "Tome from Away"
-      ]
-    },
-    "temples": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "meals": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
-    },
-    "plays": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": [
-        "Again to You"
-      ]
-    },
-    "roles": {
-      "love": [],
-      "like": [],
-      "neutral": [],
-      "dislike": []
     }
   },
   "Nathan": {
