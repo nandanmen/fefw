@@ -1,0 +1,4997 @@
+{
+  "Absolute Defense": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Grants Shld+10 when attacked. Trigger % = 10 (20)."
+  },
+  "Absorption": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Unit recovers HP equal to half the damage they deal when attacking with magic. Trigger % = 5 (10).",
+    "baths": [
+      "Giants' Bath (Special)⁺",
+      "Jade Bath",
+      "Hot Bath"
+    ]
+  },
+  "Accelerate": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)",
+    "upgrade": {
+      "description": "After defeating a foe, grants Spd+2 until the end of the map. (Max +10)"
+    }
+  },
+  "Adaptability": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After combat, grants Hit+2 until the end of the map. (Max +30)"
+  },
+  "Additional Intel": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30.",
+    "upgrade": {
+      "description": "Grants Hit+20 to adjacent allies during their combats. Trigger % = 30."
+    }
+  },
+  "Aegis": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Unit takes half damage when attacked with a magical attack. Trigger % = 20.",
+    "class": "Bardinger"
+  },
+  "Agnea's Arrow": {
+    "type": "spell",
+    "school": "black",
+    "might": "25",
+    "hit": "90",
+    "range": "1-2",
+    "weight": "15",
+    "crit": "5",
+    "uses": "1",
+    "description": "The highest tier of fire magic that purifies with a blazing strike.",
+    "learnedFrom": "Agnea Tome"
+  },
+  "Airfighter": {
+    "type": "ability",
+    "category": "flying",
+    "description": "[Flying] If unit attacks first, grants Hit+5 (+10) during combat."
+  },
+  "All-Out Attack": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30.",
+    "upgrade": {
+      "description": "Multiplies damage by 1.5 when attacking with a combat art. Trigger % = 30."
+    }
+  },
+  "Ambush": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit is on inaccessible terrain, grants Atk+4.",
+    "class": "Bau Lord"
+  },
+  "Amplify Magic": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After combat, grants Atk+4 through unit's next combat. Trigger % = Mag ÷ 2",
+    "upgrade": {
+      "description": "After combat, grants Atk+7 through unit's next combat. Trigger % = Mag ÷ 2"
+    }
+  },
+  "Arcane Wisdom": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": null
+  },
+  "Ardent Nosferatu": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When using Nosferatu, grants Atk+3, Crit+5 during combat.",
+    "upgrade": {
+      "description": "When using Nosferatu, grants Atk+5, Crit+10 during combat."
+    }
+  },
+  "Armored Blow": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "4",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, grants Prt+3 until unit's next phase. Cannot make a follow-up.",
+    "upgrade": {
+      "might": "+4",
+      "hit": "+10"
+    }
+  },
+  "Armored Combat": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Grants Dex+5 (+10)."
+  },
+  "Armored Leap": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Grants Avo+10 (+20)."
+  },
+  "Armored Move": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Grants Mov+1 (+2)."
+  },
+  "Arrowcrack": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "5",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Grants Atk+15 for the attack. Trigger % = 50.",
+    "upgrade": {
+      "cost": "4"
+    }
+  },
+  "Arts Durability": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "When using a combat art, reduces weapon durability cost to 0 during combat. Trigger % = 5.",
+    "baths": [
+      "Volcanic Bath",
+      "Adamant Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Arts Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Atk+2 (+3), Hit+5 (+10) when attacking with a combat art.",
+    "baths": [
+      "Giants' Bath (Special)⁺",
+      "Ruby Bath",
+      "Volcanic Bath",
+      "Hot Bath"
+    ]
+  },
+  "Assassin's Fist": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "6",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Deals at least 20 damage."
+  },
+  "Astra": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "classMastery",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 5 times at 50% damage.",
+    "class": "Swordmaster",
+    "upgrade": {
+      "hit": "+20"
+    }
+  },
+  "At a Gallop": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1).",
+    "upgrade": {
+      "description": "[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1)."
+    }
+  },
+  "Attack Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Str+1.",
+    "class": "Gladiator"
+  },
+  "Attack Formation": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Grants Atk+1 (+2) to adjacent allies."
+  },
+  "Attack, Get Back": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When using a combat art, grants Avo+10 during combat.",
+    "class": "Pugilist"
+  },
+  "Attuned": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 10.",
+    "upgrade": {
+      "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 20."
+    }
+  },
+  "Aura": {
+    "type": "spell",
+    "school": "white",
+    "might": "22",
+    "hit": "70",
+    "range": "1-2",
+    "weight": "18",
+    "crit": "0",
+    "uses": "3"
+  },
+  "Avo Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Avo+3 (+5).",
+    "baths": [
+      "Unicorns' Bath (Special)⁺",
+      "Gold Bath",
+      "Swift-Wind Bath",
+      "Tree of Life Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Avoid Fatality": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Grants Ddg+10 (+20)."
+  },
+  "Axefaire": {
+    "type": "ability",
+    "category": "weapon",
+    "description": "When unit is equipped with axes, grants Hit/Avo+10 and Atk+3."
+  },
+  "Balance": {
+    "type": "bloodmark",
+    "description": "3% chance to prevent counterattacks."
+  },
+  "Banshee θ": {
+    "type": "spell",
+    "school": "black",
+    "might": "8",
+    "hit": "50",
+    "range": "1-3",
+    "weight": "23",
+    "crit": "0",
+    "uses": "2",
+    "description": "Assaults a foe with consecutive bursts of dark energy.",
+    "effect": "Inflicts Immobilize on foe.",
+    "learnedFrom": "Archive Θ"
+  },
+  "Barge Through": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "[Cavalry] Can move through foe's space. (Cannot move through large-scale foes.)"
+  },
+  "Barging Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Barrier": {
+    "type": "spell",
+    "school": "white",
+    "range": "1",
+    "uses": "2",
+    "effect": "Ally takes half damage during their next combat."
+  },
+  "Barrier (Ability)": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Res+3 to adjacent allies.",
+    "class": "Bishop"
+  },
+  "Battle Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "4",
+    "might": "+4",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's HP = 100%, grants Atk+3.",
+    "upgrade": {
+      "cost": "3"
+    }
+  },
+  "Battle Rush": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "7",
+    "might": "-2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit's follow-up occurs before foe's counter.",
+    "upgrade": {
+      "might": "0"
+    }
+  },
+  "Battleblade Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, grants Dex+2 until the end of the map. (Max +10)",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Beatdown": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, grants Spd+1 until the end of the map. (Max +10)",
+    "upgrade": {
+      "description": "After combat, grants Spd+2 until the end of the map. (Max +10)"
+    }
+  },
+  "Berserk": {
+    "type": "spell",
+    "school": "white",
+    "hit": "60",
+    "range": "1-10",
+    "uses": "1",
+    "effect": "Inflicts Confusion on a foe."
+  },
+  "Besieger": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If foe is on favorable terrain, grants Hit+20 to unit during combat.",
+    "class": "Dragoon"
+  },
+  "Bestial Impulse": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After combat, grants Crit+2 until a unit makes a critical."
+  },
+  "Bind Dexterity": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Inflicts Dex-3 on adjacent foes.",
+    "class": "Shaman"
+  },
+  "Bind Resistance": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Inflict Res-3 on adjacent foes.",
+    "class": "Druid"
+  },
+  "Bind Speed": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Inflict Spd-3 on adjacent foes.",
+    "class": "Ovate"
+  },
+  "Black Magic Mastery": {
+    "type": "ability",
+    "category": "weapon",
+    "description": null
+  },
+  "Black Roar": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, grants Prt+10 until unit's next phase.",
+    "weapon": "Muen"
+  },
+  "Blade Slam": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+13",
+    "hit": "Set to 50%",
+    "crit": "0",
+    "range": "1",
+    "description": "Sets unit's Hit% to 50."
+  },
+  "Blaze Blow": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack. Trigger%=Str/2",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Bld Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Bld+3.",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)",
+      "Ruby Bath",
+      "Swift-Wind Bath",
+      "Medicinal Bath"
+    ]
+  },
+  "Blinding Starlight": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Effective vs. undead. Treated as a magical attack. Cannot make a follow-up.",
+    "weapon": "Star Spear"
+  },
+  "Blindside": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, cannot be countered during combat. Trigger % = 5."
+  },
+  "Blink of an Eye": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After using Swap, grants Def+3 until unit's next phase."
+  },
+  "Blinking Star": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe is undead, grants Shld+5 during combat."
+  },
+  "Blizzard": {
+    "type": "spell",
+    "school": "black",
+    "might": "4",
+    "hit": "80",
+    "range": "1-2",
+    "weight": "6",
+    "crit": "5",
+    "uses": "7",
+    "description": "Basic ice magic that freezes the target."
+  },
+  "Bloodbath": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "7",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating foe, grants Shld+10 through unit's next combat.",
+    "upgrade": {
+      "might": "+6",
+      "hit": "+10",
+      "description": "After defeating foe, grants Shld+20 through unit's next combat."
+    }
+  },
+  "Bloodletting": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "+20",
+    "range": "1",
+    "description": "Effective vs. dragons.",
+    "weapon": "Answerer (Dietrich only)",
+    "upgrade": {
+      "might": "+10",
+      "weapon": "Answerer Arisen/Breaker/Huang (Dietrich only)"
+    }
+  },
+  "Bolganone": {
+    "type": "spell",
+    "school": "black",
+    "might": "10",
+    "hit": "85",
+    "range": "1-2",
+    "weight": "8",
+    "crit": "0",
+    "uses": "5",
+    "description": "Advanced fire magic that incinerates an enemy.",
+    "effect": "Reduced (halved?) damage during Rainy Weather"
+  },
+  "Bolster Health": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants max HP +3.",
+    "class": "Light Cavalry"
+  },
+  "Bolting": {
+    "type": "spell",
+    "school": "black",
+    "might": "10",
+    "hit": "50",
+    "range": "3-10",
+    "weight": "30",
+    "crit": "5",
+    "uses": "1",
+    "description": "High-level magic that attacks from a distance using a lightning storm.",
+    "effect": "Cannot make a follow-up."
+  },
+  "Bowblock": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] If foe uses a bow, grants Shld+5 (+10) during combat."
+  },
+  "Bowbreaker Arrow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "6",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If foe uses a bow, strikes 2 times at 90% damage"
+  },
+  "Bowfaire": {
+    "type": "ability",
+    "category": "weapon",
+    "description": "When unit is equipped with bows, grants Hit/Avo+10 and Atk+3."
+  },
+  "Brace": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "After defeating a foe, grants Prt+3 until unit's next phase.",
+    "class": "Guardian"
+  },
+  "Brave Assist": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Def+3 to adjacent allies."
+  },
+  "Brave-Assist Stance": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Brawn": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Reduces Wt of unit's equipment to 80%."
+  },
+  "Breakaway Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "10",
+    "might": "-5",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "After combat, unit can move up to 1 space.",
+    "upgrade": {
+      "cost": "8"
+    }
+  },
+  "Brilliant Strike": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, grants Rsl+7 until unit's next phase",
+    "upgrade": {
+      "might": "+8"
+    }
+  },
+  "Brio": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Mov+1."
+  },
+  "Brute Throw": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "7",
+    "might": "+10",
+    "hit": "+10",
+    "crit": "0",
+    "range": "2",
+    "description": "No additional effect",
+    "weapon": "Sinza's Trident"
+  },
+  "Build": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Grants Bld+5 (+10)."
+  },
+  "Calamitous Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "0",
+    "hit": "-50",
+    "crit": "0",
+    "range": "2",
+    "description": "Cannot make a follow-up, If unit's attack hits, inflicts Silence and Immobilize on foe.",
+    "weapon": "Azaga's Bow"
+  },
+  "Calm": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "When using magic, reduces magic cost to 0 during combat. Trigger % = 3 (5).",
+    "baths": [
+      "Harpyrian Bath (Special)⁺",
+      "Jade Bath",
+      "Floral Bath"
+    ]
+  },
+  "Calm Call": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "3",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "After defeating a foe, grants Avo+30 through unit's next combat",
+    "upgrade": {
+      "might": "+4",
+      "description": "After defeating a foe, grants Avo+40 through unit's next combat"
+    }
+  },
+  "Cannoning Flair": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When using artillery, grants Hit+30 during combat."
+  },
+  "Careful Attack": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "When foe avoids attack, foe cannot counter. Deals half damage. Cannot make a follow-up."
+  },
+  "Caretaker": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Adjacent allies cannot suffer a follow-up during combat. Trigger % = 5."
+  },
+  "Caretaker Stance": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Cautious Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+10 during combat."
+  },
+  "Cavalry Move": {
+    "type": "ability",
+    "category": "riding",
+    "description": "[Cavalry] Applies -1 (-2) to movement cost for terrain (cannot be reduced below 1)."
+  },
+  "Cavalry Ruin": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is cavalry, grants Atk+15 to unit.",
+    "weapon": "Onoa"
+  },
+  "Celestial Flow": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Avo+3."
+  },
+  "Cha Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Cha+3 (+4).",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)",
+      "Medicinal Bath",
+      "Adamant Bath",
+      "Full-Moon Bath"
+    ]
+  },
+  "Charger": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When using Charge, grants Prt+10 until unit's next phase.",
+    "class": "Charioteer"
+  },
+  "Chariot Stagger": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit is charioteer, grants +1 uses to staggering blows.",
+    "upgrade": {
+      "description": "If unit is charioteer, grants +2 uses to staggering blows."
+    }
+  },
+  "Chop": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "4",
+    "might": "+8",
+    "hit": "-30",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Clarity Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Close Call": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit's HP ≥ 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck."
+  },
+  "Close Quarters": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Inflicts Mov-1 (-2) on adjacent foes."
+  },
+  "Close-Call Evasion": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] If unit's HP ≤ 50%, Avo+20."
+  },
+  "Combat Advantage": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] If unit is on favorable terrain, grants Atk+5 during combat."
+  },
+  "Combat Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Hit/Avo+3",
+    "class": "Commoner / Noble"
+  },
+  "Competitive Zeal": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with magic, grants Crit+10."
+  },
+  "Compressed Laser": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "+10",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Treated as a magical attack.",
+    "weapon": "Salamander, Zerberus"
+  },
+  "Continuum": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When unit avoids an attack, restores 5 HP to unit.",
+    "upgrade": {
+      "description": "When unit avoids an attack, restores 10 HP to unit."
+    }
+  },
+  "Cooler Heads": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After using Draw Back, unit can use assist magic."
+  },
+  "Correct for Drift": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit's hit % ≥ 90, grants Hit+10 during combat.",
+    "upgrade": {
+      "description": "If unit's hit % ≥ 75, grants Hit+20 during combat."
+    }
+  },
+  "Counter Cavalry": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Hit/Avo-5 on cavalry foes within 2 spaces."
+  },
+  "Counter Fliers": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Counter Mages": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Hit/Avo-5 on magic foes within 2 spaces."
+  },
+  "Counter Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Counter Snipers": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Hit/Avo-5 on bow foes within 2 spaces."
+  },
+  "Counterflurry": {
+    "type": "ability",
+    "category": "armored",
+    "description": "If foe attacks first, unit makes a follow-up regardless of AS during combat. Trigger % = 20"
+  },
+  "Countershot": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When equipped with a bow, unit can counter adjacent foes during combat. Trigger % = 50.",
+    "class": "Ranger"
+  },
+  "Crash": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "6",
+    "might": "+9",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, inflicts Confusion on foe (trigger %=5). Cannot make follow-up.",
+    "upgrade": {
+      "description": "If unit's attack hits, inflicts Confusion on foe (trigger %=10). Cannot make follow-up."
+    }
+  },
+  "Crescendo": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "After defeating a foe, grants Hit+3 until the end of the map. (Max +30)",
+    "class": "Archer"
+  },
+  "Crit Defense": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked with a critical. Trigger % = 30."
+  },
+  "Crit Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Crit+3 (+5).",
+    "baths": [
+      "Giants' Bath (Special)⁺",
+      "Volcanic Bath",
+      "Hot Bath",
+      "Adamant Bath"
+    ]
+  },
+  "Crosswise Cut": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, grants Dex+2 until the end of the map (Max +10)",
+    "upgrade": {
+      "hit": "+10",
+      "crit": "+5"
+    }
+  },
+  "Crush Armor": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective vs armored.",
+    "upgrade": {
+      "description": "Effective vs armored. If foe is armored, grants Crit+10."
+    }
+  },
+  "Curtail Magic": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "3",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Rsl+5 during combat.",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Curved Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "+10",
+    "crit": "0",
+    "range": "2",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "Cutting Gale": {
+    "type": "spell",
+    "school": "black",
+    "might": "7",
+    "hit": "95",
+    "range": "1-2",
+    "weight": "8",
+    "crit": "5",
+    "uses": "8",
+    "description": "Advanced wind magic that shreds an enemy with blades of air.",
+    "effect": "Effective vs. flying."
+  },
+  "Dance": {
+    "type": "combatArt",
+    "category": "Other",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Allows an ally to act again."
+  },
+  "Daring": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Atk+3 at the cost of Avo-20.",
+    "baths": [
+      "Giants' Bath (Special)",
+      "Volcanic Bath",
+      "Hot Bath",
+      "Adamant Bath"
+    ]
+  },
+  "Dark Calling": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Inflicts Ddg-5 on adjacent foes."
+  },
+  "Dark Ray": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "7",
+    "might": "+8",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Inflicts Hit/Crit/Avo-20 on foe during combat",
+    "upgrade": {
+      "might": "+12"
+    }
+  },
+  "Dark Secrets": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Extends range of Dark Calling to 2 spaces.",
+    "upgrade": {
+      "description": "Extends range of Dark Calling to 3 spaces."
+    }
+  },
+  "Dark Spikes T": {
+    "type": "spell",
+    "school": "black",
+    "might": "20",
+    "hit": "60",
+    "range": "1-2",
+    "weight": "20",
+    "crit": "0",
+    "uses": "2",
+    "effect": "Effective+ vs. Cavalry",
+    "description": "Magic with specialized anti-cavalry capabilities. Effective+ vs. cavalry.",
+    "learnedFrom": "Archive Τ"
+  },
+  "Deadeye": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "0",
+    "hit": "-30",
+    "crit": "0",
+    "range": "3-5",
+    "description": "Cannot make a follow-up.",
+    "weapon": "Longbow"
+  },
+  "Deadly Blade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "+15",
+    "range": "1",
+    "description": "High Crit.",
+    "weapon": "Killing Edge"
+  },
+  "Deadly Gauntlet": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "+20",
+    "range": "1",
+    "description": "No additional effect.",
+    "weapon": "Jamadhars"
+  },
+  "Deadly Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "+15",
+    "range": "1",
+    "description": "No additional effect",
+    "weapon": "Glaive"
+  },
+  "Deal Death": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "0",
+    "crit": "+5",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "crit": "+10"
+    }
+  },
+  "Death Γ": {
+    "type": "spell",
+    "school": "black",
+    "might": "15",
+    "hit": "75",
+    "range": "1-2",
+    "weight": "13",
+    "crit": "20",
+    "uses": "5",
+    "description": "Summons the power of death and unleashes it on a foe. High Crit.",
+    "learnedFrom": "Archive Γ"
+  },
+  "Def Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Def+1 (+2).",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)⁺",
+      "Ruby Bath",
+      "Medicinal Bath",
+      "Full-Moon Bath"
+    ]
+  },
+  "Defending Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "4",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Shld+3 during combat",
+    "upgrade": {
+      "cost": "3"
+    }
+  },
+  "Defense Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Def+1.",
+    "class": "Soldier"
+  },
+  "Defense Fend": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked. Trigger % = Def/2"
+  },
+  "Defense Formation": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Grants Shld+1 (+2) to adjacent allies."
+  },
+  "Defense Stance": {
+    "type": "combatArt",
+    "category": "Armor",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "Self",
+    "description": "[Infantry] Grants Def+3 at cost of Avo-10 to unit until unit's next phase."
+  },
+  "Destreza": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe's HP ≤ 50%, grants Atk+5, Crit+10",
+    "upgrade": {
+      "description": "If foe's HP ≤ 50%, grants Atk+7, Crit+15"
+    }
+  },
+  "Devilwind Flurry": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Will make a follow-up regardless of AS during combat. Trigger % = Mag ÷ 2."
+  },
+  "Devil’s Luck": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)",
+    "upgrade": {
+      "description": "After defeating a foe, grants Lck+2 until the end of the map. (Max +10)"
+    }
+  },
+  "Dex Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Dex+1 (+2).",
+    "baths": [
+      "Unicorns' Bath (Special)⁺",
+      "Ruby Bath",
+      "Full-Moon Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Dexterity Fend": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked. Trigger % = Dex/2"
+  },
+  "Direct Hit": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Deals +10 damage when attacking with Blaze Arts. Trigger % = 30."
+  },
+  "Discerning Blow": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "3",
+    "might": "0",
+    "hit": "+50",
+    "crit": "0",
+    "range": "1",
+    "description": "Deals half damage.",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Distant Healing": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Rng+1 to healing magic.",
+    "upgrade": {
+      "description": "Grants Rng+2 to healing magic."
+    }
+  },
+  "Distraction": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Hit-3 (-5) on adjacent foes."
+  },
+  "Divine Adornment": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Res+10.",
+    "class": "The Godhand"
+  },
+  "Divine Dance": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Cha+10.",
+    "class": "The Apsara"
+  },
+  "Divine Dexterity": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Dex+10.",
+    "class": "The Cavalier"
+  },
+  "Divine Insight": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Spd+10.",
+    "class": "The Blade"
+  },
+  "Divine Law": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Mag+10.",
+    "class": "The Avatar"
+  },
+  "Divine Might": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Str+10.",
+    "class": "The Eternal"
+  },
+  "Divine Wall": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Def+10.",
+    "class": "The Trident"
+  },
+  "Divine Will": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Lck+10.",
+    "class": "The Calamity"
+  },
+  "Dodge": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] If foe uses a bow or magic, grants Avo+5 (+10) to unit during combat."
+  },
+  "Dominate Magic": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If foe uses magic, unit cannot be countered during combat. Trigger % = 10.",
+    "class": "Wiseman"
+  },
+  "Domination": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "6",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Calculates damage as if foe's Underworld Boon is negated.",
+    "weapon": "Bloodaxe, Dark Bloodaxe",
+    "upgrade": {
+      "cost": "6",
+      "might": "+12",
+      "hit": "0",
+      "crit": "0",
+      "range": "1",
+      "description": "Calculates damage as if foe's Underworld Boon is negated.",
+      "weapon": "Zalmoxis"
+    }
+  },
+  "Double Attack": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "0",
+    "hit": "-30",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes twice at 90% damage.",
+    "upgrade": {
+      "might": "+2"
+    }
+  },
+  "Double Swing": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "7",
+    "might": "0",
+    "hit": "-20",
+    "crit": "0",
+    "range": "2",
+    "description": "Only usable on 1-2 range weapons. Strikes twice at 90% damage."
+  },
+  "Double Throw": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "0",
+    "hit": "-30",
+    "crit": "0",
+    "range": "2",
+    "description": "Attacks twice. Only usable by spears with Rng 1-2",
+    "upgrade": {
+      "might": "+2"
+    }
+  },
+  "Dramatic Effect": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When Stage Direction triggers, grants Hit+10 to target allies.",
+    "upgrade": {
+      "description": "When Stage Direction triggers, grants Hit/Crit+10 to target allies."
+    }
+  },
+  "Draw Back": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "[Infantry] Unit and adjacent ally move 1 space back. (Cannot use on large scale allies.)"
+  },
+  "Drilling Breach": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Ignores foe's Shld. Cannot make a follow-up.",
+    "weapon": "Ugo's Bow (Enemy only)"
+  },
+  "Dropshadow Blade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "classMastery",
+    "cost": "7",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is on favorable terrain, ignores those terrain effects.",
+    "class": "Shadow Seeker",
+    "upgrade": {
+      "might": "+12",
+      "crit": "+10"
+    }
+  },
+  "Duality": {
+    "type": "bloodmark",
+    "description": "25% chance to grant Atk+3 when attacking."
+  },
+  "Earth's Jaws": {
+    "type": "spell",
+    "school": "black",
+    "might": "17",
+    "hit": "90",
+    "range": "3-10",
+    "weight": "25",
+    "crit": "0",
+    "uses": "1"
+  },
+  "Elephant Rush": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "[Cavalry] If unit is an elephant rider, grants +1 use to staggering blows."
+  },
+  "Elephant Vanguard": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit is an elephant rider, grants Hit+10.",
+    "class": "Elephant Rider"
+  },
+  "Emergis": {
+    "type": "spell",
+    "school": "white",
+    "range": "1-10",
+    "uses": "1",
+    "description": "Magic that protects an ally from lethal strikes.",
+    "effect": "Grants Ddg+30 to an ally until unit's next phase."
+  },
+  "Encloser": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "3",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If unit's attack hits, inflicts Mov-3 on foe until unit's next phase.",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "Ennea Fire EX": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "-5",
+    "hit": "0",
+    "crit": "0",
+    "description": "Attacks a wide range (3x3 square in front of the user) using magic. Deals half damage.",
+    "weapon": "Royal Sword"
+  },
+  "Enrage": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "4",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, grants Str+1 until the end of the map. (Max +5)",
+    "upgrade": {
+      "might": "+1",
+      "hit": "+10"
+    }
+  },
+  "Evasion": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Grants Avo+100 when attacked. Trigger % = 3 (5)."
+  },
+  "Ever Vigilant": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "After defeating a foe with a critical attack, restores a little HP to unit.",
+    "class": "Shido"
+  },
+  "Excalibur": {
+    "type": "spell",
+    "school": "black",
+    "might": "15",
+    "hit": "100",
+    "range": "1-2",
+    "weight": "10",
+    "crit": "10",
+    "uses": "3"
+  },
+  "Expert Counter": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe attacks first, grants Hit+20 to unit during combat."
+  },
+  "Fading Assault": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "8",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, unit can move up to 2 spaces."
+  },
+  "Fading Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "10",
+    "might": "-5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, unit can move up to 1 space.",
+    "upgrade": {
+      "cost": "8"
+    }
+  },
+  "Falcon": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, grants AS+3 during combat."
+  },
+  "Fast Magic": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "When equipped with magic, grants AS+3.",
+    "baths": [
+      "Harpyrian Bath (Special)",
+      "Jade Bath",
+      "Floral Bath"
+    ]
+  },
+  "Fateful Strike": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "7",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+10 for the atk. Trigger% = Lck/2"
+  },
+  "Fear Nothing": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat.",
+    "upgrade": {
+      "description": "If unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat."
+    }
+  },
+  "Feint": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "-50",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, inflicts Avo-20 on foe through their next combat.",
+    "upgrade": {
+      "cost": "1"
+    }
+  },
+  "Fetters": {
+    "type": "bloodmark",
+    "description": "5% chance to multiply damage by 1.2 when attacking."
+  },
+  "Fierce Shield": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit attacks first, unit takes half damage during combat. Trigger % = 50.",
+    "class": "Great Knight"
+  },
+  "Fierce Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "classMastery",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit cannot suffer a follow-up during combat",
+    "class": "Orichaldia",
+    "upgrade": {
+      "cost": "10",
+      "might": "+3"
+    }
+  },
+  "Fimbulvetr Night": {
+    "type": "spell",
+    "school": "black",
+    "might": "30",
+    "hit": "80",
+    "range": "1-2",
+    "weight": "28",
+    "crit": "10",
+    "uses": "1",
+    "description": "Magic of the highest tier that draws upon eternal winter.",
+    "learnedFrom": "Fimbulvetr Tome"
+  },
+  "Finesse Blade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Deals at least 10 damage.",
+    "upgrade": {
+      "hit": "+20"
+    }
+  },
+  "Fire": {
+    "type": "spell",
+    "school": "black",
+    "might": "3",
+    "hit": "90",
+    "range": "1-2",
+    "weight": "5",
+    "crit": "0",
+    "uses": "10",
+    "description": "Basic fire magic that unleashes a fireball.",
+    "effect": "Reduced (halved?) damage during Rainy Weather"
+  },
+  "Firestorm": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "might": "+20",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "weapon": "Smoldering Sword, Shadowing Sword"
+  },
+  "Fistfaire": {
+    "type": "ability",
+    "category": "weapon",
+    "description": "When unit is equipped with gauntlets, grants Hit/Avo+10 and Atk+3."
+  },
+  "Flame Drill": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "weapon": "Dondebok, Dark Dondebok"
+  },
+  "Flame Ring": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack",
+    "weapon": "Credna's Mallet"
+  },
+  "Flame Wheel": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Unit's follow-up occurs before foe's counter. Treated as a magical attack.",
+    "weapon": "Windfire Rings"
+  },
+  "Flamekeeper": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Unit and allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames."
+  },
+  "Flash Blow": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack. Trigger%=Dex/2",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Flashing Fang": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20.",
+    "upgrade": {
+      "description": "Grants Atk+7, Hit+100 when attacking. Trigger % = 20."
+    }
+  },
+  "Flickering Edge": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When unit evades an attack, grants Atk+3 during combat.",
+    "upgrade": {
+      "description": "When unit evades an attack, grants Atk+5 during combat."
+    }
+  },
+  "Flitting Flier": {
+    "type": "ability",
+    "category": "flying",
+    "description": "[Flying] If unit attacks first, grants AS+2 (+4) during combat."
+  },
+  "Flowing Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+10 during combat",
+    "upgrade": {
+      "description": "Grants Avo+15 during combat"
+    }
+  },
+  "Flying Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "7",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit's follow-up occurs before foe's counter.",
+    "upgrade": {
+      "description": "Unit's follow-up occurs before foe's counter. Crit+5 on follow-up."
+    }
+  },
+  "Focused Counter": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If foe attacks first, grants Hit+10 to unit during combat.",
+    "class": "Dreadnought"
+  },
+  "Focused Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "7",
+    "might": "+5",
+    "hit": "+40",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect.",
+    "upgrade": {
+      "might": "+8",
+      "hit": "+50"
+    }
+  },
+  "Focused Throw": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "+20",
+    "crit": "0",
+    "range": "2",
+    "description": "Only usable by spears with Rng=1-2.",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Follow-Up Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Atk+2 when making a follow-up",
+    "baths": [
+      "Gold Bath",
+      "Tree of Life Bath",
+      "Volcanic Bath",
+      "Hot Bath"
+    ]
+  },
+  "Fortify": {
+    "type": "spell",
+    "school": "white",
+    "might": "20",
+    "range": "1-5",
+    "uses": "2",
+    "effect": "Restores HP to all allies in range."
+  },
+  "Freeze": {
+    "type": "spell",
+    "school": "white",
+    "hit": "60",
+    "range": "1-10",
+    "uses": "1",
+    "effect": "Inflicts Immobilize."
+  },
+  "Frontline Gambit": {
+    "type": "ability",
+    "category": "authority",
+    "description": "After using an offensive gambit, grants Atk+5 until unit's next phase."
+  },
+  "Frozen Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Frozen-Spear Slice": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "6",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Treated as a magical attack. Only usable by spears with Rng= 1-2."
+  },
+  "Full Moon": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "3",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat. restores some HP to unit.",
+    "weapon": "Mahadu's Spear, Mahadu's Darkspear"
+  },
+  "Full Strength": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Str ÷ 2.",
+    "upgrade": {
+      "description": "Multiplies damage by 1.5 when attacking. Trigger % = Str ÷ 2."
+    }
+  },
+  "Furious Strike": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+15",
+      "hit": "+20"
+    }
+  },
+  "Fury": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Atk+3 at the cost of Hit-20.",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)",
+      "Jade Bath",
+      "Volcanic Bath",
+      "Medicinal Bath"
+    ]
+  },
+  "Gale Blow": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack. Trigger%=Spd/2",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Gale Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "0",
+    "crit": "+5",
+    "range": "0",
+    "description": "No additional effect",
+    "upgrade": {
+      "crit": "+10"
+    }
+  },
+  "Gambit Mastery": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Grants +1 use to gambits."
+  },
+  "Giant Breaker": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is large scale, grants Atk+7"
+  },
+  "Gift of Faith": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When healing an ally with magic, restores +20 HP. Trigger % = Lck.",
+    "upgrade": {
+      "description": "When healing an ally with magic, restores +30 HP. Trigger % = Lck."
+    }
+  },
+  "Glass Wheel": {
+    "type": "spell",
+    "school": "black",
+    "might": "12",
+    "hit": "90",
+    "range": "1-2",
+    "weight": "7",
+    "crit": "0",
+    "uses": "7",
+    "effect": "Calculates damage based on foe's Prt.\nEffective vs. flying."
+  },
+  "Go No Sen": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "In enemy's phase, unit attacks first during combat. Trigger % = 25."
+  },
+  "Goddess’s Favor": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After combat, restores 5 HP to unit."
+  },
+  "Godly Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "+30",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "weapon": "Dagda's Club, Dagda's Dark Club"
+  },
+  "Graceful Blow": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Reduces weapon durability cost to 0 for the attack. Trigger% = Dex/2",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Graceful Light": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When healing an ally with magic, reduces magic cost to 0. Trigger % = Lck."
+  },
+  "Great Counter": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If foe attacks first, grants Atk +3 to unit during combat.",
+    "class": "Armored Knight"
+  },
+  "Greater Hexblade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack",
+    "upgrade": {
+      "might": "+15",
+      "hit": "+20"
+    }
+  },
+  "Grounder": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective against flying",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Guard Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "6",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Prt+10 during combat.",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Guardian’s Duty": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Reduces damage to 90% when attacked."
+  },
+  "HP Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants max HP+1 (+2).",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)⁺",
+      "Gold Bath",
+      "Tree of Life Bath",
+      "Medicinal Bath",
+      "Full-Moon Bath"
+    ]
+  },
+  "Half Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+10 during combat.",
+    "upgrade": {
+      "description": "Grants Avo+15 during combat."
+    }
+  },
+  "Halt Advance": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat.",
+    "upgrade": {
+      "description": "After combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat."
+    }
+  },
+  "Haphazard": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "-50",
+    "crit": "0",
+    "range": "2",
+    "description": "Strikes 4 times at 90% damage.",
+    "upgrade": {
+      "cost": "7"
+    }
+  },
+  "Har Hali Wisdom": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit is effective against foe, grants Atk+3 during combat."
+  },
+  "Harmonic Soul": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When healing an ally with magic, restores a little (some) HP to unit."
+  },
+  "Hatchet Man": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with an axe, grants Hit+10."
+  },
+  "Haze Slice": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+10 during combat",
+    "upgrade": {
+      "description": "Grants Avo+15 during combat"
+    }
+  },
+  "Headlong Rush": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, grants AS+3, Hit+10 during combat."
+  },
+  "Heal": {
+    "type": "spell",
+    "school": "white",
+    "might": "10",
+    "range": "1",
+    "uses": "10",
+    "description": "Sacred magic that heals wounds.",
+    "effect": "Restores HP to an ally."
+  },
+  "Heal Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "After combat, restores a little HP to unit. Trigger % = 10 (20).",
+    "baths": [
+      "Harpyrian Bath (Special)⁺",
+      "Gold Bath",
+      "Tree of Life Bath",
+      "Floral Bath",
+      "Full-Moon Bath"
+    ]
+  },
+  "Healing Armor": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Heal equal to half the damage dealt. Trigger % = Mag"
+  },
+  "Healing Knowledge": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When healing an ally with magic, restores +10 HP."
+  },
+  "Healing Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Heat Haze": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating foe, grants Avo+20 until unit's next phase",
+    "upgrade": {
+      "hit": "+20"
+    }
+  },
+  "Heaven's Wind": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "3-10",
+    "description": "Cannot make a follow-up.",
+    "weapon": "Kalla's Bow"
+  },
+  "Heavy Break": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Multiplies damage by 1.5 (2.0) when attacking. Trigger % = Def/2."
+  },
+  "Heavy-Bow User": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with a bow, grants Str +3."
+  },
+  "Heavyweight Class": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Unit cannot change to cavalry or flying. Grants Bld+5."
+  },
+  "Hellbent Axe": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with an axe, grants Str+3."
+  },
+  "Helm Splitter": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective vs. armored.",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Hexblade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Hidden Birdbane": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "hidden",
+    "cost": "3",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is flying and unit's attack hits, inflicts Mov-3 on foe unti unit's next phase.",
+    "dreadWarrior": "Aguirre",
+    "upgrade": {
+      "hit": "+20"
+    }
+  },
+  "Hidden Bladerule": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "hidden",
+    "cost": "3",
+    "might": "+10",
+    "hit": "Set to 10%",
+    "crit": "+100",
+    "range": "1",
+    "description": "Sets hit % to 10. Cannot make a follow-up.",
+    "dreadWarrior": "Oko",
+    "upgrade": {
+      "might": "+15"
+    }
+  },
+  "Hidden Evilbreak": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "hidden",
+    "cost": "5",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, neutralizes Underworld Boon on foe through their next combat.",
+    "dreadWarrior": "Berenguela",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Hidden Flowform": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "hidden",
+    "cost": "6",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+20 to unit and unit makes a follow-up regardless of AS, but unit deals half damage during combat.",
+    "dreadWarrior": "Sepente",
+    "upgrade": {
+      "cost": "4"
+    }
+  },
+  "Hidden Giantsbane": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "hidden",
+    "cost": "5",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is large scale, unit takes half damage during combat.",
+    "dreadWarrior": "Camilo",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Hidden Soulrend": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "hidden",
+    "cost": "3",
+    "might": "+2",
+    "hit": "-20",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit recovers HP equal to half the damage they deal.",
+    "dreadWarrior": "Borges",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Hidden Truesnipe": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "hidden",
+    "cost": "30",
+    "might": "0",
+    "hit": "-20",
+    "crit": "0",
+    "range": "3-5",
+    "description": "Cannot make a follow-up.",
+    "dreadWarrior": "Damien",
+    "upgrade": {
+      "might": "+4"
+    }
+  },
+  "Hidden Twinblade": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "hidden",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Ddg+20 to unit during combat and after combat until unit's next phase.",
+    "dreadWarrior": "Cabaye",
+    "upgrade": {
+      "description": "Grants Ddg+30 to unit during combat and after combat until unit's next phase."
+    }
+  },
+  "Hidden Windpierce": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "hidden",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If foe's AS ≥ unit's AS+4, grants Hit+20 to unit. (Only usable by spears with Rng = 1-2.)",
+    "dreadWarrior": "Il-Lara",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Hit Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Hit +3 (+5).",
+    "baths": [
+      "Unicorns' Bath (Special)⁺",
+      "Jade Bath",
+      "Full-Moon Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Holy Flash": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "After defeating a foe, restores some HP to unit.",
+    "weapon": "Idah's Bow"
+  },
+  "Holy Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "6",
+    "might": "+8",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After combat, restores a little HP to unit",
+    "upgrade": {
+      "description": "After combat, restores some HP to unit"
+    }
+  },
+  "Hot-Headed": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants one of Hit+10, Avo+10, or Crit+10 during combat."
+  },
+  "Hunter's Cross": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "classMastery",
+    "cost": "6",
+    "might": "+8",
+    "hit": "+20",
+    "crit": "+10",
+    "range": "2",
+    "description": "No additional effect.",
+    "class": "Bow Knight",
+    "upgrade": {
+      "hit": "+30",
+      "crit": "+20"
+    }
+  },
+  "Hunter's Eye": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When equipped with a bow, grants Atk+3 when making a follow-up.",
+    "class": "Forest Knight"
+  },
+  "Hunter's Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Hunter’s Snare": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "In enemy's phase, if foe is damaged, unit attacks first during combat. Trigger % = 30."
+  },
+  "Hunting Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Dex/Spd+1",
+    "class": "Hunter"
+  },
+  "Hurl": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "+20",
+    "crit": "0",
+    "range": "2",
+    "description": "Only usable by axes with Rng 1-2.",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Ice Blade": {
+    "type": "spell",
+    "school": "black",
+    "might": "12",
+    "hit": "75",
+    "range": "1-2",
+    "weight": "10",
+    "crit": "5",
+    "uses": "6",
+    "description": "Advanced ice magic that attacks an enemy with sliding ice blades."
+  },
+  "Improviso": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After using Blaze Arts during Overblaze, unit can attack."
+  },
+  "In Shadow": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "After defeating a foe, grants Avo+10 through unit's next combat.",
+    "class": "Rogue"
+  },
+  "Infantry Canto": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] After combat, unit can move up to 1 (2) space(s)."
+  },
+  "Infantry Move": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Applies -1 (-2) to movement cost for terrain (cannot be reduced below 1)."
+  },
+  "Instant Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "2",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack and when making a follow up. Trigger % = Spd/2",
+    "upgrade": {
+      "description": "Grants Atk+8 for the attack and when making a follow up. Trigger % = Spd/2"
+    }
+  },
+  "Intercept": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Reduces damage taken by 5 when attacked.",
+    "class": "Castle Knight"
+  },
+  "Jab": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "1",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+10",
+      "crit": "+5"
+    }
+  },
+  "Jack Hit": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "1",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+10 for the attack. Trigger % = 5.",
+    "upgrade": {
+      "description": "Grants Atk+10 for the attack. Trigger % = 10."
+    }
+  },
+  "Khamsin": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe's Hit ≤ 20, reduces foe's Hit to 0 during combat",
+    "upgrade": {
+      "description": "If foe's Hit ≤ 30, reduces foe's Hit to 0 during combat"
+    }
+  },
+  "Killer Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "7",
+    "might": "+10",
+    "hit": "0",
+    "crit": "+15",
+    "range": "1"
+  },
+  "King’s Majesty": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If foe is damaged, grants Atk +2, Crit+5 during combat.",
+    "upgrade": {
+      "description": "If foe is damaged, grants Atk +4, Crit+10 during combat."
+    }
+  },
+  "Knightkneel": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 2 times at 70% damage. If foe is cavalry, grants Hit+10"
+  },
+  "Knightly Senses": {
+    "type": "ability",
+    "category": "riding",
+    "description": "If a foe uses a spear, grants Avo+10 to unit during combat."
+  },
+  "Knockout": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, inflicts Confusion on foe for ??? (trigger % = 5). Cannot make a follow-up."
+  },
+  "Laia": {
+    "type": "spell",
+    "school": "white",
+    "might": "3",
+    "range": "1",
+    "uses": "15",
+    "description": "Sacred magic that heals wounds.",
+    "effect": "Restores HP to an ally. Sometimes restores +100 HP to an ally."
+  },
+  "Lck Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Lck+1 (+2).",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)⁺",
+      "Ruby Bath",
+      "Swift-Wind Bath",
+      "Medicinal Bath"
+    ]
+  },
+  "Lead Arrow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Effective vs. armored"
+  },
+  "Leaden Draw": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+10",
+    "crit": "0",
+    "range": "2",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+15",
+      "hit": "+20"
+    }
+  },
+  "Leave No Dust": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective vs. beasts and dragons.",
+    "weapon": "Grasitha (Esmeralda only)"
+  },
+  "Leg Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If unit's attack hits, inflicts Avo-20 on foe through their next combat. Cannot make a follow-up.",
+    "upgrade": {
+      "hit": "+20"
+    }
+  },
+  "Lend Defense": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Def +2/3/5 to an ally until unit's next phase."
+  },
+  "Lend Dexterity": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Dex +2/3/5 to an ally until unit's next phase."
+  },
+  "Lend Luck": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Lck +2/3/5 to an ally until unit's next phase."
+  },
+  "Lend Magic": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Mag +2/3/5 to an ally until unit's next phase."
+  },
+  "Lend Speed": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Spd +2/3/5 to an ally until unit's next phase."
+  },
+  "Lend Strength": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Str +2/3/5 to an ally until unit's next phase."
+  },
+  "Light of Bonds": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Treated as a magical attack. Grants Atk+2 for each adjacent ally.",
+    "weapon": "Breidablik"
+  },
+  "Light of Salvation": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Neutralizes Underworld Boon on foes within 2 spaces."
+  },
+  "Lightning Axe": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack"
+  },
+  "Lightning Reflexes": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit attacks first, and AS ≥ foe's AS+10, unit's follow-up occurs before foe's counter during combat.",
+    "class": "Celestial Trooper"
+  },
+  "Lightning Star": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "might": "+10",
+    "hit": "0",
+    "crit": "+30",
+    "range": "2",
+    "description": "Treated as a magical attack",
+    "weapon": "Hedagg’s Bow, Hedagg's Dark Bow (Enemy only)"
+  },
+  "Lightning Strike": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+8",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Treated as a magical attack.",
+    "weapon": "Levin Sword"
+  },
+  "Luck Fend": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked. Trigger % = Lck/2"
+  },
+  "Luna Λ": {
+    "type": "spell",
+    "school": "black",
+    "might": "1",
+    "hit": "50",
+    "range": "1-2",
+    "weight": "20",
+    "crit": "0",
+    "uses": "1",
+    "effect": "Ignores foe's Res."
+  },
+  "Lunging Gale": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "7",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "AS+3 during combat, grants Atk+7 when making a follow up",
+    "upgrade": {
+      "description": "AS+3 during combat, grants Atk+10 when making a follow up"
+    }
+  },
+  "Mag Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Mag+1 (+2).",
+    "baths": [
+      "Harpyrian Bath (Special)⁺",
+      "Jade Bath",
+      "Floral Bath"
+    ]
+  },
+  "Magecleaver": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "3",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe uses magic, grants Hit+10, Atk+15.",
+    "weapon": "Gundogya"
+  },
+  "Magic Arrow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Treated as a magical attack"
+  },
+  "Magic Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Mag/Res+1",
+    "class": "Diviner"
+  },
+  "Magic Breaker": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "5",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe uses magic, Atk+12."
+  },
+  "Magic Combo": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 2 times at 80% damage. Treated as a magical attack."
+  },
+  "Magic Fend": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked. Trigger % = Res/2"
+  },
+  "Magic Seal Resist": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Unit cannot be Silenced.",
+    "baths": [
+      "Harpyrian Bath (Special)",
+      "Jade Bath",
+      "Floral Bath"
+    ]
+  },
+  "Magic Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "+4",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack",
+    "weapon": "Mace"
+  },
+  "Magic Throw": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "3",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Magic. Only usable by axes with Rng 1-2.",
+    "upgrade": {
+      "might": "+3"
+    }
+  },
+  "Makeshift": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When using a combat art, reduces weapon durability cost to 0 during combat. Trigger % = 10.",
+    "class": "Blacksmith"
+  },
+  "Management Skills": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Allows storage access to unit and allies within 2 spaces."
+  },
+  "Marksmanship": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When equipped with a bow, grants Hit+15.",
+    "class": "Sniper"
+  },
+  "Max Healing": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "After combat, restores all HP to unit. Trigger % = 3.",
+    "baths": [
+      "Harpyrian Bath (Special)"
+    ]
+  },
+  "Menace": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Halves foe's Ddg during combat. Trigger % = 10.",
+    "upgrade": {
+      "description": "Halves foe's Ddg during combat. Trigger % = 20."
+    }
+  },
+  "Meridian Rotation": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Gratns Avo+5. Allows use of the Shining Dragon Strike Blaze Art"
+  },
+  "Miasma Δ": {
+    "type": "spell",
+    "school": "black",
+    "might": "5",
+    "hit": "80",
+    "range": "1-2",
+    "weight": "5",
+    "crit": "0",
+    "uses": "10"
+  },
+  "Mighty Fist": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "2",
+    "might": "4",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "Mighty Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "4",
+    "might": "+12",
+    "hit": "-30",
+    "crit": "0",
+    "range": "2",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+15"
+    }
+  },
+  "Mind's-Eye Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "+30",
+    "crit": "0",
+    "range": "1"
+  },
+  "Mirage": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo +30 to unit and inflicts Avo -30 on foe during combat.",
+    "weapon": "Zagreia, Dark Zagreia"
+  },
+  "Mire B": {
+    "type": "spell",
+    "school": "black",
+    "might": "3",
+    "hit": "70",
+    "range": "1-3",
+    "weight": "15",
+    "crit": "0",
+    "uses": "1",
+    "description": "Attacks using the digestive fluids of artificial lifeforms.",
+    "learnedFrom": "Archive Β"
+  },
+  "Mist Reaper": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "6",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Avo+10 during combat. Grants Crit+10 when making a follow-up",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Modified Weapon": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When equipped with Zerberus, attacks are effective vs. flying.",
+    "upgrade": {
+      "description": "When equipped with Zerberus, attacks are effective+ vs. flying."
+    }
+  },
+  "Monkly Havoc": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After defeating a foe, recovers HP equal to max HP. Trigger % = Lck ÷ 2."
+  },
+  "Moonbreaker": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "+5",
+    "hit": "+30",
+    "crit": "+15",
+    "range": "1",
+    "description": "No additional effect",
+    "weapon": "Fragarach, Dark Fragarach"
+  },
+  "Mounted Push": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "[Cavalry] If unit attacks first, grants Hit+10 during combat.",
+    "upgrade": {
+      "description": "[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat."
+    }
+  },
+  "Mov Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Mov+1 (+2).",
+    "baths": [
+      "Swift-Wind Bath",
+      "Adamant Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Murderous Intent": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, grants Crit+5 during combat."
+  },
+  "Mystic Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Treated as a magical attack."
+  },
+  "Narrow Defense": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Grants Shld+3 when attacked. Trigger % = 25."
+  },
+  "Never Stop": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 30.",
+    "upgrade": {
+      "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 50."
+    }
+  },
+  "No Mercy": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Hit/Crit+5 when making a follow-up.",
+    "upgrade": {
+      "description": "Grants Hit/Crit+10 when making a follow-up."
+    }
+  },
+  "Nosferatu": {
+    "type": "spell",
+    "school": "white",
+    "might": "1",
+    "hit": "80",
+    "range": "1-2",
+    "weight": "8",
+    "crit": "0",
+    "uses": "8",
+    "description": "Magic that absorbs lifeforce from a target.",
+    "effect": "Unit recovers HP equal to half the damage they deal."
+  },
+  "Offense Basics": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Str/Mag+1.",
+    "class": "Ornius Rider"
+  },
+  "One Chance": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit and foe cannot make a follow-up, grants Atk+5 to unit during combat."
+  },
+  "One-Two Punch": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "5",
+    "might": "+10",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1",
+    "description": "Foe attacks first. Grants Avo+20 during combat.",
+    "upgrade": {
+      "might": "+13",
+      "hit": "+30"
+    }
+  },
+  "One-on-One": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "3",
+    "might": "0",
+    "hit": "-50",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, inflicts Immobilize on foe.",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Overtake": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "After defeating a foe, grant Mov+1 through the end of the next turn. (Max +3)",
+    "class": "Caladrius"
+  },
+  "Pass": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Unit can move through foe's space."
+  },
+  "Pass Judgement": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "When Diadem of Balance triggers, grants Atk+4.",
+    "upgrade": {
+      "description": "When Diadem of Balance triggers, grants Atk+7."
+    }
+  },
+  "Patch Up": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After an adjacent ally's combat, restores a little HP to that ally."
+  },
+  "Patch Up Stance": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Pavise": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Unit takes half damage when attacked with a physical attack. Trigger % = 20.",
+    "class": "Cataphract"
+  },
+  "Peak Form": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit's HP = 100%, grants Atk+3 during combat.",
+    "upgrade": {
+      "description": "If unit's HP = 100%, grants Atk+3, Avo+10 during combat."
+    }
+  },
+  "Perception": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit can make a follow-up, grants Avo+10 during combat.",
+    "upgrade": {
+      "description": "If unit can make a follow-up, grants Avo+20 during combat."
+    }
+  },
+  "Physic": {
+    "type": "spell",
+    "school": "white",
+    "might": "8",
+    "range": "1-10",
+    "uses": "5",
+    "description": "Sacred magic that heals wounds from afar.",
+    "effect": "Restores HP to an ally at a distance."
+  },
+  "Pierce": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Atk+2, Crit+5 when attacking with a bow combat art.",
+    "upgrade": {
+      "description": "Grants Atk+4, Crit+10 when attacking with a bow combat art."
+    }
+  },
+  "Piety": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Lck+3.",
+    "class": "Priest"
+  },
+  "Pin Down": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Inflicts Mov-3 on adjacent foes.",
+    "upgrade": {
+      "description": "Inflicts Mov-5 on adjacent foes."
+    }
+  },
+  "Pivot Strike": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+12",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Foe attacks first"
+  },
+  "Poison Burial": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+8",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is poisoned, grants Atk+8",
+    "weapon": "Angela, Dark Angela"
+  },
+  "Poison Harvest": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is Poisoned, unit recovers HP equal to half the damage they deal.",
+    "weapon": "Venin Edge+3 (or higher)"
+  },
+  "Poison Resist": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Unit cannot be poisoned.",
+    "baths": [
+      "Giants' Bath (Special)",
+      "Gold Bath",
+      "Tree of Life Bath"
+    ]
+  },
+  "Poisoner's Talent": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If foe is Poisoned, grants Atk+8, Hit+20 to unit.",
+    "weapon": "Venin Bow+3 (or higher)"
+  },
+  "Positioning": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] If unit is on favorable terrain, grants Avo+10 (Avo+15, Shld+3) during combat."
+  },
+  "Power Arts": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Atk+3 when attacking with a combat art."
+  },
+  "Power Combo": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "7",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 2 times. Reduces Hit to 50%."
+  },
+  "Power Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "cost": "8",
+      "might": "+15",
+      "hit": "+20"
+    }
+  },
+  "Power Throw": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "7",
+    "might": "+10",
+    "hit": "+10",
+    "crit": "0",
+    "range": "2",
+    "description": "Only usable by axes with Rng 1-2.",
+    "upgrade": {
+      "might": "+13",
+      "hit": "+20"
+    }
+  },
+  "Power-Arts Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Practiced Art": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Hit+10 when attacking with a combat art.",
+    "class": "Warrior"
+  },
+  "Pray for Safety": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Ddg+10 to adjacent allies.",
+    "upgrade": {
+      "description": "Grants Ddg+20 to adjacent allies."
+    }
+  },
+  "Precision Strike": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit is effective against foe, grants Hit+10 during combat.",
+    "upgrade": {
+      "description": "If unit is effective against foe, grants Hit+20 during combat."
+    }
+  },
+  "Predictive Sense": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit attacks first, grants Hit+20 to magic during combat."
+  },
+  "Princess of Arrows": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with a bow, grants Hit+20."
+  },
+  "Propel": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "[Infantry] Adjacent ally moves 2 spaces forward. (Cannot use on large-scale allies.)"
+  },
+  "Protecting Wings": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "Grants Res+3.",
+    "class": "Wing Soldier"
+  },
+  "Protective Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Ddg+20 during combat",
+    "upgrade": {
+      "description": "Grants Ddg+30 during combat"
+    }
+  },
+  "Protective Storm": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "6",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Prt+7 during combat",
+    "upgrade": {
+      "might": "+8"
+    }
+  },
+  "Prune": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "+15",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1",
+    "description": "Reduces weapon durability cost to 0 for the attack. Trigger % = Dex.",
+    "weapon": "Veroquine"
+  },
+  "Pulverise": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Can destroy obstacles.",
+    "weapon": "Smashing Axe"
+  },
+  "Punishing Squall": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If AS ≥ foe's AS+3, grants Hit+20 during combat."
+  },
+  "Pursuit Defense": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked by a follow-up. Trigger % = 50"
+  },
+  "Python Technique": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When using a gauntlet combat art, unit makes a follow-up regardless of AS during combat. Trigger % = 15."
+  },
+  "Qi Mastery": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Avo+40 when attacked. Trigger % = Dex."
+  },
+  "Quick Draw": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, grants Atk+3 during combat. Trigger % = 50."
+  },
+  "Quick Thrust": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants AS+3 during combat",
+    "upgrade": {
+      "might": "+1"
+    }
+  },
+  "Quick-Draw Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Racing Attack": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit attacks first, grants Avo+15 during combat."
+  },
+  "Raging Counter": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If foe attacks first, grants Atk+3 to unit during combat.",
+    "upgrade": {
+      "description": "If foe attacks first, grants Atk+3, Crit+10 to unit during combat."
+    }
+  },
+  "Raging Tempest": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+15"
+    }
+  },
+  "Ravaging Arts": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit makes a critical, deal +6 damage.",
+    "class": "Myrmidon"
+  },
+  "Razor Fist": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "6",
+    "might": "+8",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit makes a critical, reduces weapon durability cost to 0."
+  },
+  "Read the Winds": {
+    "type": "ability",
+    "category": "flying",
+    "description": "If foe uses a bow, grants Avo+10 to unit during combat"
+  },
+  "Ready for Battle": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "For the first combat in enemy's phase, unit attacks first. Trigger % = 50."
+  },
+  "Recover": {
+    "type": "spell",
+    "school": "white",
+    "might": "30",
+    "range": "1",
+    "uses": "5",
+    "description": "Sacred magic that heals wounds.",
+    "effect": "Restores a lot of HP to an ally."
+  },
+  "Recovery Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "When healing an ally with magic, restores +5 (+10) HP.",
+    "baths": [
+      "Harpyrian Bath (Special)⁺",
+      "Gold Bath",
+      "Tree of Life Bath",
+      "Floral Bath"
+    ]
+  },
+  "Redblade’s Will": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Atk+3 during combat against an adjacent foe.",
+    "upgrade": {
+      "description": "Grants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % =30)."
+    }
+  },
+  "Reflecting Dance": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "10",
+    "might": "-10",
+    "hit": "-20",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe would have made a followup, foe cannot and unit makes a followup instead."
+  },
+  "Reflection": {
+    "type": "bloodmark",
+    "description": "10% chance to grant Hit+30 when attacking."
+  },
+  "Regenera": {
+    "type": "spell",
+    "school": "white",
+    "range": "1",
+    "uses": "5",
+    "description": "Magic that gradually heals wounds.",
+    "effect": "Ally heals ??? HP at the start of every turn for 5 turns."
+  },
+  "Regroup": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When foe avoids an attack, grants Avo+20 to unit during combat.",
+    "class": "Brigand"
+  },
+  "Rein": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Avo-3 (-5) on adjacent foes."
+  },
+  "Rend Armor": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective against armor",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Requiem Style": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5."
+  },
+  "Res Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Res+1 (+2).",
+    "baths": [
+      "Harpyrian Bath (Special)⁺",
+      "Ruby Bath",
+      "Floral Bath"
+    ]
+  },
+  "Rescue": {
+    "type": "spell",
+    "school": "white",
+    "range": "2-10",
+    "uses": "1",
+    "effect": "Teleports ally to a space adjacent to unit."
+  },
+  "Resist Immobilize": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Unit cannot be Immobilized.",
+    "baths": [
+      "Unicorns' Bath (Special)",
+      "Swift-Wind Bath",
+      "Adamant Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Resist Stance": {
+    "type": "combatArt",
+    "category": "Armor",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "Self",
+    "description": "[Infantry] Grants Res+3 at cost of Avo-10 to unit until unit's next phase."
+  },
+  "Resistant Armor": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] Grants Res+5 (+10)."
+  },
+  "Resolute Stance": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If unit's HP = 100%, grants Shld+5 during combat.",
+    "class": "Sentinel"
+  },
+  "Resquia": {
+    "type": "spell",
+    "school": "white",
+    "range": "2-3",
+    "uses": "3",
+    "effect": "Teleports ally to a space adjacent to unit."
+  },
+  "Restore": {
+    "type": "spell",
+    "school": "white",
+    "range": "1-3",
+    "uses": "10",
+    "description": "Sacred magic that restores the body to its normal state.",
+    "effect": "Removes all status effects from an ally."
+  },
+  "Retaliatory Blow": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 5.",
+    "upgrade": {
+      "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 10."
+    }
+  },
+  "Revitalize": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "After combat, allows unit to act again. Trigger % = 1 (2).",
+    "baths": [
+      "Sea-Tyrant's Bath (Special)⁺",
+      "Gold Bath",
+      "Tree of Life Bath",
+      "Volcanic Bath",
+      "Medicinal Bath"
+    ]
+  },
+  "Revival": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "6",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Restores HP after defeating foe."
+  },
+  "Revival (Bloodmark)": {
+    "type": "bloodmark",
+    "description": "20% chance to restore a little HP to unit when attacking."
+  },
+  "Riot": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 when making a follow-up.",
+    "upgrade": {
+      "description": "Grants Atk+8 when making a follow-up."
+    }
+  },
+  "Ripple Slash": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "-3",
+    "hit": "Guaranteed",
+    "crit": "0",
+    "range": "1",
+    "description": "Guaranteed hit",
+    "upgrade": {
+      "hit": "Guaranteed, including follow-up",
+      "description": "Guaranteed hit, including follow-up"
+    }
+  },
+  "Robust Health": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Shld+3 when attacked. Trigger % = unit's remaining HP.",
+    "upgrade": {
+      "description": "Grants Shld+5 when attacked. Trigger % = unit's remaining HP."
+    }
+  },
+  "Rotation": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "might": "+8",
+    "hit": "+40",
+    "crit": "0",
+    "range": "2",
+    "description": "No additional effect",
+    "weapon": "Suiran's Whirling Claw, Dark Whirling Claw (Enemy only)"
+  },
+  "Royal Resolve": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Unit takes half damage when attacked. Trigger % = 30."
+  },
+  "Sacred Strike": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, restores some HP to unit.",
+    "weapon": "Assal"
+  },
+  "Safety First": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe cannot counter, grants Hit+10 to unit during combat."
+  },
+  "Safety First Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Sage Advice": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Def+3 to adjacent allies."
+  },
+  "Sagittae": {
+    "type": "spell",
+    "school": "black",
+    "might": "13",
+    "hit": "100",
+    "range": "1-2",
+    "weight": "12",
+    "crit": "0",
+    "uses": "3"
+  },
+  "Saving Fist": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "4",
+    "might": "+12",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe's HP ≥ 2, leaves foe with 1 HP. Cannot make a follow-up.",
+    "upgrade": {
+      "crit": "+20"
+    }
+  },
+  "Scorching Sun": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Reduces damage done by undead foes to 0. Trigger % = 5.",
+    "upgrade": {
+      "description": "Reduces damage done by undead foes to 0. Trigger % = 10."
+    }
+  },
+  "Seize the Chance": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2.",
+    "upgrade": {
+      "description": "Multiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2."
+    }
+  },
+  "Self-Repair": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "At start of unit's phase during Overblaze, restores a lot of HP to unit"
+  },
+  "Sen No Sen": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit attacks first, unit's follow-up occurs before foe's counter during combat. Trigger % = 25."
+  },
+  "Sense Threat": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "If foe is effective against unit, grants Avo+20 to unit during combat.",
+    "class": "Armored Ornius Rider"
+  },
+  "Seraphim": {
+    "type": "spell",
+    "school": "white",
+    "might": "10",
+    "hit": "75",
+    "range": "1-2",
+    "weight": "10",
+    "crit": "0",
+    "uses": "3",
+    "description": "Sacred magic that attacks with a ball of pure light.",
+    "effect": "Eff. vs. Undead."
+  },
+  "Shadow Arrow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "7",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Grants Avo+10 during combat.",
+    "upgrade": {
+      "might": "+10",
+      "description": "Grants Avo+20 during combat."
+    }
+  },
+  "Shadow Gambit": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe is on favorable terrain, ignores those terrain effects",
+    "upgrade": {
+      "cost": "1"
+    }
+  },
+  "Shove": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "[Infantry] Adjacent ally moves 1 space forward. (Cannot use on large-scale allies.)"
+  },
+  "Signs of Growth": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When unit levels up, gains enhanced basic stat growth."
+  },
+  "Silence": {
+    "type": "spell",
+    "school": "white",
+    "hit": "60",
+    "range": "1-10",
+    "uses": "2",
+    "effect": "Inflicts Silence."
+  },
+  "Silver Maiden": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Hit/Avo+5 to unit for each adjacent ally."
+  },
+  "Single Sunder": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "4",
+    "might": "+12",
+    "hit": "-50",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "cost": "2"
+    }
+  },
+  "Siphon Luck": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, grants Lck+2 until the end of the map. (Max +10)",
+    "weapon": "Long-Night Katara"
+  },
+  "Skysplit": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "5",
+    "might": "+1",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants AS+5 during combat",
+    "upgrade": {
+      "might": "+4"
+    }
+  },
+  "Smash": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "0",
+    "crit": "+5",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "crit": "+10"
+    }
+  },
+  "Sneaky Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If unit is on favorable terrain, grants Atk+5, Hit/Crit +10.",
+    "upgrade": {
+      "description": "If unit is on favorable terrain, grants Atk+5, Hit/Crit +15."
+    }
+  },
+  "Snipe": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "4",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If foe's HP ≤ 50%, grants Atk+3, Hit+10.",
+    "upgrade": {
+      "description": "If foe's HP ≤ 50%, grants Atk+5, Hit+20."
+    }
+  },
+  "Sniper Evasion": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] Grants Avo+10 (+20) during combat against a foe 3+ spaces away."
+  },
+  "Soar": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit is on inaccessible terrain, grants AS+3.",
+    "upgrade": {
+      "description": "If unit is on inaccessible terrain, grants AS+5."
+    }
+  },
+  "Sol": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit recovers HP equal to half the damage they deal.",
+    "weapon": "Shining Spear"
+  },
+  "Solid and Sturdy": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Def+5. Unit is armored. Cannot change class to cavalry or flying."
+  },
+  "Song of Calm": {
+    "type": "combatArt",
+    "category": "Other",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Grants Res+2 to all allies within range until unit's next turn."
+  },
+  "Spd Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Spd+1 (+2).",
+    "baths": [
+      "Unicorns' Bath (Special)⁺",
+      "Swift-Wind Bath",
+      "Adamant Bath",
+      "Refreshing Bath"
+    ]
+  },
+  "Spear Buster": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe uses a spear, grants Atk+7.",
+    "upgrade": {
+      "description": "If foe uses a spear, grants Atk+7, Hit+20."
+    }
+  },
+  "Spearblock": {
+    "type": "ability",
+    "category": "armored",
+    "description": "[Armored] If foe uses a spear, grants Shld+5 (+10) during combat."
+  },
+  "Spearfaire": {
+    "type": "ability",
+    "category": "weapon",
+    "description": "When unit is equipped with spears, grants Hit/Avo+10 and Atk+3."
+  },
+  "Special Dance": {
+    "type": "ability",
+    "category": "classMastery",
+    "description": "When using Dance, grants Dex/Spd+3 to target ally for the current phase.",
+    "class": "Dancer"
+  },
+  "Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "Spiral Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Grants Atk+5 for the attack. Trigger % = Dex/2.",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Spirit Blow": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "8",
+    "might": "+12",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect"
+  },
+  "Spirit Bow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "6",
+    "might": "+8",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Grants Rsl+7 during combat.",
+    "upgrade": {
+      "description": "Grants Rsl+10 during combat."
+    }
+  },
+  "Spirit Fist": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack. Trigger% = Res/2",
+    "upgrade": {
+      "might": "+10",
+      "description": "Grants Atk+10 for the attack. Trigger% = Res/2"
+    }
+  },
+  "Spirit of Silver": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After combat, grants Def+1 to unit until the end of the map. (Max +10) Trigger % = Def."
+  },
+  "Spirits’ Guidance": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Spirits' Voice to adjacent allies.",
+    "upgrade": {
+      "description": "Grants Spirits' Voice to allies within 2 spaces."
+    }
+  },
+  "Spirits’ Voice": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe uses magic, grants Hit/Avo+10 to unit during combat."
+  },
+  "Squall Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Stage Direction": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Ddg+10 to allies within 2 spaces during their combats. Trigger % = ally's Cha ÷ 2."
+  },
+  "Starlight": {
+    "type": "spell",
+    "school": "white",
+    "might": "13",
+    "hit": "90",
+    "range": "1-3",
+    "weight": "30",
+    "crit": "0",
+    "uses": "3"
+  },
+  "Steadfast": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If unit's HP ≥ 50%, grants Avo+10 during combat."
+  },
+  "Steady Aim": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Rng+1 when attacking with a bow combat art."
+  },
+  "Steady Hands": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe attacks first, grants AS+3, Avo+10 to unit during combat."
+  },
+  "Steady Shot": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] When unit is equipped with a bow or magic, grants Hit+5 (+10)."
+  },
+  "Stinger": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "3",
+    "might": "+7",
+    "hit": "-20",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "might": "+9"
+    }
+  },
+  "Stormstep": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "weaponSpecific",
+    "cost": "3",
+    "might": "+5",
+    "hit": "+20",
+    "crit": "0",
+    "range": "1",
+    "description": "After defeating a foe, grants AS+10 until unit's next phase.",
+    "weapon": "Velheit"
+  },
+  "Str Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Str+1 (+2).",
+    "baths": [
+      "Giants' Bath (Special)⁺",
+      "Ruby Bath",
+      "Hot Bath",
+      "Full-Moon Bath⁺"
+    ]
+  },
+  "Strength Fend": {
+    "type": "ability",
+    "category": "armored",
+    "description": "Unit takes half damage when attacked. Trigger % = Str/2"
+  },
+  "Strike and Heal": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "classMastery",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Unit can use assist magic after attacking.",
+    "class": "War Monk",
+    "upgrade": {
+      "cost": "8"
+    }
+  },
+  "Sturdy Corundum": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "For the first combat in enemy's phase, unit takes half damage."
+  },
+  "Subdue": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foe's HP ≥ 2, leaves foe with 1 HP. Cannot follow up.",
+    "upgrade": {
+      "hit": "+10"
+    }
+  },
+  "Sunder": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "0",
+    "crit": "+10",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "crit": "+15"
+    }
+  },
+  "Supreme Serpent": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "2-5",
+    "description": "Cannot make a follow-up.",
+    "weapon": "Vendetta, Dark Vendetta"
+  },
+  "Surprise Attack": {
+    "type": "ability",
+    "category": "infantry",
+    "description": "[Infantry] If unit is on favorable terrain, grants Hit+15 during combat."
+  },
+  "Surprise Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "If foe's HP = 100%, grants Atk+5. Trigger % = 30.",
+    "upgrade": {
+      "description": "If foe's HP = 100%, grants Atk+5. Trigger % = 50."
+    }
+  },
+  "Swap": {
+    "type": "combatArt",
+    "category": "Authority",
+    "kind": "general",
+    "cost": "0",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "[Infantry] Unit and adjacent ally swap spaces. (Cannot use on large-scale allies.)"
+  },
+  "Swarm Z": {
+    "type": "spell",
+    "school": "black",
+    "might": "4",
+    "hit": "65",
+    "range": "1-2",
+    "weight": "21",
+    "crit": "0",
+    "uses": "2",
+    "description": "An attack that envelops a foe in micromachines.",
+    "effect": "If unit's attack hits, inflicts Spd-3 on foe until unit's next phase.",
+    "learnedFrom": "Archive Ζ"
+  },
+  "Swashbuckler’s Luck": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Lck+3.\nGrants Lck+5 to unit and all allies."
+  },
+  "Sword Breaker": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "4",
+    "might": "+4",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If foes uses a sword, grants Atk+8"
+  },
+  "Sword of Judgment": {
+    "type": "spell",
+    "school": "black",
+    "might": "6",
+    "hit": "80",
+    "range": "1-2",
+    "weight": "10",
+    "crit": "0",
+    "uses": "2",
+    "effect": "Strikes 2 times. Calculates damage based on foe's Prt."
+  },
+  "Swordfaire": {
+    "type": "ability",
+    "category": "weapon",
+    "description": "When unit is equipped with swords, grants Hit/Avo+10 and Atk+3."
+  },
+  "Tactician’s Insight": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "After combat, if unit attacked first, inflicts Avo-5 on foe throughout their next combat.",
+    "upgrade": {
+      "description": "After combat, if unit attacked first, inflicts Avo-10 on foe throughout their next combat."
+    }
+  },
+  "Tactician’s Wit": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Rng+1 to combat arts usable on allies."
+  },
+  "Teach Guardian": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Teach Monkly Havoc": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Teach One Chance": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Teach Requiem": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Teach Yun Shou": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Tempest Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "The Apostle": {
+    "type": "bloodmark",
+    "description": "20% chance to grant Hit+20 when attacking."
+  },
+  "The Apostle\nDuality": {
+    "type": "bloodmark",
+    "description": "20% chance to grant Hit+20 when attacking.\n25% chance to grant Atk+3 when attacking."
+  },
+  "The Auger": {
+    "type": "bloodmark",
+    "description": "5% chance to grant Hit+100 when attacking."
+  },
+  "The Earth": {
+    "type": "bloodmark",
+    "description": "3% chance to grant Atk+7 when attacking."
+  },
+  "The Earth\nDuality": {
+    "type": "bloodmark",
+    "description": "3% chance to grant Atk+7 when attacking.\n25% chance to grant Atk+3 when attacking."
+  },
+  "The Endless": {
+    "type": "bloodmark",
+    "description": "10% chance to restore some HP to unit when attacking."
+  },
+  "The Fanatic": {
+    "type": "bloodmark",
+    "description": "3% chance to gain Atk+5 and Hit+5 when attacking."
+  },
+  "The Victor": {
+    "type": "bloodmark",
+    "description": "10% chance to grant Atk+5 when attacking."
+  },
+  "The Victor\nDuality": {
+    "type": "bloodmark",
+    "description": "10% chance to grant Atk+5 when attacking.\n25% chance to grant Atk+3 when attacking."
+  },
+  "Thoron": {
+    "type": "spell",
+    "school": "black",
+    "might": "20",
+    "hit": "55",
+    "range": "1-3",
+    "weight": "25",
+    "crit": "5",
+    "uses": "4",
+    "effect": "Additional (double) damage during Rainy Weather"
+  },
+  "Thoron Gauntlet": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "5",
+    "might": "+10",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Treated as a magical attack.",
+    "weapon": "Smyrnos’s Channels"
+  },
+  "Threaten": {
+    "type": "ability",
+    "category": "authority",
+    "description": "Inflicts Crit-5 (-10) on adjacent foes."
+  },
+  "Throwing Arm": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If throwing a spear, grants Hit+10, Atk+2 during combat.",
+    "upgrade": {
+      "description": "If throwing a spear, grants Hit+20, Atk+4 during combat."
+    }
+  },
+  "Thunder": {
+    "type": "spell",
+    "school": "black",
+    "might": "5",
+    "hit": "75",
+    "range": "1-2",
+    "weight": "7",
+    "crit": "0",
+    "uses": "8",
+    "description": "Basic lightning magic that causes a focused strike.",
+    "effect": "Additional (double) damage during Rainy Weather"
+  },
+  "Tiger Slash": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "3",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Effective against cavalry",
+    "upgrade": {
+      "might": "+5"
+    }
+  },
+  "Top Form": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Changes the effect of Hot-Headed to grant +15.",
+    "upgrade": {
+      "description": "Changes the effect of Hot-Headed to grant +20."
+    }
+  },
+  "Torch": {
+    "type": "spell",
+    "school": "white",
+    "range": "Self",
+    "uses": "5",
+    "effect": "Grants Vis+3 until unit's next phase."
+  },
+  "Toxic Wind": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "weaponSpecific",
+    "cost": "2",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1-2",
+    "description": "Magic, cannot follow-up, if unit's attack hits, inflicts Poison on foe.",
+    "weapon": "Lakshashi's Iron Fan"
+  },
+  "Triple Spike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "-50",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 3 times. When foe avoids a strike, grants Hit+10 to unit.",
+    "upgrade": {
+      "cost": "8"
+    }
+  },
+  "Twin Blades": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 2 times at 80% damage",
+    "upgrade": {
+      "cost": "8"
+    }
+  },
+  "Twin-Shot Flow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Strikes 2 times at 70% damage.",
+    "upgrade": {
+      "cost": "8",
+      "description": "Strikes 2 times at 80% damage."
+    }
+  },
+  "Tyranny": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "If foe has a status effect, grants Atk+3, Crit+10 to unit during combat."
+  },
+  "Tyranny Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Unstoppable Force": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Multiplies damage by 3 when attacking obstacles."
+  },
+  "Upper Hand": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If unit's hit % = 100, grants Atk +3 when attacking.",
+    "upgrade": {
+      "description": "If unit's hit % = 100, grants Atk +5 when attacking."
+    }
+  },
+  "Valor": {
+    "type": "bloodmark",
+    "description": "3% chance to add 50% of base damage to damage dealt when attacking."
+  },
+  "Vanguard": {
+    "type": "ability",
+    "category": "riding",
+    "description": "[Cavalry] If unit attacks first, grants Shld+2 (+4) during combat."
+  },
+  "Vanguard Spear": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "5",
+    "might": "+7",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+5 for the attack. Trigger% = Str/2",
+    "upgrade": {
+      "might": "+10"
+    }
+  },
+  "Veteran's Order": {
+    "type": "ability",
+    "category": "authority",
+    "description": null
+  },
+  "Veteran’s Mettle": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Hit+10 during combat against an adjacent foe."
+  },
+  "Vicious Flash": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "1",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Grants Atk+8 for the attack. Trigger%=Dex/2",
+    "upgrade": {
+      "description": "Grants Atk+12 for the attack. Trigger%=Dex/2"
+    }
+  },
+  "Violent Claw": {
+    "type": "combatArt",
+    "category": "Gauntlet",
+    "kind": "weaponSpecific",
+    "cost": "10",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Strikes 3 times at 50% damage.",
+    "weapon": "Ursa’s Right Claw, Dark Claws of Ursa"
+  },
+  "Vis Effect": {
+    "type": "ability",
+    "category": "thermae",
+    "description": "Grants Vis+1.",
+    "baths": [
+      "Giants' Bath (Special)",
+      "Swift-Wind Bath",
+      "Hot Bath"
+    ]
+  },
+  "Vital Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "0",
+    "crit": "+5",
+    "range": "2",
+    "description": "No additional effect",
+    "upgrade": {
+      "crit": "+10"
+    }
+  },
+  "Vulgar Conduct": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If foe's HP ≤ 50%, grants Hit+20 during combat.",
+    "upgrade": {
+      "description": "If foe's HP ≤ 50%, grants Hit+20, Atk+3 during combat."
+    }
+  },
+  "Wandering Wall": {
+    "type": "spell",
+    "school": "black",
+    "range": "1",
+    "crit": "0",
+    "uses": "5",
+    "effect": "Creates a wall where needed."
+  },
+  "War Master's Strike": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "classMastery",
+    "cost": "9",
+    "might": "0",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "Multiplies damage dealt by 1.5x",
+    "class": "Battlemaster",
+    "upgrade": {
+      "cost": "7"
+    }
+  },
+  "Ward": {
+    "type": "spell",
+    "school": "white",
+    "range": "1",
+    "uses": "3",
+    "effect": "Grants Res+10 (to an ally?) until unit's next phase."
+  },
+  "Ward Arrow": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "6",
+    "might": "0",
+    "hit": "-40",
+    "crit": "0",
+    "range": "2",
+    "description": "If unit's attack hits, inflicts Silence on foe."
+  },
+  "Warning Shot": {
+    "type": "combatArt",
+    "category": "Bow",
+    "kind": "general",
+    "cost": "2",
+    "might": "+3",
+    "hit": "0",
+    "crit": "0",
+    "range": "2",
+    "description": "Grants Avo+10 during combat.",
+    "upgrade": {
+      "description": "Grants Avo+15 during combat."
+    }
+  },
+  "Warp": {
+    "type": "spell",
+    "school": "white",
+    "range": "1",
+    "uses": "1",
+    "effect": "Moves an ally to a space within 5 spaces"
+  },
+  "Warrior's Eyes": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Avo+20 during combat against a foe 2+ spaces away."
+  },
+  "Warrior’s Blood": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants stat increase based on equipped weapon type.",
+    "upgrade": {
+      "description": "Grants a large stat increase based on equipped weapon type."
+    }
+  },
+  "Warrior’s Clarity": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "After combat, grants Avo+3 until unit's next phase."
+  },
+  "Watchfulness": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Spd+2 to adjacent allies.",
+    "upgrade": {
+      "description": "Grants Spd+4 to adjacent allies."
+    }
+  },
+  "Wheeled Warrior": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "[Cavalry] If unit is a charioteer, grants Hit+20."
+  },
+  "White Magic Mastery": {
+    "type": "ability",
+    "category": "weapon",
+    "description": null
+  },
+  "Wild Abandon": {
+    "type": "combatArt",
+    "category": "Axe",
+    "kind": "general",
+    "cost": "4",
+    "might": "+8",
+    "hit": "-30",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect"
+  },
+  "Wind": {
+    "type": "spell",
+    "school": "black",
+    "might": "3",
+    "hit": "100",
+    "range": "1-2",
+    "weight": "3",
+    "crit": "0",
+    "uses": "10",
+    "description": "Basic wind magic that strikes with a blade of evacuating air.",
+    "effect": "Effective vs. flying."
+  },
+  "Wind My Friend": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "If AS ≥ foe's AS+5, grants Atk+3 during combat.",
+    "upgrade": {
+      "description": "If AS ≥ foe's AS+5, grants Atk+3, and if AS ≥ foe's AS+8, grants Avo+20 during combat."
+    }
+  },
+  "Winds of Victory": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants Lck+3.\nGrants Lck+5 to unit and all allies."
+  },
+  "Windstorm": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "Grants Hit/Avo +15 during combat."
+  },
+  "Windsweep": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "10",
+    "might": "+5",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, cannot be countered. Trigger%=20",
+    "upgrade": {
+      "might": "+8"
+    }
+  },
+  "Windweave": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "weaponSpecific",
+    "cost": "1",
+    "might": "+2",
+    "hit": "0",
+    "crit": "0",
+    "range": "1",
+    "description": "If unit's attack hits, cannot be countered. Trigger%= 10.",
+    "weapon": "Ji"
+  },
+  "Wind’s Caprice": {
+    "type": "ability",
+    "category": "personalEquippable",
+    "description": "Grants one of Avo+1, Avo+5, or Avo+20 during combat.",
+    "upgrade": {
+      "description": "Grants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat."
+    }
+  },
+  "With My Steed": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "[Cavalry] If unit attacks first, grants Shld+3, Ddg+30 during combat."
+  },
+  "Wrath Strike": {
+    "type": "combatArt",
+    "category": "Sword",
+    "kind": "general",
+    "cost": "2",
+    "might": "+4",
+    "hit": "+10",
+    "crit": "0",
+    "range": "1",
+    "description": "No additional effect",
+    "upgrade": {
+      "hit": "+15"
+    }
+  },
+  "Yawning Throw": {
+    "type": "combatArt",
+    "category": "Spear",
+    "kind": "general",
+    "cost": "7",
+    "might": "+10",
+    "hit": "+10",
+    "crit": "0",
+    "range": "2",
+    "description": "Only usable by spears with Rng= 1-2.",
+    "upgrade": {
+      "might": "+13",
+      "hit": "+20"
+    }
+  },
+  "Yun Shou": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with gauntlets, grants Hit+10."
+  },
+  "Zhu Ming": {
+    "type": "ability",
+    "category": "personalInherent",
+    "description": "When equipped with magic, grants Hit+10."
+  }
+}
