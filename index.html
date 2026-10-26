@@ -29,38 +29,51 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--ink);
   font:16px/1.5 "Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
 .wrap{max-width:680px;margin:0 auto;padding:20px 16px 48px}
-h1{font-family:"Cormorant Garamond","Iowan Old Style",Georgia,serif;font-weight:700;
-  font-size:clamp(2rem,7vw,2.75rem);line-height:1.05;margin:8px 0 4px;letter-spacing:-.01em}
-.sub{color:var(--muted);margin:0 0 18px;max-width:52ch}
-.loom{display:flex;gap:3px;height:10px;margin:0 0 20px;border-radius:2px;overflow:hidden}
-.loom span{flex:1;transition:flex .3s ease}
-.loom .empty{background:var(--line)}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.routes{display:flex;gap:4px;overflow-x:auto;padding:0 16px;border-bottom:1px solid var(--line);background:var(--panel);
+  position:sticky;top:0;z-index:2;justify-content:center}
+.routes button{border:0;background:none;color:var(--muted);padding:14px 16px;font-weight:600;white-space:nowrap;
+  border-bottom:3px solid transparent;margin-bottom:-1px}
+.routes button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.layout{display:grid;grid-template-columns:250px minmax(0,680px);gap:8px 32px;justify-content:center;padding:0 16px}
+.layout .wrap{margin:0;padding-left:0;padding-right:0}
+.layout .wrap .tabs{margin-top:8px}
+.side{position:sticky;top:57px;align-self:start;max-height:calc(100vh - 57px);overflow-y:auto;padding:20px 0 24px}
+.side h2{font-size:1.35rem;margin:0}
+.side .hint{margin:2px 0 10px}
+.recruits{list-style:none;margin:0;padding:0}
+.recruits li{display:flex;align-items:center;gap:4px;border-radius:8px}
+.recruits li:hover{background:var(--panel)}
+.recruits li:has([aria-current="true"]){background:var(--panel);box-shadow:inset 0 0 0 1px var(--accent)}
+.recruits .open{display:grid;grid-template-columns:4px 1fr;gap:0 10px;flex:1;min-width:0;text-align:left;border:0;background:none;
+  color:var(--ink);padding:7px 8px;border-radius:8px}
+.recruits .toggle{flex:0 0 auto;width:30px;height:30px;margin-right:4px;border:1px solid var(--line);border-radius:50%;
+  background:var(--bg);color:var(--ink);font-size:1.1rem;line-height:1;display:grid;place-items:center}
+.recruits .toggle:hover{border-color:var(--accent);color:var(--accent)}
+.recruits .toggle[aria-pressed="true"]{color:var(--muted)}
+.recruits i{grid-row:span 2;border-radius:2px;background:transparent}
+.recruits b{font-weight:600}
+.recruits span{font-size:.8125rem;color:var(--muted);font-variant-numeric:tabular-nums}
+@media (max-width:820px){
+  .routes{justify-content:flex-start}
+  .layout{grid-template-columns:minmax(0,1fr);padding:0}
+  .layout .wrap{padding:8px 16px 48px}
+  .side{position:static;max-height:none;padding:16px 16px 0}
+  .recruits{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
+  .recruits li{flex:0 0 auto;background:var(--panel);border:1px solid var(--line)}
+  .recruits .open{flex:0 0 auto}
+}
 h2{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.5rem;font-weight:700;margin:0 0 10px;line-height:1.2}
-.addrow{display:flex;gap:8px}
-input[type=text],input[type=search],textarea{flex:1;min-width:0;font:inherit;color:var(--ink);background:var(--bg);
+input[type=text],input[type=search]{flex:1;min-width:0;font:inherit;color:var(--ink);background:var(--bg);
   border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%}
-textarea{min-height:140px;font-size:.875rem;resize:vertical}
 ::placeholder{color:var(--muted)}
 button{font:inherit;cursor:pointer}
-.primary{background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:10px 16px;font-weight:600}
 .hint{font-size:.875rem;color:var(--muted);margin:6px 0 0}
 .hint a{color:var(--accent)}
 .msg{font-size:.875rem;color:var(--warn);margin:6px 0 0}
 .msg:empty{display:none}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px;padding:0;list-style:none}
-.chip{display:inline-flex;align-items:center;gap:8px;background:var(--bg);border:1px solid var(--line);
-  border-radius:999px;padding:4px 4px 4px 12px;font-weight:500}
-.chip i{width:4px;height:16px;border-radius:2px;display:block}
-.chip button{border:0;background:transparent;color:var(--muted);width:28px;height:28px;border-radius:50%;
-  font-size:1.1rem;line-height:1;display:grid;place-items:center}
-.chip button:hover{background:var(--line);color:var(--ink)}
-.empty-roster{color:var(--muted);margin:14px 0 4px}
 .controls{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;margin-top:12px;font-size:.9375rem}
 .controls label{display:inline-flex;gap:8px;align-items:center;cursor:pointer}
 .controls input{accent-color:var(--accent);width:18px;height:18px}
-.link{border:0;background:none;color:var(--accent);padding:4px 0;font-weight:600}
-.controls .link{margin-left:auto}
 .tabs{display:flex;gap:4px;overflow-x:auto;margin:24px 0 18px;border-bottom:1px solid var(--line)}
 .tabs button{border:0;background:none;color:var(--muted);padding:10px 14px;font-weight:600;
   border-bottom:3px solid transparent;margin-bottom:-1px}
@@ -76,6 +89,7 @@ button{font:inherit;cursor:pointer}
 .who{min-width:0}
 .who b{font-weight:600;display:block}
 .who span{font-size:.875rem;color:var(--muted);display:block}
+.who span span{display:inline}
 .row .add{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;
   padding:6px 10px;font-size:.875rem;font-weight:500}
 .row .add:hover{border-color:var(--accent);color:var(--accent)}
@@ -88,9 +102,7 @@ button{font:inherit;cursor:pointer}
 dl.gifts{margin:0;display:grid;grid-template-columns:7.5em 1fr;gap:4px 12px;font-size:.9375rem}
 dl.gifts dt{color:var(--muted);font-weight:500}
 dl.gifts dd{margin:0}
-.unv{color:var(--muted)}
 mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 2px}
-.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
 .lspick{display:flex;gap:10px;align-items:center}
 .lslabel{font-weight:600;color:var(--muted);font-size:.8125rem;text-transform:uppercase;letter-spacing:.06em}
 #lsChar{flex:1;min-width:0;font:inherit;font-weight:600;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
@@ -100,7 +112,6 @@ mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;b
 .quick button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
 .lshead{margin:22px 0 4px}
 .lshead h2{font-size:2rem;margin:0}
-.lsnote{color:var(--muted);margin:4px 0 0;font-size:.9375rem}
 .lssec{margin:24px 0 0}
 .lssec>h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.3rem;margin:0 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
 .seg{font-family:"Figtree",sans-serif;font-size:.8125rem;display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
@@ -141,37 +152,20 @@ mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;b
 .art{display:block;margin:0 0 8px}
 .art:last-child{margin-bottom:0}
 .art b{font-weight:600}
-.art .tn{color:var(--muted);font-size:.8125rem}
 .art .ad{display:block;font-size:.8125rem;line-height:1.45;color:var(--muted);margin-top:1px}
 .art .st{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:500}
 .art .up{font-style:italic}
 .ranks dt{padding-top:1px}
-button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-@media (prefers-reduced-motion:reduce){.loom span{transition:none}}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
+<nav class="routes" role="tablist" aria-label="Route" id="routes"></nav>
+<div class="layout">
+<aside class="side" aria-label="Part I recruits">
+  <ol class="recruits" id="recruits"></ol>
+</aside>
 <div class="wrap">
-  <h1>Support threads</h1>
-  <p class="sub">Build a roster for Fire Emblem Fortune's Weave, see who has supports with it, look up gifts, and check every character's learnset.</p>
-  <div class="loom" id="loom" aria-hidden="true"></div>
-
-  <section class="card" aria-labelledby="rosterh">
-    <h2 id="rosterh">Roster</h2>
-    <form class="addrow" id="addform" autocomplete="off">
-      <input type="text" id="addinput" list="names" placeholder="Leda, Mu, Sirocco…" aria-label="Characters to add">
-      <button class="primary" type="submit">Add</button>
-    </form>
-    <datalist id="names"></datalist>
-    <p class="hint">Add one name or a whole group separated by commas.</p>
-    <p class="msg" id="msg" role="status"></p>
-    <ul class="chips" id="chips"></ul>
-    <div class="controls">
-      <label id="memberToggle"><input type="checkbox" id="showMembers"> Show roster members in the list</label>
-      <button class="link" id="clear" type="button">Clear roster</button>
-    </div>
-  </section>
-
   <div class="tabs" role="tablist">
     <button role="tab" id="tab-supports" aria-controls="panel-supports" aria-selected="true">Support partners</button>
     <button role="tab" id="tab-gifts" aria-controls="panel-gifts" aria-selected="false">Gifts</button>
@@ -194,11 +188,11 @@ button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-vis
     <div id="lsView"></div>
   </div>
 </div>
+</div>
 <script>
 const PALETTE = ["#C4566B","#D9A441","#3E8E7E","#5B6CD6","#B565C9","#E07A3F","#4FA3C7","#8BA33A","#D1608F","#7A6650","#2F6F9F","#C98A2B"];
 const TIERS = ["Loved","Liked"];
-const DEFAULT_ROSTER = ["Leda","Buccar","Sirocco","Mu","Olympia","Catania"];
-const KEY = "fw-support-roster-v1";
+const KEY = "fw-planner-v2";
 const STATS = [["hp","HP"],["str","Str"],["mag","Mag"],["spd","Spd"],["dex","Dex"],["def","Def"],["res","Res"],["lck","Lck"],["cha","Cha"]];
 const LINES = [["sword","Sword"],["spear","Spear"],["axe","Axe"],["bow","Bow"],["gauntlet","Gauntlet"],["blackMagic","Black Magic"],
   ["whiteMagic","White Magic"],["authority","Authority"],["infantry","Infantry"],["riding","Riding"],["armor","Armor"],["flying","Flying"]];
@@ -209,39 +203,37 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 let CHARS = {}, SKILLS = {}, NAMES = [], LOOKUP = {};
-let state = {roster:[...DEFAULT_ROSTER], showMembers:false, tab:"supports"};
+let state = {added:{cai:[],dietrich:[],theodora:[],leda:[]}, showMembers:false, tab:"supports", route:"cai"};
+// The roster for the current route: its automatic joiners plus anyone added from the sidebar. Rebuilt on each render.
+let ROSTER = [];
 let lsBoonOnly = false, lsDetails = true;
 const save = () => { try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} };
-const color = n => PALETTE[state.roster.indexOf(n) % PALETTE.length];
+const color = n => PALETTE[ROSTER.indexOf(n) % PALETTE.length];
 
-function addNames(text){
-  const parts = text.split(/[,\n;]+/).map(s=>s.trim()).filter(Boolean);
-  const unknown = [], already = [];
-  for(const p of parts){
-    const n = LOOKUP[norm(p)];
-    if(!n){ unknown.push(p); continue; }
-    if(state.roster.includes(n)){ already.push(n); continue; }
-    state.roster.push(n);
-  }
-  const bits = [];
-  if(unknown.length) bits.push(`No character named ${unknown.map(u=>`"${u}"`).join(", ")}. Check the spelling.`);
-  if(already.length) bits.push(`${already.join(", ")} ${already.length>1?"are":"is"} already in the roster.`);
-  $("msg").textContent = bits.join(" ");
+const joinsAutomatically = r => r.renown==null && r.support==null;
+function buildRoster(){
+  const list = partOneRecruits(state.route);
+  const added = (state.added[state.route] ||= []);
+  ROSTER = list.filter(({n,r})=>joinsAutomatically(r) || added.includes(n)).map(x=>x.n);
+}
+function toggleRoster(n){
+  const added = state.added[state.route];
+  state.added[state.route] = added.includes(n) ? added.filter(m=>m!==n) : [...added, n];
   save(); render();
-  return unknown;
 }
 
 /* ---------- supports panel ---------- */
 function renderSupports(){
-  const r = state.roster, el = $("panel-supports");
+  const r = ROSTER, el = $("panel-supports");
+  const recruitable = new Set(partOneRecruits(state.route).map(x=>x.n));
+  const toggle = `<div class="controls" style="margin:0 0 14px"><label><input type="checkbox" id="showMembers"${state.showMembers?" checked":""}> Show roster members in the list</label></div>`;
   const tally = {};
   for(const m of r) for(const p of Object.keys(CHARS[m].supports)) (tally[p] ||= []).push(m);
   const rows = Object.entries(tally)
     .filter(([n])=> state.showMembers || !r.includes(n))
     .map(([n,ms])=>({n, ms:ms.sort((a,b)=>r.indexOf(a)-r.indexOf(b))}))
     .sort((a,b)=> b.ms.length-a.ms.length || a.n.localeCompare(b.n));
-  if(!r.length){ el.innerHTML = ""; return; }
-  if(!rows.length){ el.innerHTML = `<p class="none">Nobody outside the roster has a support with these characters.</p>`; return; }
+  if(!rows.length){ el.innerHTML = toggle + `<p class="none">Nobody outside the roster has a support with these characters.</p>`; return; }
   const groups = {};
   rows.forEach(x=>(groups[x.ms.length] ||= []).push(x));
   // "Leda (C, B, A)": the ranks this pair can reach; hover shows each rank's requirements.
@@ -250,7 +242,7 @@ function renderSupports(){
     const tip = Object.entries(ranks).map(([rk,q])=>`${rk}: ${supportReq(q)}`).join("\n");
     return `<span title="${esc(tip)}">${esc(m)} (${Object.keys(ranks).join(", ")})</span>`;
   };
-  el.innerHTML = Object.keys(groups).map(Number).sort((a,b)=>b-a).map(c=>`
+  el.innerHTML = toggle + Object.keys(groups).map(Number).sort((a,b)=>b-a).map(c=>`
     <div class="tier">
       <h3>Linked to ${c} of ${r.length}<small>${groups[c].length} ${groups[c].length===1?"character":"characters"}</small></h3>
       ${groups[c].map(({n,ms})=>{
@@ -258,7 +250,7 @@ function renderSupports(){
         return `<div class="row${member?" member":""}">
           <div class="threads">${ms.map(m=>`<i style="background:${color(m)}" title="${esc(m)}"></i>`).join("")}</div>
           <div class="who"><b>${esc(n)}</b><span>with ${ms.map(m=>pair(n,m)).join(", ")}</span></div>
-          ${member?"<span></span>":`<button type="button" class="add" data-add="${esc(n)}">Add</button>`}
+          ${member || !recruitable.has(n)?"<span></span>":`<button type="button" class="add" data-add="${esc(n)}">Add</button>`}
         </div>`;}).join("")}
     </div>`).join("");
 }
@@ -279,14 +271,14 @@ const itemHTML = (it,q) => {
 };
 const personHTML = (n,q) => {
   const g = gifts(n);
-  const inR = state.roster.includes(n);
+  const inR = ROSTER.includes(n);
   const rows = [0,1].filter(t=>g[t].length).map(t=>`<dt>${TIERS[t]}</dt><dd>${g[t].map(it=>itemHTML(it,q)).join(", ")}</dd>`).join("");
   return `<div class="person"><h3>${inR?`<i style="background:${color(n)}"></i>`:""}${esc(n)}</h3>${rows?`<dl class="gifts">${rows}</dl>`:`<p class="none">No gift data.</p>`}</div>`;
 };
 
 function renderGifts(){
   const q = $("gq").value.trim(), el = $("giftResults");
-  const r = state.roster;
+  const r = ROSTER;
 
   if(!q){
     if(!r.length){ el.innerHTML = `<p class="none">Search for a character or gift, or add characters to your roster to see their favourites.</p>`; return; }
@@ -327,8 +319,8 @@ function renderGifts(){
   let html = "";
   if(nameHits.length) html += nameHits.map(n=>personHTML(n,"")).join("");
   html += byTier.map((list,t)=>list.length?`<div class="tier"><h3>${TIERS[t]}<small>${list.length} ${list.length===1?"character":"characters"}</small></h3>
-    ${list.sort((a,b)=>(state.roster.includes(b.n)-state.roster.includes(a.n))||a.n.localeCompare(b.n)).map(({n,hit})=>`<div class="row${state.roster.includes(n)?" member":""}">
-      <div class="threads">${state.roster.includes(n)?`<i style="background:${color(n)}"></i>`:""}</div>
+    ${list.sort((a,b)=>(ROSTER.includes(b.n)-ROSTER.includes(a.n))||a.n.localeCompare(b.n)).map(({n,hit})=>`<div class="row${ROSTER.includes(n)?" member":""}">
+      <div class="threads">${ROSTER.includes(n)?`<i style="background:${color(n)}"></i>`:""}</div>
       <div class="who"><b>${esc(n)}</b><span>${hit.map(it=>itemHTML(it,q)).join(", ")}</span></div><span></span></div>`).join("")}</div>`:"").join("");
   el.innerHTML = html || `<p class="none">Nothing matches "${esc(q)}". Try part of the name, like "ghosh".</p>`;
 }
@@ -372,10 +364,10 @@ function recruitHTML(r){
 }
 
 function renderLearn(){
-  if(!CHARS[state.lsChar]) state.lsChar = state.roster.find(n=>CHARS[n]) || "Leda";
+  if(!CHARS[state.lsChar]) state.lsChar = ROSTER.find(n=>CHARS[n]) || "Leda";
   const n = state.lsChar, c = CHARS[n];
   $("lsChar").value = n;
-  $("lsQuick").innerHTML = state.roster.map(m=>`<button type="button" data-ls="${esc(m)}" aria-pressed="${m===n}"><i style="background:${color(m)}"></i>${esc(m)}</button>`).join("");
+  $("lsQuick").innerHTML = ROSTER.map(m=>`<button type="button" data-ls="${esc(m)}" aria-pressed="${m===n}"><i style="background:${color(m)}"></i>${esc(m)}</button>`).join("");
   const g = c.growthRates;
   const pers = personalHTML("Inherent", c.personalSkills.inherent) + personalHTML("Equippable", c.personalSkills.equippable)
     + personalHTML("Bloodmark", c.bloodmarks);
@@ -397,38 +389,60 @@ function renderLearn(){
     <section class="lssec"><h3>Recruitment</h3><div class="paths">${paths}</div></section>`;
 }
 
+/* ---------- route tabs + recruit sidebar ---------- */
+// Part I recruits on the route, by renown then support level. Lords and automatic joins have neither, so they lead.
+function partOneRecruits(route){
+  return NAMES.map(n=>({n, r:CHARS[n].recruitment[route]})).filter(x=>x.r && x.r.part===1)
+    .sort((a,b)=>(a.r.renown??0)-(b.r.renown??0) || (a.r.support??0)-(b.r.support??0) || a.r.chapter-b.r.chapter || a.n.localeCompare(b.n));
+}
+function renderRoutes(){
+  if(!PATHS.some(([k])=>k===state.route)) state.route = "cai";
+  $("routes").innerHTML = PATHS.map(([k])=>{
+    const lord = k[0].toUpperCase()+k.slice(1);
+    return `<button role="tab" type="button" data-route="${k}" aria-selected="${state.route===k}">${lord}</button>`;
+  }).join("");
+  // Roster members first; both groups keep the renown/support order.
+  const all = partOneRecruits(state.route);
+  const list = [...all.filter(x=>ROSTER.includes(x.n)), ...all.filter(x=>!ROSTER.includes(x.n))];
+  const current = state.tab==="learn" ? state.lsChar : null;
+  $("recruits").innerHTML = list.map(({n,r})=>{
+    const auto = joinsAutomatically(r);
+    const meta = [`Ch ${r.chapter}`, r.support!=null && `Support ${r.support}`, r.renown!=null && `${r.renown} renown`].filter(Boolean).join(" · ");
+    const inR = ROSTER.includes(n);
+    const toggle = auto ? "" : `<button type="button" class="toggle" data-toggle="${esc(n)}" aria-pressed="${inR}"
+      aria-label="${inR?"Remove":"Add"} ${esc(n)} ${inR?"from":"to"} the roster">${inR?"×":"+"}</button>`;
+    return `<li><button type="button" class="open" data-open="${esc(n)}" aria-current="${current===n}" title="${esc(r.notes.join("\n"))}">
+      <i style="${inR?`background:${color(n)}`:""}"></i><b>${esc(n)}</b><span>${esc(auto?meta+" · joins automatically":meta)}</span></button>${toggle}</li>`;
+  }).join("");
+}
+
 function render(){
-  const r = state.roster;
-  $("loom").innerHTML = r.length ? r.map(n=>`<span style="background:${color(n)}"></span>`).join("") : `<span class="empty"></span>`;
-  $("chips").innerHTML = r.map(n=>`<li class="chip"><i style="background:${color(n)}"></i>${esc(n)}<button type="button" data-remove="${esc(n)}" aria-label="Remove ${esc(n)}">×</button></li>`).join("");
-  const er = document.querySelector(".empty-roster"); if(er) er.remove();
-  if(!r.length) $("chips").insertAdjacentHTML("afterend",`<p class="empty-roster">Your roster is empty. Add a character to see their support partners.</p>`);
-  $("showMembers").checked = state.showMembers;
+  buildRoster();
+  renderRoutes();
   const tab = ["gifts","learn"].includes(state.tab) ? state.tab : "supports";
   for(const k of ["supports","gifts","learn"]){ $("tab-"+k).setAttribute("aria-selected", tab===k); $("panel-"+k).hidden = tab!==k; }
-  $("memberToggle").hidden = tab!=="supports";
   if(tab==="supports") renderSupports(); else if(tab==="gifts") renderGifts(); else renderLearn();
 }
 
-$("addform").addEventListener("submit", e=>{
-  e.preventDefault();
-  const v = $("addinput").value;
-  if(!v.trim()) return;
-  $("addinput").value = addNames(v).join(", ");
-});
 document.addEventListener("click", e=>{
-  const rm = e.target.closest("[data-remove]");
-  if(rm){ state.roster = state.roster.filter(n=>n!==rm.dataset.remove); $("msg").textContent=""; save(); render(); return; }
   const ad = e.target.closest("[data-add]");
-  if(ad) addNames(ad.dataset.add);
+  if(ad) toggleRoster(ad.dataset.add);
 });
-$("clear").addEventListener("click", ()=>{ state.roster=[]; $("msg").textContent=""; save(); render(); });
-$("showMembers").addEventListener("change", e=>{ state.showMembers=e.target.checked; save(); render(); });
+document.addEventListener("change", e=>{
+  if(e.target.id==="showMembers"){ state.showMembers=e.target.checked; save(); render(); }
+});
 for(const k of ["supports","gifts","learn"]) $("tab-"+k).addEventListener("click", ()=>{ state.tab=k; save(); render(); });
 $("gq").addEventListener("input", renderGifts);
-$("lsChar").addEventListener("change", e=>{ state.lsChar=e.target.value; save(); renderLearn(); });
+$("routes").addEventListener("click", e=>{
+  const b = e.target.closest("[data-route]"); if(b){ state.route = b.dataset.route; save(); render(); }
+});
+$("recruits").addEventListener("click", e=>{
+  const t = e.target.closest("[data-toggle]"); if(t){ toggleRoster(t.dataset.toggle); return; }
+  const b = e.target.closest("[data-open]"); if(b){ state.tab = "learn"; state.lsChar = b.dataset.open; save(); render(); }
+});
+$("lsChar").addEventListener("change", e=>{ state.lsChar=e.target.value; save(); render(); });
 $("panel-learn").addEventListener("click", e=>{
-  const q = e.target.closest("[data-ls]"); if(q){ state.lsChar=q.dataset.ls; save(); renderLearn(); return; }
+  const q = e.target.closest("[data-ls]"); if(q){ state.lsChar=q.dataset.ls; save(); render(); return; }
   const b = e.target.closest("[data-boon]"); if(b){ lsBoonOnly = b.dataset.boon==="1"; renderLearn(); return; }
   const dt = e.target.closest("[data-det]"); if(dt){ lsDetails = dt.dataset.det==="1"; renderLearn(); }
 });
@@ -441,9 +455,8 @@ Promise.all(["data/characters.json","data/skills.json"].map(u=>fetch(u).then(r=>
     LOOKUP[norm("Lillian")] = "Lilian";
     try{
       const saved = JSON.parse(localStorage.getItem(KEY)||"null");
-      if(saved && Array.isArray(saved.roster)) state = {...state, ...saved, roster:saved.roster.filter(n=>CHARS[n])};
+      if(saved && saved.added) state = {...state, ...saved};
     }catch(e){}
-    $("names").innerHTML = NAMES.map(n=>`<option value="${esc(n)}">`).join("");
     $("lsChar").innerHTML = NAMES.map(n=>`<option value="${esc(n)}">${esc(n)}</option>`).join("");
     render();
   })
