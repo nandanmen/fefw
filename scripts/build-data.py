@@ -1,6 +1,8 @@
-# Builds data/characters.json and data/skills.json from the Fortune's Weave community sheet.
-# Usage: python3 scripts/build-data.py <spreadsheet.json> <out-dir>
-# Input is a Sheets API spreadsheets.get response with grid data (formattedValue) for the tabs in TABS.
+# Builds data/characters.json and data/skills.json from the Fortune's Weave community sheets.
+# Usage: python3 scripts/build-data.py <spreadsheet.json> <supports.json> <out-dir>
+# Inputs are Sheets API spreadsheets.get responses with grid data (formattedValue):
+#   spreadsheet.json - the learnsets sheet (1YW5AdvPUbLPr1RAGlnotcRaNTFCQPTKiIgshwrcdUtE), tabs in TABS
+#   supports.json    - the support list sheet (1EcEgm2XYohBogIdqNUJdFZzJcxSxnwELmaDxufuYyfI), one tab per character
 import json, os, re, sys
 
 TABS = ["Characters", "Combat Arts", "Equipable Skills", "Black Magic", "White Magic", "Magic Scrolls",
@@ -302,12 +304,80 @@ def build(tabs):
     return characters, unresolved
 
 
+# --- Supports ------------------------------------------------------------------------------------
+
+SUPPORT_RANKS = ["C", "B", "A"]
+NO_SUPPORT = {"", "-", "."}
+# Misspelled partner names on the support sheet.
+PARTNER_ALIASES = {"Anatatolia": "Anatolia", "Urusla": "Ursula", "Lillian": "Lilian"}
+# Eshmel's own tab only says "most characters: A support in Part 3"; his partners come from their tabs.
+ESHMEL = "Eshmel"
+
+
+def support_req(text):
+    """Parses e.g. "Support level 2, Part 1, Exclusive to Theodora path"."""
+    out = {"support": None, "part": None, "notes": []}
+    for piece in (p.strip() for p in text.split(",")):
+        if not piece or piece in NO_SUPPORT:
+            continue
+        rest = piece
+        if m := re.match(r"support level (\d+)\s*", rest, re.I):
+            out["support"] = int(m[1]); rest = rest[m.end():]
+        if m := re.match(r"part (\d+)\s*", rest, re.I):
+            out["part"] = int(m[1]); rest = rest[m.end():]
+            if piece.lower().startswith("part") and rest.startswith("or"):
+                rest = piece  # "Part 1 or 3": keep the whole thing as a note.
+        rest = rest.strip(" .()").replace("Excluive", "Exclusive")
+        if rest:
+            out["notes"].append(rest[0].upper() + rest[1:])
+    return out
+
+
+def build_supports(tabs, characters):
+    found = {}
+    for name, rows in tabs.items():
+        if name not in characters or name == ESHMEL:
+            continue
+        header = next(i for i, r in enumerate(rows) if "Partner" in r)
+        col = rows[header].index("Partner")
+        for r in rows[header + 1:]:
+            partner = cell(r, col)
+            cells = [(r[col + 1 + i].strip() if col + 1 + i < len(r) else "") for i in range(3)]
+            if not partner or all(c in NO_SUPPORT for c in cells):
+                continue  # Notes rows have text in the partner column only.
+            partner = PARTNER_ALIASES.get(partner, partner)
+            ranks = {rank: support_req(c) for rank, c in zip(SUPPORT_RANKS, cells) if c not in NO_SUPPORT}
+            if partner == ESHMEL:
+                for req in ranks.values():
+                    req["part"] = req["part"] or 3
+            found[(name, partner)] = ranks
+    # Supports are mutual, but some tabs list a rank the partner's tab omits; take the union,
+    # preferring each character's own tab.
+    one_sided = []
+    for (a, b), ranks in list(found.items()):
+        mine = found.setdefault((b, a), {})
+        for rank, req in ranks.items():
+            if rank not in mine:
+                mine[rank] = req
+                if b != ESHMEL:
+                    one_sided.append(f"{b}-{a} {rank}")
+    for c in characters.values():
+        c["supports"] = {}
+    for (a, b), ranks in sorted(found.items()):
+        if ranks and a in characters and b in characters:
+            characters[a]["supports"][b] = {r: ranks[r] for r in SUPPORT_RANKS if r in ranks}
+    return sorted(one_sided)
+
+
 if __name__ == "__main__":
     tabs = load(sys.argv[1])
     characters, unresolved = build(tabs)
-    out = sys.argv[2]
+    one_sided = build_supports(load(sys.argv[2]), characters)
+    out = sys.argv[3]
     json.dump(characters, open(os.path.join(out, "characters.json"), "w"), ensure_ascii=False, indent=2)
     json.dump(dict(sorted(skills.items())), open(os.path.join(out, "skills.json"), "w"), ensure_ascii=False, indent=2)
     print(f"{len(characters)} characters, {len(skills)} skills")
     if unresolved:
         print("Learnset skills with no description in the sheet:", sorted(unresolved))
+    if one_sided:
+        print("Support ranks only listed on the partner's tab:", one_sided)

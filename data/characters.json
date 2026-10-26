@@ -377,6 +377,79 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Not available in Cai's path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Not available in Cai's path"
+          ]
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Anatolia": {
@@ -713,6 +786,74 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        }
+      },
+      "Yang Jie": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Aswan": {
@@ -1027,6 +1168,15 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -1380,6 +1530,27 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Bertrand": {
@@ -1711,6 +1882,39 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Cai": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -2046,6 +2250,147 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nydine": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Orchel": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Troy": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -2389,6 +2734,154 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jasmine": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 9"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Before chapter 9"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      }
     }
   },
   "Cai": {
@@ -2703,6 +3196,209 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Alexandra": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Anatolia": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Bertrand": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Centurio": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": [
+            "After Centurio subquest"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Chapter 12"
+          ]
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": null,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "From Chapter 10"
+          ]
+        }
       }
     }
   },
@@ -3061,6 +3757,41 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "After Ch8"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Centurio": {
@@ -3395,6 +4126,22 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Creek": {
@@ -3687,6 +4434,34 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Nathan": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -4040,6 +4815,101 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Dietrich route"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Dietrich route"
+          ]
+        }
+      },
+      "Inyoni": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -4421,6 +5291,123 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Anatolia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Nydine": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Diego": {
@@ -4754,6 +5741,113 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Io": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nuzzuo": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Dietrich": {
@@ -5067,6 +6161,164 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Catania": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "After Ch8"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Eshmel": {
@@ -5375,6 +6627,344 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Alexandra": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Benditz": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Bonaventure": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Buccar": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Catania": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dadao": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Guzran": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Hong Hua": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Inyoni": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Io": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jasmine": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Majide": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Noctula": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Nydine": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peppe": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sofia": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Yang Jie": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Zarcone": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -5743,6 +7333,170 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Dietrich route"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Dietrich route"
+          ]
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Kiroc": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        }
+      }
     }
   },
   "Fabio": {
@@ -6074,6 +7828,121 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Anatolia": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -6412,6 +8281,104 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Orchel": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -6763,6 +8730,108 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Alexandra": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Only on Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 2,
+          "notes": [
+            "Chapter 2 onwards. Recruit before CH 12"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Zarcone": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Goliath": {
@@ -7075,6 +9144,143 @@
         ]
       },
       "flying": {}
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Only on Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Noctula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Guzran": {
@@ -7408,6 +9614,46 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -7744,6 +9990,118 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Zarcone": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Hong Hua": {
@@ -8068,6 +10426,22 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Inyoni": {
@@ -8387,6 +10761,27 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -8722,6 +11117,39 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Jasmine": {
@@ -9056,6 +11484,46 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -9394,6 +11862,128 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Noctula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Kiroc": {
@@ -9725,6 +12315,15 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Klapka": {
@@ -9933,7 +12532,8 @@
         ]
       },
       "flying": {}
-    }
+    },
+    "supports": {}
   },
   "Leda": {
     "growthRates": {
@@ -10256,6 +12856,203 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Aswan": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Guzran": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 11 if doing her path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "From chapter 8"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Orchel": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -10583,6 +13380,173 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 2,
+          "notes": [
+            "Chapter 2 onwards. Recruit before CH 12"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Before chapter 8",
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "A": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "After Lysander- Theodora B"
+          ]
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nydine": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Do it AFTER Lysander-Lilian B or it will lock"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -10929,6 +13893,109 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Yang Jie": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -11278,6 +14345,121 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Benditz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Lysander": {
@@ -11611,6 +14793,143 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Catania": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Before chapter 8",
+            "Before Lilian-Theodora B support"
+          ]
+        },
+        "A": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "After Lysander- Theodora B"
+          ]
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Majide": {
@@ -11935,6 +15254,31 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Part 1 or 3"
+          ]
+        }
+      },
+      "Orchel": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -12275,6 +15619,151 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Esmeralda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Exclusive to Dietrich path"
+          ]
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Guzran": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Leda's and Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sofia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Mu": {
@@ -12612,6 +16101,159 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Guzran": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "From chapter 8"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Leda's and Dietrich path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Peppe": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Nathan": {
@@ -12909,6 +16551,20 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Creek": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -13242,6 +16898,101 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Majide": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "After Chapter 9"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
       }
     }
   },
@@ -13587,6 +17338,113 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": [
+            "After Centurio subquest"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Orchel": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peppe": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Noctula": {
@@ -13908,6 +17766,39 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -14233,6 +18124,15 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -14560,6 +18460,46 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -14903,6 +18843,159 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Alexandra": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Not available in Cai's path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Not available in Cai's path"
+          ]
+        }
+      },
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Creek": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Jasmine": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Orchel": {
@@ -15227,6 +19320,55 @@
         ]
       },
       "flying": {}
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Majide": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Peppe": {
@@ -15551,6 +19693,51 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -15889,6 +20076,153 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Chapter 10"
+          ]
+        }
+      },
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jester": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sofia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "See after Ultand Tialla B"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "See Ultand B support"
+          ]
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "See Tialla B support"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Chapter 10"
+          ]
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Seteth": {
@@ -16219,6 +20553,92 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Dadao": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Sha Lan": {
@@ -16530,6 +20950,99 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Hong Hua": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Yang Jie": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
       }
     }
   },
@@ -16858,6 +21371,143 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Zarcone": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -17212,6 +21862,158 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Alexandra": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Anatolia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Buccar": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Before chapter 9"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Before chapter 9"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "C": {
+          "support": 2,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": null,
+          "notes": [
+            "Before Chapter 11"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Mu": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ninae": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ursula": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Sofia": {
@@ -17544,6 +22346,48 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Mikaela": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        }
+      }
     }
   },
   "Tahonia": {
@@ -17791,7 +22635,8 @@
         ]
       },
       "flying": {}
-    }
+    },
+    "supports": {}
   },
   "Talimun": {
     "growthRates": {
@@ -18124,6 +22969,111 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Bertrand": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dante": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Theodora": {
@@ -18425,6 +23375,194 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Alexandra": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Bertrand": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Diego": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Dietrich": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Leda": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Do it AFTER Lysander-Lilian B or it will lock"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "After Chapter 9"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Troy": {
+        "C": {
+          "support": 2,
+          "part": 2,
+          "notes": []
+        }
       }
     }
   },
@@ -18818,6 +23956,156 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "Chapter 12"
+          ]
+        }
+      },
+      "Creek": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Io": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ludia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "See after Ultand Tialla B"
+          ]
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "See Ultand B support"
+          ]
+        }
+      },
+      "Seteth": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Talimun": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Tobias": {
@@ -19143,6 +24431,166 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Anatolia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        }
+      },
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fabio": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Lilian": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Lysander": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Olympia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sofia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": [
+            "Exclusive to Theodora path"
+          ]
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Ultand": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Troy": {
@@ -19449,6 +24897,22 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Theodora": {
+        "C": {
+          "support": 2,
+          "part": 2,
+          "notes": []
+        }
       }
     }
   },
@@ -19833,6 +25297,147 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Cai": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": null,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": [
+            "From Chapter 10"
+          ]
+        }
+      },
+      "Centurio": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Goliath": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Nezha": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 2,
+          "notes": []
+        }
+      },
+      "Orchel": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peppe": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tialla": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Tobias": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      }
     }
   },
   "Ursula": {
@@ -20158,6 +25763,114 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Bonaventure": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Fianna": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Jasmine": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Peter": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        },
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Sirocco": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   },
@@ -20507,6 +26220,51 @@
           "Airfighter+"
         ]
       }
+    },
+    "supports": {
+      "Anatolia": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Loretta": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Sha Lan": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        },
+        "B": {
+          "support": 3,
+          "part": 3,
+          "notes": []
+        }
+      }
     }
   },
   "Zarcone": {
@@ -20839,6 +26597,36 @@
         "S+": [
           "Airfighter+"
         ]
+      }
+    },
+    "supports": {
+      "Eshmel": {
+        "A": {
+          "support": 4,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Gaitz": {
+        "C": {
+          "support": 2,
+          "part": 3,
+          "notes": []
+        }
+      },
+      "Halvin": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
+      },
+      "Simon": {
+        "C": {
+          "support": 2,
+          "part": 1,
+          "notes": []
+        }
       }
     }
   }
