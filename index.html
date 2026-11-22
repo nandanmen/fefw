@@ -152,6 +152,7 @@ mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;b
 .art{display:block;margin:0 0 8px}
 .art:last-child{margin-bottom:0}
 .art b{font-weight:600}
+.tag.rare{background:color-mix(in srgb,var(--accent) 18%,transparent);color:var(--accent);margin-left:6px;padding:1px 6px;font-size:.625rem;vertical-align:2px;cursor:help}
 .art .ad{display:block;font-size:.8125rem;line-height:1.45;color:var(--muted);margin-top:1px}
 .art .st{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:500}
 .art .up{font-style:italic}
@@ -203,6 +204,9 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 let CHARS = {}, SKILLS = {}, NAMES = [], LOOKUP = {};
+// Learnset skill (base name, without +) -> characters who learn it. Built once on load.
+let LEARNERS = {};
+const RARE_MAX = 3; // learned by this many characters or fewer counts as rare
 let state = {added:{cai:[],dietrich:[],theodora:[],leda:[]}, showMembers:false, tab:"supports", route:"cai"};
 // The roster for the current route: its automatic joiners plus anyone added from the sidebar. Rebuilt on each render.
 let ROSTER = [];
@@ -344,7 +348,10 @@ function artHTML(name){
     if(plus && !SKILLS[name] && d.type!=="combatArt") lines.push(`<span class="up">${plus.length>1?"Further upgraded":"Upgraded"} version: uses the higher value in brackets.</span>`);
     else if(d.upgrade) lines.push(`<span class="up">Upgraded (+): ${esc(upgradeText(d.upgrade))}</span>`);
   }
-  return `<span class="art"><b>${esc(name)}</b>${lines.length?`<span class="ad">${lines.join("<br>")}</span>`:""}</span>`;
+  const who = LEARNERS[base] || [];
+  const rare = who.length && who.length<=RARE_MAX
+    ? `<span class="tag rare" title="${esc(who.length===1?"Only this character learns it":`Learned by ${who.length} characters: ${who.join(", ")}`)}">Rare</span>` : "";
+  return `<span class="art"><b>${esc(name)}</b>${rare}${lines.length?`<span class="ad">${lines.join("<br>")}</span>`:""}</span>`;
 }
 function personalHTML(type, names){
   return names.map(nm=>{
@@ -451,6 +458,8 @@ Promise.all(["data/characters.json","data/skills.json"].map(u=>fetch(u).then(r=>
   .then(([chars, skills])=>{
     CHARS = chars; SKILLS = skills;
     NAMES = Object.keys(CHARS).sort();
+    for(const n of NAMES) for(const ranks of Object.values(CHARS[n].learnsets)) for(const arts of Object.values(ranks))
+      for(const a of arts){ const b = a.replace(/\++$/,""), l = (LEARNERS[b] ||= []); if(!l.includes(n)) l.push(n); }
     LOOKUP = Object.fromEntries(NAMES.map(n=>[norm(n),n]));
     LOOKUP[norm("Lillian")] = "Lilian";
     try{
