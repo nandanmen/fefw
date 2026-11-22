@@ -6,7 +6,7 @@
 import json, os, re, sys
 
 TABS = ["Characters", "Combat Arts", "Equipable Skills", "Black Magic", "White Magic", "Magic Scrolls",
-        "Sword", "Spear", "Axe", "Bow", "Gauntlet", "Authority", "Riding", "Infantry", "Armor", "Flying"]
+        "Sword", "Spear", "Axe", "Bow", "Gauntlet", "Authority", "Riding", "Infantry", "Armor", "Flying", "Classes"]
 STATS = ["hp", "str", "mag", "spd", "dex", "def", "res", "lck", "cha"]
 SKILL_LINES = ["sword", "spear", "axe", "bow", "gauntlet", "blackMagic", "whiteMagic", "authority",
                "infantry", "riding", "armor", "flying"]
@@ -367,6 +367,54 @@ def build_supports(tabs, characters):
     return sorted(one_sided)
 
 
+# --- Classes -------------------------------------------------------------------------------------
+# Classes tab columns: 0 Class, 1 License (tier), 2 Level, 3 Renown, 4 Primary Skills, 5 Secondary Skills,
+# 6 Additional Unlock Req., 9 Mastery Ability, 10 its description.
+CLASS_LINES = {"Sword": "sword", "Spear": "spear", "Axe": "axe", "Bow": "bow", "Gauntlet": "gauntlet",
+               "Gauntlets": "gauntlet", "Black Magic": "blackMagic", "White Magic": "whiteMagic",
+               "Authority": "authority", "Infantry": "infantry", "Riding": "riding", "Armor": "armor",
+               "Heavy Armor": "armor", "Flying": "flying"}
+
+
+def class_reqs(text, sep):
+    """'Bow: C; Riding: D' -> [{"line": "bow", "rank": "C"}, ...]. Raises on anything it can't read."""
+    if not text:
+        return []
+    out = []
+    for part in re.split(sep, text):
+        m = re.fullmatch(r"(.+?):\s*([A-ES]\+?)", part.strip())
+        if not m or m[1] not in CLASS_LINES:
+            raise ValueError(f"Unreadable class requirement: {part!r} in {text!r}")
+        out.append({"line": CLASS_LINES[m[1]], "rank": m[2]})
+    return out
+
+
+def build_classes(rows):
+    """Player classes in sheet order. Primary skills are all required; secondary skills need any one.
+    Rows split by level band (e.g. "Charioteer (Lv. 20-34)") share requirements and collapse into one class."""
+    classes = {}
+    for r in rows[2:]:
+        name = cell(r, 0)
+        if not name or "Enemy Only" in name:
+            continue
+        name = re.sub(r"\s*\(Lv\. [^)]*\)$", "", name)
+        if name in classes:
+            continue
+        level, renown = cell(r, 2), cell(r, 3)
+        notes = lines(r, 6)
+        classes[name] = compact({
+            "tier": None if cell(r, 1) == "(None)" else cell(r, 1),
+            "level": int(re.sub(r"\D", "", level)) if level and level.startswith("Lv") else None,
+            "renown": int(re.sub(r"\D", "", renown)) if renown and renown.startswith("Lv") else None,
+            "partThree": renown == "Part III Unlock" or None,
+            "primary": class_reqs(cell(r, 4), r";"),
+            "secondary": class_reqs(cell(r, 5), r"/"),
+            "notes": notes,
+            "mastery": compact({"name": cell(r, 9), "description": cell(r, 10)}),
+        })
+    return classes
+
+
 if __name__ == "__main__":
     tabs = load(sys.argv[1])
     characters, unresolved = build(tabs)
@@ -374,7 +422,9 @@ if __name__ == "__main__":
     out = sys.argv[3]
     json.dump(characters, open(os.path.join(out, "characters.json"), "w"), ensure_ascii=False, indent=2)
     json.dump(dict(sorted(skills.items())), open(os.path.join(out, "skills.json"), "w"), ensure_ascii=False, indent=2)
-    print(f"{len(characters)} characters, {len(skills)} skills")
+    classes = build_classes(tabs["Classes"])
+    json.dump(classes, open(os.path.join(out, "classes.json"), "w"), ensure_ascii=False, indent=2)
+    print(f"{len(characters)} characters, {len(skills)} skills, {len(classes)} classes")
     if unresolved:
         print("Learnset skills with no description in the sheet:", sorted(unresolved))
     if one_sided:

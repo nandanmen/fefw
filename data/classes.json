@@ -1,0 +1,1254 @@
+{
+  "Commoner / Noble": {
+    "mastery": {
+      "name": "Combat Basics",
+      "description": "Grants Hit/Avo+3."
+    }
+  },
+  "Gladiator": {
+    "tier": "Beginner",
+    "level": 5,
+    "renown": 1,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "D"
+      },
+      {
+        "line": "axe",
+        "rank": "D"
+      },
+      {
+        "line": "gauntlet",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Attack Basics",
+      "description": "Grants Str+1."
+    }
+  },
+  "Hunter": {
+    "tier": "Beginner",
+    "level": 5,
+    "renown": 1,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "D"
+      },
+      {
+        "line": "bow",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Hunting Basics",
+      "description": "Grants Dex/Spd+1."
+    }
+  },
+  "Soldier": {
+    "tier": "Beginner",
+    "level": 5,
+    "renown": 1,
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "D"
+      },
+      {
+        "line": "axe",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Defense Basics",
+      "description": "Grants Def+1."
+    }
+  },
+  "Ornius Rider": {
+    "tier": "Beginner",
+    "level": 5,
+    "renown": 1,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "E+"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "D"
+      },
+      {
+        "line": "axe",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Offense Basics",
+      "description": "Grants Str/Mag+1."
+    }
+  },
+  "Diviner": {
+    "tier": "Beginner",
+    "level": 5,
+    "renown": 1,
+    "secondary": [
+      {
+        "line": "blackMagic",
+        "rank": "D"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Magic Basics",
+      "description": "Grants Mag/Res+1."
+    }
+  },
+  "Myrmidon": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Ravaging Arts",
+      "description": "If unit makes a critical, deal +6 damage."
+    }
+  },
+  "Brigand": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "C"
+      },
+      {
+        "line": "axe",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Regroup",
+      "description": "When foe avoids an attack, grants Avo+20 to unit during combat."
+    }
+  },
+  "Pugilist": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "gauntlet",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Attack, Get Back",
+      "description": "When using a combat art, grants Avo+10 during combat."
+    }
+  },
+  "Archer": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Crescendo",
+      "description": "After defeating a foe, grants Hit+3 until the end of the map. (Max +30)"
+    }
+  },
+  "Rogue": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "secondary": [
+      {
+        "line": "bow",
+        "rank": "C"
+      },
+      {
+        "line": "sword",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "In Shadow",
+      "description": "After defeating a foe, grants Avo+10 through unit's next combat"
+    }
+  },
+  "Armored Knight": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "armor",
+        "rank": "E+"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "C"
+      },
+      {
+        "line": "axe",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Great Counter",
+      "description": "If foe attacks first, grants Atk +3 to unit during combat."
+    }
+  },
+  "Light Cavalry": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "C"
+      },
+      {
+        "line": "spear",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Bolster Health",
+      "description": "Grants max HP +3."
+    }
+  },
+  "Charioteer": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "C"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Charger",
+      "description": "When using Charge, grants Prt+10 until unit's next phase."
+    }
+  },
+  "Armored Ornius Rider": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "C"
+      },
+      {
+        "line": "axe",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Sense Threat",
+      "description": "If foe is effective against unit, grants Avo+20 to unit during combat."
+    }
+  },
+  "Wing Soldier": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "flying",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "C"
+      },
+      {
+        "line": "spear",
+        "rank": "C"
+      }
+    ],
+    "notes": [
+      "Female units only"
+    ],
+    "mastery": {
+      "name": "Protecting Wings",
+      "description": "Grants Res+3."
+    }
+  },
+  "Shaman": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "blackMagic",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Bind Dexterity",
+      "description": "Inflicts Dex-3 on adjacent foes."
+    }
+  },
+  "Priest": {
+    "tier": "Specialty",
+    "level": 20,
+    "renown": 4,
+    "primary": [
+      {
+        "line": "whiteMagic",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Piety",
+      "description": "Grants Lck+3."
+    }
+  },
+  "Shido": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Ever Vigilant",
+      "description": "After defeating a foe with a critical attack, restores a little HP to unit."
+    }
+  },
+  "Dancer": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      },
+      {
+        "line": "bow",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Leda route (Chapter 9 request \"Great Dancer's Sucessor\")",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Special Dance",
+      "description": "When using Dance, grants Dex/Spd+3 to target ally for the current phase."
+    }
+  },
+  "Warrior": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      },
+      {
+        "line": "axe",
+        "rank": "B"
+      },
+      {
+        "line": "gauntlet",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Practiced Art",
+      "description": "Grants Hit+10 when attacking with a combat art."
+    }
+  },
+  "Blacksmith": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "axe",
+        "rank": "C"
+      },
+      {
+        "line": "blackMagic",
+        "rank": "D"
+      }
+    ],
+    "notes": [
+      "Dietrich route (Smyrnos Temple, enhance 10 Combat Arts, Renown 8)"
+    ],
+    "mastery": {
+      "name": "Makeshift",
+      "description": "When using a combat art, reduces weapon durability cost to 0 during combat. Trigger % = 10."
+    }
+  },
+  "Sniper": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Marksmanship",
+      "description": "When equipped with a bow, grants Hit+15."
+    }
+  },
+  "Forest Knight": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "B"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "mastery": {
+      "name": "Hunter's Eye",
+      "description": "When equipped with a bow, grants Atk+3 when making a follow-up."
+    }
+  },
+  "Ranger": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      },
+      {
+        "line": "bow",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Dietrich route (Dread Warrior: Oko)",
+      "Leda route (Elegant Drink Recipes)"
+    ],
+    "mastery": {
+      "name": "Countershot",
+      "description": "When equipped with a bow, unit can counter adjacent foes during combat. Trigger % = 50."
+    }
+  },
+  "Guardian": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "spear",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Dietrich route (Dread Warrior: Il-Lara)",
+      "Theodora route (Send supplies: Roca and Kothar Gar)"
+    ],
+    "mastery": {
+      "name": "Brace",
+      "description": "After defeating a foe, grants Prt+3 until unit's next phase."
+    }
+  },
+  "Dreadnought": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "armor",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "B"
+      },
+      {
+        "line": "axe",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Focused Counter",
+      "description": "If foe attacks first, grants Hit+10 to unit during combat."
+    }
+  },
+  "Bardinger": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "C"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      },
+      {
+        "line": "spear",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Aegis",
+      "description": "Unit takes half damage when attacked with a magical attack. Trigger % = 20."
+    }
+  },
+  "Cataphract": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "armor",
+        "rank": "E+"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "B"
+      },
+      {
+        "line": "axe",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Theodora route (Send Supplies: Landon Loach and Steel Fish)"
+    ],
+    "mastery": {
+      "name": "Pavise",
+      "description": "Unit takes half damage when attacked with a physical attack. Trigger % = 20."
+    }
+  },
+  "Caladrius": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "blackMagic",
+        "rank": "B"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "notes": [
+      "Cai route (Castor mentoring quest)"
+    ],
+    "mastery": {
+      "name": "Overtake",
+      "description": "After defeating a foe, grant Mov+1 through the end of the next turn. (Max +3)"
+    }
+  },
+  "Dragoon": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "flying",
+        "rank": "C"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "B"
+      },
+      {
+        "line": "axe",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Cai route (Aurora mentoring quest)",
+      "Theodora route (Send supplies)"
+    ],
+    "mastery": {
+      "name": "Besieger",
+      "description": "If foe is on favorable terrain, grants Hit+20 to unit during combat."
+    }
+  },
+  "Ovate": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "blackMagic",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Bind Speed",
+      "description": "Inflict Spd-3 on adjacent foes."
+    }
+  },
+  "Bishop": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "whiteMagic",
+        "rank": "B"
+      }
+    ],
+    "mastery": {
+      "name": "Barrier",
+      "description": "Grants Res+3 to adjacent allies."
+    }
+  },
+  "Troubadour": {
+    "tier": "Advanced",
+    "level": 35,
+    "renown": 8,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "blackMagic",
+        "rank": "B"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "B"
+      }
+    ],
+    "notes": [
+      "Cai route (White-Maned Demon's Request)",
+      "Leda route (Elegant Drink Recipes)"
+    ],
+    "mastery": {
+      "name": "Song of Courage",
+      "description": "Combat Art. Grants Dex/Spd+2 to allies in range until unit's next phase."
+    }
+  },
+  "Elephant Rider": {
+    "tier": "Elephant",
+    "level": 35,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "C"
+      }
+    ],
+    "mastery": {
+      "name": "Elephant Vanguard",
+      "description": "[Cavalry] If unit is an Elephant Rider, grants Hit+10."
+    }
+  },
+  "Battlemaster": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      },
+      {
+        "line": "axe",
+        "rank": "A"
+      },
+      {
+        "line": "gauntlet",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "War Master's Strike",
+      "description": "Combat Art (Axe). Multiplies damage dealt by 1.5."
+    }
+  },
+  "Swordmaster": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      }
+    ],
+    "notes": [
+      "Mars' Temple Restoration"
+    ],
+    "mastery": {
+      "name": "Astra",
+      "description": "Combat Art (Sword). Hits 5 times for 50% damage each."
+    }
+  },
+  "High Savant": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "B"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      },
+      {
+        "line": "blackMagic",
+        "rank": "D"
+      }
+    ],
+    "notes": [
+      "Smyrnos' Temple Restoration"
+    ],
+    "mastery": {
+      "name": "Dark Moon",
+      "description": "Halves foe's Shld when attacking. Trigger % = 10."
+    }
+  },
+  "War Monk": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "gauntlet",
+        "rank": "B"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "D"
+      }
+    ],
+    "notes": [
+      "Aurora's Temple Restoration"
+    ],
+    "mastery": {
+      "name": "Strike and Heal",
+      "description": "Combat Art (Gauntlet). Unit can use assist magic after attacking."
+    }
+  },
+  "Bow Adept": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Sky Hunter",
+      "description": "Combat Art (Bow). If foe is flying, grants Hit+50."
+    }
+  },
+  "Bow Knight": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "bow",
+        "rank": "A"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "notes": [
+      "Kalla's Temple Restoration"
+    ],
+    "mastery": {
+      "name": "Hunter's Cross",
+      "description": "Combat Art (Bow). High Hit/Crit Rate."
+    }
+  },
+  "Shadow Seeker": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      },
+      {
+        "line": "bow",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Dropshadow Blade",
+      "description": "Combat Art (Sword). If foe is on favorable terrain, ignores those terrain effects."
+    }
+  },
+  "Sentinel": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "spear",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Resolute Stance",
+      "description": "If unit's HP = 100%, grants Shld+5 during combat."
+    }
+  },
+  "Castle Knight": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "armor",
+        "rank": "C"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "A"
+      },
+      {
+        "line": "axe",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Intercept",
+      "description": "Reduces damage taken by 5 when attacked."
+    }
+  },
+  "Orichaldia": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "B"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      },
+      {
+        "line": "spear",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Fierce Spear",
+      "description": "Combat Art (Spear). Unit cannot suffer a follow-up during combat."
+    }
+  },
+  "Great Knight": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "armor",
+        "rank": "D"
+      },
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "A"
+      },
+      {
+        "line": "axe",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Fierce Shield",
+      "description": "If unit attacks first, unit takes half damage during combat. Trigger % = 50."
+    }
+  },
+  "Celestial Trooper": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "flying",
+        "rank": "C"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      },
+      {
+        "line": "spear",
+        "rank": "A"
+      }
+    ],
+    "notes": [
+      "Female units only"
+    ],
+    "mastery": {
+      "name": "Lightning Reflexes",
+      "description": "If unit attacks first, and AS ≥ foe's AS+10, unit's follow-up occurs before foe's counter during combat."
+    }
+  },
+  "Bau Lord": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "flying",
+        "rank": "C"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "spear",
+        "rank": "A"
+      },
+      {
+        "line": "axe",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Ambush",
+      "description": "If unit is on inaccessible terrain, grants Atk+4."
+    }
+  },
+  "Druid": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "blackMagic",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Bind Resistance",
+      "description": "Inflict Res-3 on adjacent foes."
+    }
+  },
+  "Wiseman": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "whiteMagic",
+        "rank": "A"
+      }
+    ],
+    "mastery": {
+      "name": "Dominate Magic",
+      "description": "If foe uses magic, unit cannot be countered during combat. Trigger % = 10."
+    }
+  },
+  "Valkyrium": {
+    "tier": "Master",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "D"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "blackMagic",
+        "rank": "A"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "A"
+      }
+    ],
+    "notes": [
+      "Jurah's Temple Restoration"
+    ],
+    "mastery": {
+      "name": "Song of Calm",
+      "description": "Combat Art. Grants Res+2 to all allies within range until unit's next turn."
+    }
+  },
+  "The Blade": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Demonic Swordguard (The Chamber of Distortion)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Insight",
+      "description": "Grants Spd+10."
+    }
+  },
+  "The Apsara": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "sword",
+        "rank": "A"
+      },
+      {
+        "line": "bow",
+        "rank": "C"
+      }
+    ],
+    "notes": [
+      "Muses' Necklace (The Maiden's Chambers)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Dance",
+      "description": "Grants Cha+10."
+    }
+  },
+  "The Eternal": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "S"
+      },
+      {
+        "line": "axe",
+        "rank": "S"
+      },
+      {
+        "line": "gauntlet",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Scales of Judgement (The Prophet's Chambers)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Might",
+      "description": "Grants Str+10."
+    }
+  },
+  "The Godhand": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "gauntlet",
+        "rank": "S"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "C"
+      }
+    ],
+    "notes": [
+      "Emperor's Sash (The Disciples' Chambers)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Adornment",
+      "description": "Grants Res+10."
+    }
+  },
+  "The Calamity": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "S"
+      },
+      {
+        "line": "bow",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Crystal of Darkness (The Chamber of Distortion)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Will",
+      "description": "Grants Lck+10."
+    }
+  },
+  "The Trident": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "spear",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Trident (The Disciples' Chambers)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Wall",
+      "description": "Grants Def+10."
+    }
+  },
+  "The Cavalier": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "primary": [
+      {
+        "line": "riding",
+        "rank": "A"
+      }
+    ],
+    "secondary": [
+      {
+        "line": "sword",
+        "rank": "S"
+      },
+      {
+        "line": "spear",
+        "rank": "S"
+      },
+      {
+        "line": "axe",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Divinium Saddle (The Chamber of Sirius)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Dexterity",
+      "description": "Grants Dex+10."
+    }
+  },
+  "The Avatar": {
+    "tier": "Divine",
+    "level": 45,
+    "partThree": true,
+    "secondary": [
+      {
+        "line": "blackMagic",
+        "rank": "S"
+      },
+      {
+        "line": "whiteMagic",
+        "rank": "S"
+      }
+    ],
+    "notes": [
+      "Lotus of Reincarnation (The Prophet's Chambers)",
+      "Limited to only ONE unit at a time."
+    ],
+    "mastery": {
+      "name": "Divine Law",
+      "description": "Grants Mag+10."
+    }
+  }
+}

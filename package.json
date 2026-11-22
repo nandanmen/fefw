@@ -1,0 +1,8 @@
+{
+  "name": "fefw",
+  "private": true,
+  "packageManager": "pnpm@10.22.0",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs"
+  }
+}
