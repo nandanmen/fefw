@@ -117,6 +117,15 @@ dl.sups .sr b{color:var(--ink);margin-right:4px}
 .growth .bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden}
 .growth .bar i{display:block;height:100%;background:var(--green-9);border-radius:5px}
 .growth em{font-style:normal;text-align:right;font-weight:600}
+.growth.adj{grid-template-columns:3em 1fr 2.8em 2.4em}
+.growth .bar{display:flex}
+.growth .bar i.plus{background:var(--green-6);border-radius:0 5px 5px 0}
+.growth .bar i.minus{background:var(--red-6);border-radius:0 5px 5px 0}
+.growth .bar i:not(:last-child){border-radius:5px 0 0 5px}
+.growth small{font-size:.75rem;font-weight:600;color:var(--muted);text-align:right}
+.growth small.up{color:var(--boon)}
+.growth small.down{color:var(--warn)}
+#growCls{font:inherit;font-size:.8125rem;font-weight:600;padding:3px 6px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);max-width:16em}
 .gtotal{margin:8px 0 0;font-size:.875rem;color:var(--muted)}
 .gtotal b{color:var(--ink)}
 .skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
@@ -144,6 +153,13 @@ dl.sups .sr b{color:var(--ink);margin-right:4px}
 .art .ad{display:block;font-size:.8125rem;line-height:1.45;color:var(--muted);margin-top:1px}
 .art .st{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:500}
 .art .up{font-style:italic}
+button.art.pick{width:calc(100% + 12px);margin:0 -6px 4px;padding:2px 6px;border:0;border-radius:6px;background:none;color:inherit;text-align:left;line-height:inherit}
+button.art.pick:last-child{margin-bottom:0}
+button.art.pick:hover{background:var(--gray-3)}
+button.art.pick.above{opacity:.45}
+button.art.pick.above:hover,button.art.pick.above:focus-visible{opacity:1}
+.ranks dt.above{opacity:.45}
+button.art.pick[aria-pressed="true"]{background:var(--gray-4);box-shadow:inset 2px 0 0 var(--accent)}
 .ranks dt{padding-top:1px}
 .ranks dt.hit{color:var(--accent)}
 .sk h4 .goal{margin-left:auto;font-size:.75rem;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
@@ -181,6 +197,8 @@ dl.sups .sr b{color:var(--ink);margin-right:4px}
 .clslist b .st.ok{color:var(--boon)}
 .clslist b .st.no{color:var(--warn)}
 .clslist .note{font-style:italic}
+.clslist .mastery{margin-top:2px}
+.clslist .mastery b{display:inline;font-size:inherit;color:var(--ink)}
 .reqs{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:3px 0}
 .reqs em{font-style:normal;font-size:.6875rem;color:var(--muted)}
 .req{font:inherit;font-size:.75rem;font-weight:600;border-radius:999px;padding:1px 8px;border:1px dashed var(--warn);color:var(--warn);background:none;line-height:1.5}
@@ -263,6 +281,7 @@ let ROSTER = [];
 let lsBoonOnly = false, lsDetails = true;
 // Phone layout only: which of the Info / Plan tabs under the character name is showing.
 let lsMobileTab = "info";
+let lsGrowCls = "";  // planned class (or "Class|levels" band) whose growth bonuses are shown; "" = character only
 const save = () => { try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} };
 const color = n => PALETTE[ROSTER.indexOf(n) % PALETTE.length];
 
@@ -311,7 +330,7 @@ function upgradeText(u){
   const s = statLine(u);
   return [s, u.description].filter(Boolean).join("; ");
 }
-function artHTML(name){
+function artHTML(name, set){
   const plus = (name.match(/\++$/)||[""])[0], base = name.slice(0, name.length-plus.length);
   const d = SKILLS[name] || SKILLS[base];
   const lines = [];
@@ -324,7 +343,11 @@ function artHTML(name){
   const who = LEARNERS[base] || [];
   const rare = who.length && who.length<=RARE_MAX
     ? `<span class="tag rare" title="${esc(who.length===1?"Only this character learns it":`Learned by ${who.length} characters: ${who.join(", ")}`)}">Rare</span>` : "";
-  return `<span class="art"><b>${esc(name)}</b>${rare}${lines.length?`<span class="ad">${lines.join("<br>")}</span>`:""}</span>`;
+  const inner = `<b>${esc(name)}</b>${rare}${lines.length?`<span class="ad">${lines.join("<br>")}</span>`:""}`;
+  // In the learnset, each art is a button that sets its line's planned rank (set = {line, rank, label}).
+  return set
+    ? `<button type="button" class="art pick${set.above?" above":""}" data-plan-set="${set.line}:${set.rank}" aria-pressed="${!!set.active}" title="${set.active?`${esc(set.label)} ${esc(set.rank)} is the planned rank`:`Set ${esc(set.label)} to ${esc(set.rank)} in the plan`}">${inner}</button>`
+    : `<span class="art">${inner}</span>`;
 }
 function personalHTML(type, names){
   return names.map(nm=>{
@@ -343,10 +366,40 @@ function recruitHTML(r){
   return items.length===1 ? `<p>${esc(items[0])}</p>` : `<ul>${items.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
 }
 
+/* ---------- growth rates, optionally with a planned class's bonuses ---------- */
+// Planned classes as growth options; classes whose growths change with level get one option per band.
+function growthOptions(n){
+  const byName = Object.fromEntries(CLASSES.map(x=>[x.name,x]));
+  return ((state.plans||{})[n]?.classes || []).flatMap(nm=>{
+    const cl = byName[nm]; if(!cl || !cl.growths) return [];
+    return cl.growthBands ? cl.growthBands.map(b=>({key:`${nm}|${b.levels}`, label:`${nm} (Lv ${b.levels})`, g:b.growths}))
+      : [{key:nm, label:nm, g:cl.growths}];
+  });
+}
+function growthHTML(n){
+  const base = CHARS[n].growthRates, opts = growthOptions(n);
+  const sel = opts.find(o=>o.key===lsGrowCls);
+  if(!sel) lsGrowCls = "";
+  const bonus = k => sel ? sel.g[k]||0 : 0;
+  const pick = opts.length ? `<select id="growCls" aria-label="Show growth rates in a planned class">
+      <option value="">Base growths</option>${opts.map(o=>`<option value="${esc(o.key)}"${o===sel?" selected":""}>In ${esc(o.label)}</option>`).join("")}</select>` : "";
+  const rows = STATS.map(([k,s])=>{
+    const b = base[k], d = bonus(k), v = Math.max(b+d, 0);
+    // Bar: the character's own growth, plus the class bonus (lighter) or minus the class penalty (red).
+    const bar = d>=0 ? `<i style="width:${Math.min(b,100)}%"></i>${d?`<i class="plus" style="width:${Math.max(Math.min(v,100)-Math.min(b,100),0)}%"></i>`:""}`
+      : `<i style="width:${Math.min(v,100)}%"></i><i class="minus" style="width:${Math.min(b,100)-Math.min(v,100)}%"></i>`;
+    const delta = sel ? `<small class="${d>0?"up":d<0?"down":""}">${d>0?"+":d<0?"−":""}${d?Math.abs(d):"±0"}</small>` : "";
+    return `<span>${s}</span><div class="bar">${bar}</div><em>${v}%</em>${delta}`;
+  }).join("");
+  const total = STATS.reduce((t,[k])=>t+Math.max(base[k]+bonus(k),0),0);
+  return `<h3>Growth rates${pick?`<span class="segs">${pick}</span>`:""}</h3>
+      <div class="growth${sel?" adj":""}">${rows}</div>
+      <p class="gtotal">Total <b>${sel?total:base.total}%</b>, ${sel?`character growths plus ${esc(sel.label)} bonuses, before mount bonuses`:`character growths before class and mount bonuses${opts.length?"":". Add a class to the plan to see its bonuses"}`}</p>`;
+}
+
 function renderLearn(){
   if(!CHARS[state.lsChar]) state.lsChar = ROSTER.find(n=>CHARS[n]) || "Leda";
   const n = state.lsChar, c = CHARS[n];
-  const g = c.growthRates;
   const pers = personalHTML("Inherent", c.personalSkills.inherent) + personalHTML("Equippable", c.personalSkills.equippable)
     + personalHTML("Bloodmark", c.bloodmarks);
   const bb = k => c.boons.includes(k) ? "Boon" : c.banes.includes(k) ? "Bane" : "";
@@ -355,8 +408,8 @@ function renderLearn(){
     const tag = bb(k) ? `<span class="tag ${bb(k).toLowerCase()}">${bb(k)}</span>` : "";
     const goal = goals[k] ? `<span class="goal" title="Planned rank">Plan ${esc(goals[k])}</span>` : "";
     const list = Object.entries(c.learnsets[k] || {});
-    const hit = r => goals[k] && rankIdx(r) <= rankIdx(goals[k]) ? ` class="hit" title="Reached by the plan"` : "";
-    const body = list.length ? `<dl class="ranks">${list.map(([r,a])=>`<dt${hit(r)}>${esc(r)}</dt><dd>${a.map(artHTML).join("")}</dd>`).join("")}</dl>` : `<p class="none">Can't learn this skill.</p>`;
+    const hit = r => !goals[k] ? "" : rankIdx(r) <= rankIdx(goals[k]) ? ` class="hit" title="Reached by the plan"` : ` class="above" title="Above the planned rank"`;
+    const body = list.length ? `<dl class="ranks">${list.map(([r,a])=>`<dt${hit(r)}>${esc(r)}</dt><dd>${a.map(x=>artHTML(x,{line:k,rank:r,label,active:goals[k]===r,above:!!goals[k]&&rankIdx(r)>rankIdx(goals[k])})).join("")}</dd>`).join("")}</dl>` : `<p class="none">Can't learn this skill.</p>`;
     return `<div class="sk${bb(k)==="Boon"?" boon":""}"><h4>${label}${goal}${tag}</h4>${body}</div>`;}).join("");
   const paths = PATHS.map(([k,label])=>`<div class="path"><b>${label}</b>${recruitHTML(c.recruitment[k])}</div>`).join("");
   $("lsView").innerHTML = `
@@ -365,9 +418,7 @@ function renderLearn(){
         `<button type="button" role="tab" data-mtab="${k}" aria-selected="${lsMobileTab===k}" aria-controls="${k==="plan"?"lsPlan":"lsInfo"}">${l}</button>`).join("")}</div></div>
     <div id="lsInfo">
     <section class="lssec"><h3>Personal skills</h3><dl style="margin:0">${pers||'<p class="none">None listed.</p>'}</dl></section>
-    <section class="lssec"><h3>Growth rates</h3>
-      <div class="growth">${STATS.map(([k,s])=>`<span>${s}</span><div class="bar"><i style="width:${Math.min(g[k],100)}%"></i></div><em>${g[k]}%</em>`).join("")}</div>
-      <p class="gtotal">Total <b>${g.total}%</b>, character growths before class and mount bonuses</p></section>
+    <section class="lssec">${growthHTML(n)}</section>
     <section class="lssec"><h3>Learnset<span class="segs"><span class="seg"><button type="button" data-boon="0" aria-pressed="${!lsBoonOnly}">All skills</button><button type="button" data-boon="1" aria-pressed="${lsBoonOnly}">Boons only</button></span><span class="seg"><button type="button" data-det="1" aria-pressed="${lsDetails}">Details</button><button type="button" data-det="0" aria-pressed="${!lsDetails}">Names</button></span></span></h3>
       <div class="skills">${skills || '<p class="none">No boon skills.</p>'}</div></section>
     <section class="lssec"><h3>Supports<small class="hint" style="margin:0">${Object.keys(c.supports||{}).length} partners</small></h3>${supportsHTML(n)}</section>
@@ -414,7 +465,7 @@ function renderPlan(){
     return `${gate?`<span>${esc(gate)}</span>`:""}
       ${prim||sec ? `<div class="reqs${met?" met":""}">${prim}${sec?`${prim?`<em>and one of</em>`:`<em>One of</em>`}${sec}`:""}</div>` : `<span>No skill requirements.</span>`}
       ${(cl.notes||[]).map(t=>`<span class="note">${esc(t)}</span>`).join("")}
-      ${cl.mastery?`<span title="${esc(cl.mastery.description||"")}">Mastery: ${esc(cl.mastery.name)}</span>`:""}`;
+      ${cl.mastery?`<span class="mastery"><b>Mastery: ${esc(cl.mastery.name)}</b>${cl.mastery.description?` ${esc(cl.mastery.description)}`:""}</span>`:""}`;
   };
   const clsRows = classes.map((nm,i)=>{
     const cl = byName[nm], ok = cl && skillsMet(cl, ranks);
@@ -428,7 +479,10 @@ function renderPlan(){
   const tiers = [...new Set(CLASSES.map(x=>x.tier||"Starting"))];
   const options = tiers.map(t=>{
     const opts = CLASSES.filter(x=>(x.tier||"Starting")===t && !classes.includes(x.name))
-      .map(x=>`<option value="${esc(x.name)}">${esc(x.name)}${skillsMet(x, ranks)?" ✓":""}</option>`).join("");
+      .map(x=>{
+        const m = x.weapons?.length ? ` · ${x.weapons.join(", ")}` : "";
+        return `<option value="${esc(x.name)}">${esc(x.name)}${skillsMet(x, ranks)?" ✓":""}${esc(m)}</option>`;
+      }).join("");
     return opts ? `<optgroup label="${esc(t)}">${opts}</optgroup>` : "";
   }).join("");
   const arts = plannedArts(c, ranks).filter(x=>x.arts.length);
@@ -523,8 +577,13 @@ $("panel-learn").addEventListener("click", e=>{
   const q = e.target.closest("[data-ls]");
   if(q){ const fromSupports = !!q.closest(".sups"); state.lsChar=q.dataset.ls; save(); render(); if(fromSupports) window.scrollTo({top:0}); return; }
   const b = e.target.closest("[data-boon]"); if(b){ lsBoonOnly = b.dataset.boon==="1"; renderLearn(); return; }
-  const mt = e.target.closest("[data-mtab]"); if(mt){ lsMobileTab = mt.dataset.mtab; renderLearn(); document.querySelector(`[data-mtab="${lsMobileTab}"]`).focus(); return; }
+  const mt = e.target.closest(".mtabs [data-mtab]"); if(mt){ lsMobileTab = mt.dataset.mtab; renderLearn(); document.querySelector(`.mtabs [data-mtab="${lsMobileTab}"]`).focus(); return; }
+  const ps = e.target.closest("[data-plan-set]");
+  if(ps){ const [k,r] = ps.dataset.planSet.split(":"); updatePlan(p=>{ p.ranks[k] = r; }, `[data-plan-set="${k}:${r}"]`); return; }
   const dt = e.target.closest("[data-det]"); if(dt){ lsDetails = dt.dataset.det==="1"; renderLearn(); }
+});
+$("panel-learn").addEventListener("change", e=>{
+  if(e.target.id==="growCls"){ lsGrowCls = e.target.value; renderLearn(); document.getElementById("growCls")?.focus(); }
 });
 $("lsPlan").addEventListener("change", e=>{
   const r = e.target.closest("[data-rank]");
