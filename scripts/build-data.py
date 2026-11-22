@@ -389,6 +389,28 @@ def class_reqs(text, sep):
     return out
 
 
+# Classes tab, "Stats Growth Rate" block: columns Y-AG, percentage points added to the character's growths.
+CLASS_GROWTH_COLS = list(zip(["hp", "str", "mag", "spd", "dex", "def", "res", "lck", "cha"], range(24, 33)))
+
+
+def class_growths(r):
+    return {k: int(cell(r, i) or 0) for k, i in CLASS_GROWTH_COLS}
+
+
+# Classes tab column L, "Allowed Weapons and Skills": keep the weapon types, in sheet order.
+CLASS_WEAPONS = {"Sword": "Sword", "Spear": "Spear", "Axe": "Axe", "Bow": "Bow", "Gauntlet": "Gauntlet",
+                 "B. Magic": "Black Magic", "W. Magic": "White Magic"}
+
+
+def class_weapons(text):
+    if not text:
+        return []
+    m = re.match(r"Class attacks \((.*?) when dismounted\)", text)
+    if m:  # Elephant Rider: its own attacks while mounted, normal weapons only on foot
+        return ["Class attacks"] + [f"{CLASS_WEAPONS[w.strip()]} (dismounted)" for w in m[1].split(",")]
+    return [CLASS_WEAPONS[w.strip()] for w in text.split(",") if w.strip() in CLASS_WEAPONS]
+
+
 def build_classes(rows):
     """Player classes in sheet order. Primary skills are all required; secondary skills need any one.
     Rows split by level band (e.g. "Charioteer (Lv. 20-34)") share requirements and collapse into one class."""
@@ -397,8 +419,13 @@ def build_classes(rows):
         name = cell(r, 0)
         if not name or "Enemy Only" in name:
             continue
-        name = re.sub(r"\s*\(Lv\. [^)]*\)$", "", name)
+        band = re.search(r"\s*\(Lv\. ([^)]*)\)$", name)
+        name = name[:band.start()] if band else name
+        growths = class_growths(r)
         if name in classes:
+            # Later level bands only change growth rates.
+            if band:
+                classes[name].setdefault("growthBands", []).append({"levels": band[1], "growths": growths})
             continue
         level, renown = cell(r, 2), cell(r, 3)
         notes = lines(r, 6)
@@ -411,7 +438,11 @@ def build_classes(rows):
             "secondary": class_reqs(cell(r, 5), r"/"),
             "notes": notes,
             "mastery": compact({"name": cell(r, 9), "description": cell(r, 10)}),
+            "weapons": class_weapons(cell(r, 11)),
+            "growths": growths,
         })
+        if band:
+            classes[name]["growthBands"] = [{"levels": band[1], "growths": growths}]
     return classes
 
 
